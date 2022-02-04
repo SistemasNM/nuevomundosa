@@ -15,7 +15,7 @@
 <link href ="../style/Styles_Paginas.css" type="text/css" rel="Stylesheet"/>
 <link href ="../style/Styles_Controles.css" type="text/css" rel="Stylesheet"/>
 
-<script language="javascript" type="text/jscript">
+<script language="javascript" type="text/jscript"> 
 </script>
 
 </head>
