@@ -1,0 +1,5 @@
+C:\CLASES\AccesoDB\bin\AccesoDatosDB.dll
+C:\CLASES\AccesoDB\bin\AccesoDatosDB.xml
+C:\CLASES\AccesoDB\obj\Release\ResolveAssemblyReference.cache
+C:\CLASES\AccesoDB\obj\Release\AccesoDatosDB.dll
+C:\CLASES\AccesoDB\obj\Release\AccesoDatosDB.xml

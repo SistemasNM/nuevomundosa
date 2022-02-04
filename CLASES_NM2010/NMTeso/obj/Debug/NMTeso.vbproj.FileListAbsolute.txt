@@ -1,0 +1,10 @@
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\NMTeso.dll
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\NMTeso.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\NMTeso.xml
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\obj\Debug\NMTeso.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\obj\Debug\NMTeso.dll
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\obj\Debug\NMTeso.xml
+C:\Github_Proyectos\CLASES_NM2010\NMTeso\obj\Debug\NMTeso.pdb

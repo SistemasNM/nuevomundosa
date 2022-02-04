@@ -1,0 +1,13 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_Tintoreria.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_Tintoreria.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_Tintoreria.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\bin\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\obj\Debug\NM_Tintoreria.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\obj\Debug\NM_Tintoreria.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\obj\Debug\NM_Tintoreria.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Tintoreria\obj\Debug\NM_Tintoreria.pdb

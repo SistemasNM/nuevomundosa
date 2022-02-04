@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ElnaceNM_PreCostos", "ElnaceNM_PreCostos.vbproj", "{4D0D9E98-A58A-4074-88FA-21110C216FC3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_ElnaceNM_PreCostos", "S:\Instaladores_NM\SetupNM_FW35\Setup_ElnaceNM_PreCostos\Setup_ElnaceNM_PreCostos\Setup_ElnaceNM_PreCostos.vdproj", "{1B88CBA7-D9AA-46ED-B89A-9375529582A6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDB", "..\..\CLASES_FW35_NM2008\AccesoDB\AccesoDB.vbproj", "{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ComunLib", "..\..\CLASES_FW35_NM2008\NM_ComunLib\ComunLib.vbproj", "{1EBB4415-72B1-4084-924D-DCA3CC2AF734}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CostosLib", "..\..\CLASES_FW35_NM2008\NM_CostosLib\CostosLib.vbproj", "{458BFF85-3A5D-418E-952D-F6373343D9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0D9E98-A58A-4074-88FA-21110C216FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0D9E98-A58A-4074-88FA-21110C216FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0D9E98-A58A-4074-88FA-21110C216FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0D9E98-A58A-4074-88FA-21110C216FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B88CBA7-D9AA-46ED-B89A-9375529582A6}.Debug|Any CPU.ActiveCfg = Debug
+		{1B88CBA7-D9AA-46ED-B89A-9375529582A6}.Release|Any CPU.ActiveCfg = Release
+		{1B88CBA7-D9AA-46ED-B89A-9375529582A6}.Release|Any CPU.Build.0 = Release
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBB4415-72B1-4084-924D-DCA3CC2AF734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBB4415-72B1-4084-924D-DCA3CC2AF734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBB4415-72B1-4084-924D-DCA3CC2AF734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBB4415-72B1-4084-924D-DCA3CC2AF734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458BFF85-3A5D-418E-952D-F6373343D9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458BFF85-3A5D-418E-952D-F6373343D9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458BFF85-3A5D-418E-952D-F6373343D9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458BFF85-3A5D-418E-952D-F6373343D9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

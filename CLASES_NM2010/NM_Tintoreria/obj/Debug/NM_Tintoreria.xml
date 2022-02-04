@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NM_Tintoreria
+</name>
+</assembly>
+<members>
+<member name="M:NuevoMundo.Tintoreria.Lotes.Extra.Lote.GrabarFichaIntercambio(System.Data.DataTable)">
+	<summary>
+ Graba intercambio de Ficha
+ </summary>
+	<param name="dtbFichas"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

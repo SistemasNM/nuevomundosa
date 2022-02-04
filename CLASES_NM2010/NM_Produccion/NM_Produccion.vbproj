@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>NM_Produccion</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>NM_Produccion</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/NM_Produccion/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NM_Produccion.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NM_Produccion.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatos, Version=1.0.8059.29043, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AccesoDatos\bin\AccesoDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="NM_General, Version=1.0.8017.21175, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NM_General\bin\NM_General.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_Factura.vb" />
+    <Compile Include="hian\HA_IngresoDetalle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioAperturaCarda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioCanillasCoche.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioCanillasReserva.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioConeras.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioConosTerminados.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioContinuas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioHilanderia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioManuares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioPabilera.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioPabilos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_InventarioSpandex.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_Listado.vb" />
+    <Compile Include="hian\HA_Maquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_MateriaPrima.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hian\HA_TarifaKilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\calidad\NM_Calidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Cierre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_ComposicionHilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_DatosProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_DatosProduccionD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_GrupoOperario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_GrupoSustituto.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioAperturaCarda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioCanillasReserva.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioConeras.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioContinuas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioHilanderas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioHilanderia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioManuares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_InventarioPabilera.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Linea.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_LoteHilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Maquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_MaquinaD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_MaquinaOperario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_MaquinaParo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_MateriaPrima.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_MotivoReemplazo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Operario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_ParosProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_ParosProduccionD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Procedencia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_ProduccionHilos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Programa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_ProgramaD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_PuntajeMovil.vb" />
+    <Compile Include="hila\NM_Reemplazo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Tachos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_TestDato.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_TestHilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_TipoInventario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_TipoMaquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_TipoReemplazo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hila\NM_Turnos.vb" />
+    <Compile Include="hila\TipoReemplazo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NM_BusquedaOFISIS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\ControlConsumoIQ.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\ControlParoProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Articulo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_ArticuloBase.vb" />
+    <Compile Include="teje\Maestros\NMM_Engomado.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Formulacion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Hilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Receta.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_RecetaInsumoQuimico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_TED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Tela.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Telares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_TelaUrdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_TelaUrdimbreD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Tinas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Trama.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_Urdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\Maestros\NMM_UrdimbreDetalle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_AnalisisTelaCruda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Area.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Articulo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_BEConcentracion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Categoria.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Color.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ColorTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ControlHilosTransito.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ControlHilosTransitoD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ControlInventarioCono.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ControlStock.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ControlTenidoTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DatosArticuloProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DatosRecetaTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DCalidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DCalidadMaestro.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Defectos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DefectosSultzer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_DetalleUrdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Devel00.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Devel01.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Devel02.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Devel03.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Engomado.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Engomadora.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_EntregaTelaCruda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_EntregaTelaCrudaAnt.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_EntregaTelaCrudaD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Mecanicos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Mecanico_Telar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Mecanico_TelarD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Tejedores.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Tejedor_Telar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Escuadra_Tejedor_TelarD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Estandares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_EstandaresTolerancia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_FamiliaMaquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Fase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_FaseTipo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_FichaPlegador.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_FIngresoPiezas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Formulacion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_FSalidaPiezas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_IngresoInsumoQuimico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_IngresoSalidafichaReproceso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_IngresoSalidaTelas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InspeccionTelaCruda.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InsumoQuimico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioConoNuevo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioConoProceso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioConoReuso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioConoReusoProc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioPiezasSinMedir.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioProductosQuimicos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioTelaProceso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_InventarioTelaProcesoD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_IQ.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_IQEngomadoYTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Ligamento.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Maquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_MaquinaParo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_MaquinaParoD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_MaquinaProd.vb" />
+    <Compile Include="teje\NM_MaquinaTipo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Mecanico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_MenuItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_MenuTipo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_NMTelaMecanico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Origen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ParejaPlegador.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ParoProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ParticionPartidas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Partida.vb" />
+    <Compile Include="teje\NM_PartidaEngomado.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaEngomadoCorrelativo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaEngomadoDCalidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaEngomadoDInsumosQuimicos.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaEngomadoDProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaEngomadoMCalidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PArtidaEngomadoYTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PArtidaTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdido.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdidoDCalidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdidoDet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdidoDMaquina.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdidoMCalidad.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PartidaUrdidoProduccion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PedidoMateriales.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PedidoMaterialesD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Perfil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PermisoPerfil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Pieza.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PiezaParticion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PiezaSinMedirDetalle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PiezasNoGeneradas_PartEngomadoYTed.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PiezasSinMedir.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_PlanillaRevsionTelas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Planta.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Plegador.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ProduccionTelares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_ProgramacionTelares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Receta.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RecetaDetTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RecetaInsumoQuimico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RecetaParametro.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RoturasFiletaTED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RoturasSultzer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RoturasSultzerTrama.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_RoturasSultzerUrdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_SalidasSinOrden.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TED.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Tela.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Telares.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TelarMecanico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TelaUrdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TelaUrdimbreD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TensionUrdido.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TensionUrdidoPiso.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_THilo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Tinas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TinasTipo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TipoCategoria.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TipoOrillo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TipoTela.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Trabajador.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Trama.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TransferenciaInsumoQuimico.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_TransferenciaInsumoQuimicoD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Urdimbre.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Usuario.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teje\NM_Util.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

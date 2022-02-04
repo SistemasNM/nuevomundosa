@@ -1,0 +1,13 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_RevisionFinal.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_RevisionFinal.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_RevisionFinal.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\bin\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\obj\Debug\NM_RevisionFinal.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\obj\Debug\NM_RevisionFinal.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\obj\Debug\NM_RevisionFinal.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RevisionFinal\obj\Debug\NM_RevisionFinal.pdb

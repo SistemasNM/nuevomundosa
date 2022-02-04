@@ -1,0 +1,15 @@
+C:\CLASES\NM_CostosTej\bin\Release\CostosTej.dll
+C:\CLASES\NM_CostosTej\bin\Release\CostosTej.pdb
+C:\CLASES\NM_CostosTej\bin\Release\CostosTej.xml
+C:\CLASES\NM_CostosTej\bin\Release\AccesoDatosDB.dll
+C:\CLASES\NM_CostosTej\bin\Release\ComunLib.dll
+C:\CLASES\NM_CostosTej\bin\Release\AccesoDatosDB.pdb
+C:\CLASES\NM_CostosTej\bin\Release\AccesoDatosDB.xml
+C:\CLASES\NM_CostosTej\bin\Release\ComunLib.pdb
+C:\CLASES\NM_CostosTej\bin\Release\ComunLib.xml
+C:\CLASES\NM_CostosTej\obj\Release\ResolveAssemblyReference.cache
+C:\CLASES\NM_CostosTej\obj\Release\CostosTej.Resources.resources
+C:\CLASES\NM_CostosTej\obj\Release\CostosTej.vbproj.GenerateResource.Cache
+C:\CLASES\NM_CostosTej\obj\Release\CostosTej.dll
+C:\CLASES\NM_CostosTej\obj\Release\CostosTej.xml
+C:\CLASES\NM_CostosTej\obj\Release\CostosTej.pdb

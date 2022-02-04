@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D0D9E98-A58A-4074-88FA-21110C216FC3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ElnaceNM_PreCostos</RootNamespace>
+    <AssemblyName>ElnaceNM_PreCostos</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ElnaceNM_PreCostos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ElnaceNM_PreCostos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatos, Version=1.0.3840.29369, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\CLASES\OFISIS\bin\AccesoDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="BLITZ_LOCK, Version=1.0.3867.20974, Culture=neutral" />
+    <Reference Include="ComunLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_FW35_NM2008\NM_ComunLib\bin\Debug\ComunLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CostosLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_FW35_NM2008\NM_CostosLib\bin\Debug\CostosLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Web\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics35.Web.v10.1, Version=10.1.20101.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\Infragistics35.Web.v10.1\10.1.20101.1011__7dd5c3163f2cd0cb\Infragistics35.Web.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics35.WebUI.UltraWebGrid.v10.1, Version=10.1.20101.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\Infragistics35.WebUI.UltraWebGrid.v10.1\10.1.20101.1011__7dd5c3163f2cd0cb\Infragistics35.WebUI.UltraWebGrid.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="NMGenerales, Version=1.0.3839.26614, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\CLASES\OFISIS\bin\NMGenerales.dll</HintPath>
+    </Reference>
+    <Reference Include="OFISIS, Version=1.0.3839.26614, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\CLASES\OFISIS\bin\OFISIS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AccesoDatosDB.dll" />
+    <Content Include="bin\AccesoDatosDB.pdb" />
+    <Content Include="bin\AccesoDatosDB.xml" />
+    <Content Include="bin\BLITZ_LOCK.dll" />
+    <Content Include="bin\ComunLib.dll" />
+    <Content Include="bin\ComunLib.pdb" />
+    <Content Include="bin\ComunLib.xml" />
+    <Content Include="bin\CostosLib.dll" />
+    <Content Include="bin\CostosLib.pdb" />
+    <Content Include="bin\CostosLib.xml" />
+    <Content Include="bin\OFISIS.dll" />
+    <Content Include="Default.aspx" />
+    <Content Include="frmDesTabla.aspx" />
+    <Content Include="images\Abajo.png" />
+    <Content Include="images\Activar.png" />
+    <Content Include="images\Arriba.png" />
+    <Content Include="images\buscar.gif" />
+    <Content Include="images\Buscar.png" />
+    <Content Include="images\Buscar2.png" />
+    <Content Include="images\Cancelar.png" />
+    <Content Include="images\Close.png" />
+    <Content Include="images\Delete.png" />
+    <Content Include="images\Delete_Off.png" />
+    <Content Include="images\DescargaWeb.png" />
+    <Content Include="images\DescargaWeb_Off.png" />
+    <Content Include="images\desImg.gif" />
+    <Content Include="images\Editar.png" />
+    <Content Include="images\Editar_Off.png" />
+    <Content Include="images\Grabar.png" />
+    <Content Include="images\Imprimir.png" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\MultiSelec.png" />
+    <Content Include="images\Node0.gif" />
+    <Content Include="images\Node1.gif" />
+    <Content Include="images\Nuevo.png" />
+    <Content Include="images\Nuevo_Off.png" />
+    <Content Include="images\Ok.png" />
+    <Content Include="images\Open.png" />
+    <Content Include="images\Salir.png" />
+    <Content Include="images\Seguridad.png" />
+    <Content Include="js\jsDesTabla.js" />
+    <Content Include="js\jsFunciones.js" />
+    <Content Include="js\jsGeneral.js" />
+    <Content Include="js\tabpane.js" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Procesos\frmtest.aspx" />
+    <Content Include="Procesos\frm_Solicitud_PreCostos.aspx" />
+    <Content Include="Procesos\frm_AprobacionesPrecosto.aspx" />
+    <Content Include="Procesos\popUpBucarRequeTela.aspx" />
+    <Content Include="Reportes\frm_ListadoPrecostos.aspx" />
+    <Content Include="style\Styles.css" />
+    <Content Include="style\Styles_Controles.css" />
+    <Content Include="style\Styles_Paginas.css" />
+    <Content Include="style\tab.webfx.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesTabla.aspx.designer.vb">
+      <DependentUpon>frmDesTabla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesTabla.aspx.vb">
+      <DependentUpon>frmDesTabla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModMensaje.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Procesos\frmtest.aspx.designer.vb">
+      <DependentUpon>frmtest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmtest.aspx.vb">
+      <DependentUpon>frmtest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Solicitud_PreCostos.aspx.designer.vb">
+      <DependentUpon>frm_Solicitud_PreCostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Solicitud_PreCostos.aspx.vb">
+      <DependentUpon>frm_Solicitud_PreCostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AprobacionesPrecosto.aspx.designer.vb">
+      <DependentUpon>frm_AprobacionesPrecosto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AprobacionesPrecosto.aspx.vb">
+      <DependentUpon>frm_AprobacionesPrecosto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\popUpBucarRequeTela.aspx.designer.vb">
+      <DependentUpon>popUpBucarRequeTela.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\popUpBucarRequeTela.aspx.vb">
+      <DependentUpon>popUpBucarRequeTela.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ListadoPrecostos.aspx.designer.vb">
+      <DependentUpon>frm_ListadoPrecostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ListadoPrecostos.aspx.vb">
+      <DependentUpon>frm_ListadoPrecostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Maestros\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>18968</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AccesoEnlace" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://200.60.99.228/EnlaceNM_ExtranetServices/AccesoEnlace.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://200.60.99.228/EnlaceNM_ExtranetServices/AccesoEnlace.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://200.60.99.228/EnlaceNM_ExtranetServices/AccesoEnlace.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAccesoEnlace_LoginUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_LoginUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_LoginProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_LoginProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ReenvioEmailExist_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReenvioEmailExist" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ReenvioEmailExist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReenvioEmailExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerStockActualOfisisParaOcto_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerStockActualOfisisParaOcto" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerStockActualOfisisParaOcto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerStockActualOfisisParaOctoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarClientePrestashop_InputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarClientePrestashop" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarClientePrestashop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarClientePrestashopResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarPedidoCabeceraPrestashop_InputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarPedidoCabeceraPrestashop" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarPedidoCabeceraPrestashop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarPedidoCabeceraPrestashopResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarPedidoDetallePrestashop_InputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarPedidoDetallePrestashop" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_IngresarPedidoDetallePrestashop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IngresarPedidoDetallePrestashopResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDespachoPedido_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDespachoPedido" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDespachoPedido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDespachoPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ImprimirDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ImprimirDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ImprimirDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ImprimirDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ValidarPedidoGenerado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarPedidoGenerado" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ValidarPedidoGenerado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarPedidoGeneradoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerReporteDocumentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReporteDocumentos" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerReporteDocumentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReporteDocumentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerDocumentoNCRNDE_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentoNCRNDE" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerDocumentoNCRNDE_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentoNCRNDEResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerItemPorDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerItemPorDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerItemPorDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerItemPorDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRCabecera_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRCabecera" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRCabecera_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRCabeceraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalle_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalle" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalle_Prueba_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalle_Prueba" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalle_Prueba_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalle_PruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerItemPorDocumento_Prueba_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerItemPorDocumento_Prueba" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ObtenerItemPorDocumento_Prueba_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerItemPorDocumento_PruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalleMonto_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalleMonto" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_GenerarDocumentoNCRDetalleMonto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarDocumentoNCRDetalleMontoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ListadoCostosProductos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoCostosProductos" />
+  </wsdl:message>
+  <wsdl:message name="IAccesoEnlace_ListadoCostosProductos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoCostosProductosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAccesoEnlace">
+    <wsdl:operation name="LoginUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/LoginUsuario" message="tns:IAccesoEnlace_LoginUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/LoginUsuarioResponse" message="tns:IAccesoEnlace_LoginUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/LoginProveedor" message="tns:IAccesoEnlace_LoginProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/LoginProveedorResponse" message="tns:IAccesoEnlace_LoginProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReenvioEmailExist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ReenvioEmailExist" message="tns:IAccesoEnlace_ReenvioEmailExist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ReenvioEmailExistResponse" message="tns:IAccesoEnlace_ReenvioEmailExist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerStockActualOfisisParaOcto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerStockActualOfisisParaOcto" message="tns:IAccesoEnlace_ObtenerStockActualOfisisParaOcto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerStockActualOfisisParaOctoResponse" message="tns:IAccesoEnlace_ObtenerStockActualOfisisParaOcto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarClientePrestashop">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarClientePrestashop" message="tns:IAccesoEnlace_IngresarClientePrestashop_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarClientePrestashopResponse" message="tns:IAccesoEnlace_IngresarClientePrestashop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarPedidoCabeceraPrestashop">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarPedidoCabeceraPrestashop" message="tns:IAccesoEnlace_IngresarPedidoCabeceraPrestashop_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarPedidoCabeceraPrestashopResponse" message="tns:IAccesoEnlace_IngresarPedidoCabeceraPrestashop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IngresarPedidoDetallePrestashop">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarPedidoDetallePrestashop" message="tns:IAccesoEnlace_IngresarPedidoDetallePrestashop_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/IngresarPedidoDetallePrestashopResponse" message="tns:IAccesoEnlace_IngresarPedidoDetallePrestashop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDespachoPedido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDespachoPedido" message="tns:IAccesoEnlace_GenerarDespachoPedido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDespachoPedidoResponse" message="tns:IAccesoEnlace_GenerarDespachoPedido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ImprimirDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ImprimirDocumento" message="tns:IAccesoEnlace_ImprimirDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ImprimirDocumentoResponse" message="tns:IAccesoEnlace_ImprimirDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarPedidoGenerado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ValidarPedidoGenerado" message="tns:IAccesoEnlace_ValidarPedidoGenerado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ValidarPedidoGeneradoResponse" message="tns:IAccesoEnlace_ValidarPedidoGenerado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReporteDocumentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerReporteDocumentos" message="tns:IAccesoEnlace_ObtenerReporteDocumentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerReporteDocumentosResponse" message="tns:IAccesoEnlace_ObtenerReporteDocumentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentoNCRNDE">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerDocumentoNCRNDE" message="tns:IAccesoEnlace_ObtenerDocumentoNCRNDE_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerDocumentoNCRNDEResponse" message="tns:IAccesoEnlace_ObtenerDocumentoNCRNDE_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerItemPorDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumento" message="tns:IAccesoEnlace_ObtenerItemPorDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumentoResponse" message="tns:IAccesoEnlace_ObtenerItemPorDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRCabecera">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRCabecera" message="tns:IAccesoEnlace_GenerarDocumentoNCRCabecera_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRCabeceraResponse" message="tns:IAccesoEnlace_GenerarDocumentoNCRCabecera_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalle" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalleResponse" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalle_Prueba">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalle_Prueba" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalle_Prueba_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalle_PruebaResponse" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalle_Prueba_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerItemPorDocumento_Prueba">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumento_Prueba" message="tns:IAccesoEnlace_ObtenerItemPorDocumento_Prueba_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumento_PruebaResponse" message="tns:IAccesoEnlace_ObtenerItemPorDocumento_Prueba_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalleMonto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalleMonto" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalleMonto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalleMontoResponse" message="tns:IAccesoEnlace_GenerarDocumentoNCRDetalleMonto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoCostosProductos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccesoEnlace/ListadoCostosProductos" message="tns:IAccesoEnlace_ListadoCostosProductos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccesoEnlace/ListadoCostosProductosResponse" message="tns:IAccesoEnlace_ListadoCostosProductos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAccesoEnlace" type="tns:IAccesoEnlace">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoginUsuario">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/LoginUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginProveedor">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/LoginProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReenvioEmailExist">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ReenvioEmailExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerStockActualOfisisParaOcto">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ObtenerStockActualOfisisParaOcto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarClientePrestashop">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/IngresarClientePrestashop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarPedidoCabeceraPrestashop">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/IngresarPedidoCabeceraPrestashop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IngresarPedidoDetallePrestashop">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/IngresarPedidoDetallePrestashop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDespachoPedido">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/GenerarDespachoPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImprimirDocumento">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ImprimirDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarPedidoGenerado">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ValidarPedidoGenerado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReporteDocumentos">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ObtenerReporteDocumentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentoNCRNDE">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ObtenerDocumentoNCRNDE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerItemPorDocumento">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRCabecera">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRCabecera" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalle">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalle_Prueba">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalle_Prueba" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerItemPorDocumento_Prueba">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ObtenerItemPorDocumento_Prueba" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarDocumentoNCRDetalleMonto">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/GenerarDocumentoNCRDetalleMonto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoCostosProductos">
+      <soap:operation soapAction="http://tempuri.org/IAccesoEnlace/ListadoCostosProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AccesoEnlace">
+    <wsdl:port name="BasicHttpBinding_IAccesoEnlace" binding="tns:BasicHttpBinding_IAccesoEnlace">
+      <soap:address location="http://200.60.99.228/EnlaceNM_ExtranetServices/AccesoEnlace.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

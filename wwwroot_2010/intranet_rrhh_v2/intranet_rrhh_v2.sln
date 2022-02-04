@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "intranet_rrhh_v2", "intranet_rrhh_v2.vbproj", "{1D47B730-2C11-4478-9237-C4194DAF8524}"
+	ProjectSection(ProjectDependencies) = postProject
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B} = {544B2913-A76D-4A19-A13C-E74759CF1B3B}
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0} = {7C145C36-4A33-41C3-BE37-3B55BD6016F0}
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F} = {B044AE4E-C258-416B-8E64-C9D6E893C82F}
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2} = {6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D} = {D17CF28B-AEB6-4382-BAEA-E9751E103B1D}
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC} = {8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDatos", "..\..\CLASES_NM2010\AccesoDatos\AccesoDatos.vbproj", "{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLITZ_LOCK", "..\..\CLASES_NM2010\BLITZ_LOCK\BLITZ_LOCK.vbproj", "{7C145C36-4A33-41C3-BE37-3B55BD6016F0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NM_General", "..\..\CLASES_NM2010\NM_General\NM_General.vbproj", "{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NMGenerales", "..\..\CLASES_NM2010\NMGenerales\NMGenerales.vbproj", "{544B2913-A76D-4A19-A13C-E74759CF1B3B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OFISIS", "..\..\CLASES_NM2010\OFISIS\OFISIS.vbproj", "{B044AE4E-C258-416B-8E64-C9D6E893C82F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NuevoMundo", "..\..\CLASES_NM2010\NuevoMundo\NuevoMundo.vbproj", "{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_intranet_rrhh_v2", "..\Instaladores_NM\Setup_intranet_rrhh_v2\Setup_intranet_rrhh_v2.vdproj", "{4FF1D29D-488A-4A39-8D7A-39FFC7DDB06E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nuevomundosa@dev.azure.com/nuevomundosa
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\CLASES_NM2010\\AccesoDatos\\AccesoDatos.vbproj
+		SccProjectName1 = ../../CLASES_NM2010/AccesoDatos
+		SccLocalPath1 = ..\\..\\CLASES_NM2010\\AccesoDatos
+		SccProjectUniqueName2 = ..\\..\\CLASES_NM2010\\BLITZ_LOCK\\BLITZ_LOCK.vbproj
+		SccProjectName2 = ../../CLASES_NM2010/BLITZ_LOCK
+		SccLocalPath2 = ..\\..\\CLASES_NM2010\\BLITZ_LOCK
+		SccProjectUniqueName3 = ..\\..\\CLASES_NM2010\\NM_General\\NM_General.vbproj
+		SccProjectName3 = ../../CLASES_NM2010/NM_General
+		SccLocalPath3 = ..\\..\\CLASES_NM2010\\NM_General
+		SccProjectUniqueName4 = ..\\..\\CLASES_NM2010\\NMGenerales\\NMGenerales.vbproj
+		SccProjectName4 = ../../CLASES_NM2010/NMGenerales
+		SccLocalPath4 = ..\\..\\CLASES_NM2010\\NMGenerales
+		SccProjectUniqueName5 = ..\\..\\CLASES_NM2010\\OFISIS\\OFISIS.vbproj
+		SccProjectName5 = ../../CLASES_NM2010/OFISIS
+		SccLocalPath5 = ..\\..\\CLASES_NM2010\\OFISIS
+		SccProjectUniqueName6 = intranet_rrhh_v2.vbproj
+		SccLocalPath6 = .
+		SccProjectUniqueName7 = ..\\..\\CLASES_NM2010\\NuevoMundo\\NuevoMundo.vbproj
+		SccProjectName7 = ../../CLASES_NM2010/NuevoMundo
+		SccLocalPath7 = ..\\..\\CLASES_NM2010\\NuevoMundo
+		SccProjectUniqueName8 = ..\\Instaladores_NM\\Setup_intranet_rrhh_v2\\Setup_intranet_rrhh_v2.vdproj
+		SccProjectName8 = ../Instaladores_NM/Setup_intranet_rrhh_v2
+		SccLocalPath8 = ..\\Instaladores_NM\\Setup_intranet_rrhh_v2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D47B730-2C11-4478-9237-C4194DAF8524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D47B730-2C11-4478-9237-C4194DAF8524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D47B730-2C11-4478-9237-C4194DAF8524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D47B730-2C11-4478-9237-C4194DAF8524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF1D29D-488A-4A39-8D7A-39FFC7DDB06E}.Debug|Any CPU.ActiveCfg = Debug
+		{4FF1D29D-488A-4A39-8D7A-39FFC7DDB06E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2084 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+intranet_rrhh_v2
+</name>
+</assembly>
+<members>
+<member name="F:intranet_rrhh_v2.frm_InterfaceBancos.frm_InterfaceBancos">
+	<summary>
+frm_InterfaceBancos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.btnReporteDetalle">
+	<summary>
+btnReporteDetalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.btnGeneraFile">
+	<summary>
+btnGeneraFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtCodEmpresa">
+	<summary>
+txtCodEmpresa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtDesEmpresa">
+	<summary>
+txtDesEmpresa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ddlPlanilla">
+	<summary>
+ddlPlanilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ddlBanco">
+	<summary>
+ddlBanco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ddlMoneda">
+	<summary>
+ddlMoneda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ddlCuenta">
+	<summary>
+ddlCuenta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtAnno">
+	<summary>
+txtAnno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtCTrabI">
+	<summary>
+txtCTrabI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtCTrabF">
+	<summary>
+txtCTrabF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtFechaAbono">
+	<summary>
+txtFechaAbono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.rblAbonos">
+	<summary>
+rblAbonos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtConcepto">
+	<summary>
+txtConcepto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtTC">
+	<summary>
+txtTC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.txtArchivo">
+	<summary>
+txtArchivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_InterfaceBancos.lblmensaje">
+	<summary>
+lblmensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.frm_Trabajadores">
+	<summary>
+frm_Trabajadores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.txtCodGer">
+	<summary>
+txtCodGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.lblDesGer">
+	<summary>
+lblDesGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.txtCodJef">
+	<summary>
+txtCodJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.lblDesJef">
+	<summary>
+lblDesJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.btnAsignar">
+	<summary>
+btnAsignar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.txtCodSup">
+	<summary>
+txtCodSup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.lblDesSup">
+	<summary>
+lblDesSup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnaprobarmasivo">
+	<summary>
+hdnaprobarmasivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.pnlEditar">
+	<summary>
+pnlEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnCodigoGerencia">
+	<summary>
+hdnCodigoGerencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnCodigoJefatura">
+	<summary>
+hdnCodigoJefatura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnCodigoSupervisor">
+	<summary>
+hdnCodigoSupervisor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnCodigoTrabajador">
+	<summary>
+hdnCodigoTrabajador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnCodigoEmpleado">
+	<summary>
+hdnCodigoEmpleado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.hdnAccion">
+	<summary>
+hdnAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.txtCodCenCos">
+	<summary>
+txtCodCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.btnCentroCosto">
+	<summary>
+btnCentroCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.txtDesCenCos">
+	<summary>
+txtDesCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.ddlSupervisores">
+	<summary>
+ddlSupervisores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.btnGrabar">
+	<summary>
+btnGrabar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Trabajadores.dgTrabajador">
+	<summary>
+dgTrabajador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.btnReporte">
+	<summary>
+btnReporte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30016.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:intranet_rrhh_v2.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:intranet_rrhh_v2.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.frm_VacacionesPendientes">
+	<summary>
+frm_VacacionesPendientes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.lblUsuario">
+	<summary>
+lblUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.hdnasignamasivo">
+	<summary>
+hdnasignamasivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.txtCodGer">
+	<summary>
+txtCodGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.hdnCodEmpGer">
+	<summary>
+hdnCodEmpGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.lblDesGer">
+	<summary>
+lblDesGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.txtCodJef">
+	<summary>
+txtCodJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.hdnCodEmpJef">
+	<summary>
+hdnCodEmpJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.lblDesJef">
+	<summary>
+lblDesJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.txtCodSup">
+	<summary>
+txtCodSup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.hdnCodEmpSup">
+	<summary>
+hdnCodEmpSup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.lblDesSup">
+	<summary>
+lblDesSup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesPendientes.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.txtDiasSubs">
+	<summary>
+txtDiasSubs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.btnReporte">
+	<summary>
+btnReporte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30015.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.frm_Gerencias">
+	<summary>
+frm_Gerencias control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.dgGerencias">
+	<summary>
+dgGerencias control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.pnlEditar">
+	<summary>
+pnlEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.hdnAccion">
+	<summary>
+hdnAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.hdnCodigoGerencia">
+	<summary>
+hdnCodigoGerencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.txtCodCenCos">
+	<summary>
+txtCodCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnCentroCosto">
+	<summary>
+btnCentroCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.txtNomCenCos">
+	<summary>
+txtNomCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.txtCodEmp">
+	<summary>
+txtCodEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnSolicitante">
+	<summary>
+btnSolicitante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.txtNomEmp">
+	<summary>
+txtNomEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Gerencias.btnGrabar">
+	<summary>
+btnGrabar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20014.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.frmHESolicitud">
+	<summary>
+frmHESolicitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.hdnCodigo">
+	<summary>
+hdnCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.hdnAccion">
+	<summary>
+hdnAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.txtArea">
+	<summary>
+txtArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.lblaprobadores">
+	<summary>
+lblaprobadores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkdesde">
+	<summary>
+chkdesde control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.txtfechaini">
+	<summary>
+txtfechaini control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkhasta">
+	<summary>
+chkhasta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.txtfechafin">
+	<summary>
+txtfechafin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.CuentaGasto">
+	<summary>
+CuentaGasto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkSitACT">
+	<summary>
+chkSitACT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkSitENV">
+	<summary>
+chkSitENV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkSitAPR">
+	<summary>
+chkSitAPR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkSitREC">
+	<summary>
+chkSitREC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.chkSitANU">
+	<summary>
+chkSitANU control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.btnSolicitar">
+	<summary>
+btnSolicitar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.DataGrid1">
+	<summary>
+DataGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN2">
+	<summary>
+HDN2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN1">
+	<summary>
+HDN1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN4">
+	<summary>
+HDN4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN3">
+	<summary>
+HDN3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN5">
+	<summary>
+HDN5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20009.HDN6">
+	<summary>
+HDN6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.frmConsultaEstructura">
+	<summary>
+frmConsultaEstructura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.lblTtulo">
+	<summary>
+lblTtulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.txtDescripcion">
+	<summary>
+txtDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_ConsultaEstructuraNM.dgDatos">
+	<summary>
+dgDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlTipoBoleta">
+	<summary>
+ddlTipoBoleta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlPlanilla">
+	<summary>
+ddlPlanilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCorrelativo">
+	<summary>
+txtCorrelativo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCodInicio">
+	<summary>
+txtCodInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCodFin">
+	<summary>
+txtCodFin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlCCosto">
+	<summary>
+ddlCCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtObservacion">
+	<summary>
+txtObservacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.btnGenerar">
+	<summary>
+btnGenerar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.btnEnviar">
+	<summary>
+btnEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.btnRecepcionar">
+	<summary>
+btnRecepcionar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlCPlanilla">
+	<summary>
+ddlCPlanilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCAno">
+	<summary>
+txtCAno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlCMes">
+	<summary>
+ddlCMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlCSituacion">
+	<summary>
+ddlCSituacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCCodigoInicio">
+	<summary>
+txtCCodigoInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtCCodigoFinal">
+	<summary>
+txtCCodigoFinal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlCCentroCosto">
+	<summary>
+ddlCCentroCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.DataGrid1">
+	<summary>
+DataGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.txtRAno">
+	<summary>
+txtRAno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.ddlRMes">
+	<summary>
+ddlRMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30019.btnVerReporte">
+	<summary>
+btnVerReporte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.frm_Supervisores">
+	<summary>
+frm_Supervisores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtCodGer">
+	<summary>
+txtCodGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.lblDesGer">
+	<summary>
+lblDesGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtCodJef">
+	<summary>
+txtCodJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.lblDesJef">
+	<summary>
+lblDesJef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.dgSupervisores">
+	<summary>
+dgSupervisores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.pnlEditar">
+	<summary>
+pnlEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.hdnCodigoGerencia">
+	<summary>
+hdnCodigoGerencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.hdnCodigoJefatura">
+	<summary>
+hdnCodigoJefatura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.hdnCodigoSupervisor">
+	<summary>
+hdnCodigoSupervisor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.hdnAccion">
+	<summary>
+hdnAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtCodCenCos">
+	<summary>
+txtCodCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnCentroCosto">
+	<summary>
+btnCentroCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtDesCenCos">
+	<summary>
+txtDesCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtCodEmp">
+	<summary>
+txtCodEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnSolicitante">
+	<summary>
+btnSolicitante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.txtDesEmp">
+	<summary>
+txtDesEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Supervisores.btnGrabar">
+	<summary>
+btnGrabar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_LicenciasPendientes.frm_LicenciaFecha">
+	<summary>
+frm_LicenciaFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_LicenciasPendientes.txtFecha">
+	<summary>
+txtFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_LicenciasPendientes.imgFechaInicio">
+	<summary>
+imgFechaInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_LicenciasPendientes.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.ddlPlanilla">
+	<summary>
+ddlPlanilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.btnReporte">
+	<summary>
+btnReporte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30018.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.tblBotonera1">
+	<summary>
+tblBotonera1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.btnaprobarmasivo">
+	<summary>
+btnaprobarmasivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.hdn1">
+	<summary>
+hdn1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.hdnaprobarmasivo">
+	<summary>
+hdnaprobarmasivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.dtgLista">
+	<summary>
+dtgLista control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20012.lblCantidad">
+	<summary>
+lblCantidad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Vacaciones_Pendientes.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Vacaciones_Pendientes.frm_LicenciaFecha">
+	<summary>
+frm_LicenciaFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Vacaciones_Pendientes.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.MasterPageScriptManager">
+	<summary>
+MasterPageScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.HeadHomeLink">
+	<summary>
+HeadHomeLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.HeadAboutLink">
+	<summary>
+HeadAboutLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.btnReporte">
+	<summary>
+btnReporte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA30017.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.frm_Jefaturas">
+	<summary>
+frm_Jefaturas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.txtCodGer">
+	<summary>
+txtCodGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.lblDesGer">
+	<summary>
+lblDesGer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.dgJefaturas">
+	<summary>
+dgJefaturas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.pnlEditar">
+	<summary>
+pnlEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.hdnCodigoGerencia">
+	<summary>
+hdnCodigoGerencia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.hdnCodigoJefatura">
+	<summary>
+hdnCodigoJefatura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.hndAccion">
+	<summary>
+hndAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnCerrar">
+	<summary>
+btnCerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.txtCodCenCos">
+	<summary>
+txtCodCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnCentroCosto">
+	<summary>
+btnCentroCosto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.txtDesCenCos">
+	<summary>
+txtDesCenCos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.txtCodEmp">
+	<summary>
+txtCodEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnSolicitante">
+	<summary>
+btnSolicitante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.txtDesEmp">
+	<summary>
+txtDesEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_Jefaturas.btnGrabar">
+	<summary>
+btnGrabar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.frmHESolicitud">
+	<summary>
+frmHESolicitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.hdnCodigo">
+	<summary>
+hdnCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.hdnAccion">
+	<summary>
+hdnAccion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.txtAnio">
+	<summary>
+txtAnio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.ddlMes">
+	<summary>
+ddlMes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.btnProcesar">
+	<summary>
+btnProcesar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.dgdDetalle">
+	<summary>
+dgdDetalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN2">
+	<summary>
+HDN2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN1">
+	<summary>
+HDN1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN4">
+	<summary>
+HDN4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN3">
+	<summary>
+HDN3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN5">
+	<summary>
+HDN5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.PLA20016.HDN6">
+	<summary>
+HDN6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesFecha.frm_VacacionesFecha">
+	<summary>
+frm_VacacionesFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesFecha.txtFecha">
+	<summary>
+txtFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesFecha.imgFechaInicio">
+	<summary>
+imgFechaInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:intranet_rrhh_v2.frm_VacacionesFecha.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

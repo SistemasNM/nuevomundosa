@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NM_Produccion
+</name>
+</assembly>
+<members>
+<member name="M:NM_Produccion.NM_Hilanderia.NM_Maquina.GetUltimaRevision(System.String)">
+	<summary>
+ OBTENER ULTIMA REVISION
+ </summary>
+	<param name="sCodigoMaquina"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NM_Produccion.NM_Hilanderia.NM_ParosProduccionD.DeleteParo(System.String,System.String,System.String)">
+	<summary>
+ GTAIRA (20211220)
+ </summary>
+	<param name="codigoLinea"></param>
+	<param name="codigoTipoMaquina"></param>
+	<param name="codigoParoD"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NM_Produccion.NM_Hilanderia.NM_DatosProduccionD.ELIMINAR_DATOS_PRODUCCION(System.DateTime,System.Int32)">
+	<summary>
+ GTAIRA
+ </summary>
+	<param name="dFecha"></param>
+	<param name="nturno"></param>
+	<remarks></remarks>
+</member><member name="M:NM_Produccion.NM_Util.NM_BusquedaOFISIS.ListadoObtener(System.String)">
+	<summary>
+ Procedimiento que lista datos para los combos
+ </summary>
+	<param name="idListado">Id del listado</param>
+	<returns>Retorna un datatable (Des_Tabla,Codigo,Nombre,Predeterminado)</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

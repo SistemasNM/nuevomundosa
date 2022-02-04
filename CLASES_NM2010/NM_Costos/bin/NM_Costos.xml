@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NM_Costos
+</name>
+</assembly>
+<members>
+<member name="T:NM_Costos.clsSeleccionFicha">
+	<summary>
+ Clase para almacenar un arreglo de rollos seleccionados
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

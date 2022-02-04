@@ -1,0 +1,15 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_RRHH.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_RRHH.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_RRHH.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\bin\Debug\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.Resources.resources
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.vbproj.GenerateResource.Cache
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_RRHH\obj\Debug\NM_RRHH.pdb

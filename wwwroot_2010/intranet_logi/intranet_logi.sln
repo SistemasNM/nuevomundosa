@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "intranet_logi", "intranet_logi.vbproj", "{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B} = {544B2913-A76D-4A19-A13C-E74759CF1B3B}
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0} = {7C145C36-4A33-41C3-BE37-3B55BD6016F0}
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F} = {B044AE4E-C258-416B-8E64-C9D6E893C82F}
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2} = {6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}
+		{B1872389-CF96-4272-ADCD-67BD5EDD7D27} = {B1872389-CF96-4272-ADCD-67BD5EDD7D27}
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D} = {D17CF28B-AEB6-4382-BAEA-E9751E103B1D}
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC} = {8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccesoDatos", "..\..\CLASES_NM2010\AccesoDatos\AccesoDatos.vbproj", "{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Almacen", "..\..\CLASES_NM2010\Almacen\Almacen.vbproj", "{B1872389-CF96-4272-ADCD-67BD5EDD7D27}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLITZ_LOCK", "..\..\CLASES_NM2010\BLITZ_LOCK\BLITZ_LOCK.vbproj", "{7C145C36-4A33-41C3-BE37-3B55BD6016F0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NM_General", "..\..\CLASES_NM2010\NM_General\NM_General.vbproj", "{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NMGenerales", "..\..\CLASES_NM2010\NMGenerales\NMGenerales.vbproj", "{544B2913-A76D-4A19-A13C-E74759CF1B3B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NuevoMundo", "..\..\CLASES_NM2010\NuevoMundo\NuevoMundo.vbproj", "{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OFISIS", "..\..\CLASES_NM2010\OFISIS\OFISIS.vbproj", "{B044AE4E-C258-416B-8E64-C9D6E893C82F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nuevomundosa@dev.azure.com/nuevomundosa
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = intranet_logi.vbproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\..\\CLASES_NM2010\\AccesoDatos\\AccesoDatos.vbproj
+		SccProjectName2 = ../../CLASES_NM2010/AccesoDatos
+		SccLocalPath2 = ..\\..\\CLASES_NM2010\\AccesoDatos
+		SccProjectUniqueName3 = ..\\..\\CLASES_NM2010\\Almacen\\Almacen.vbproj
+		SccProjectName3 = ../../CLASES_NM2010/Almacen
+		SccLocalPath3 = ..\\..\\CLASES_NM2010\\Almacen
+		SccProjectUniqueName4 = ..\\..\\CLASES_NM2010\\BLITZ_LOCK\\BLITZ_LOCK.vbproj
+		SccProjectName4 = ../../CLASES_NM2010/BLITZ_LOCK
+		SccLocalPath4 = ..\\..\\CLASES_NM2010\\BLITZ_LOCK
+		SccProjectUniqueName5 = ..\\..\\CLASES_NM2010\\NM_General\\NM_General.vbproj
+		SccProjectName5 = ../../CLASES_NM2010/NM_General
+		SccLocalPath5 = ..\\..\\CLASES_NM2010\\NM_General
+		SccProjectUniqueName6 = ..\\..\\CLASES_NM2010\\NMGenerales\\NMGenerales.vbproj
+		SccProjectName6 = ../../CLASES_NM2010/NMGenerales
+		SccLocalPath6 = ..\\..\\CLASES_NM2010\\NMGenerales
+		SccProjectUniqueName7 = ..\\..\\CLASES_NM2010\\NuevoMundo\\NuevoMundo.vbproj
+		SccProjectName7 = ../../CLASES_NM2010/NuevoMundo
+		SccLocalPath7 = ..\\..\\CLASES_NM2010\\NuevoMundo
+		SccProjectUniqueName8 = ..\\..\\CLASES_NM2010\\OFISIS\\OFISIS.vbproj
+		SccProjectName8 = ../../CLASES_NM2010/OFISIS
+		SccLocalPath8 = ..\\..\\CLASES_NM2010\\OFISIS
+		SccProjectUniqueName9 = ..\\..\\Instaladores_NM\\SetupNM_FW4\\setup_intranet_logi\\setup_intranet_logi.vdproj
+		SccProjectName9 = ../Instaladores_NM/setup_intranet_logi
+		SccLocalPath9 = ..\\..\\Instaladores_NM\\SetupNM_FW4\\setup_intranet_logi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17CF28B-AEB6-4382-BAEA-E9751E103B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1872389-CF96-4272-ADCD-67BD5EDD7D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1872389-CF96-4272-ADCD-67BD5EDD7D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1872389-CF96-4272-ADCD-67BD5EDD7D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1872389-CF96-4272-ADCD-67BD5EDD7D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C145C36-4A33-41C3-BE37-3B55BD6016F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544B2913-A76D-4A19-A13C-E74759CF1B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB81AB0-D07A-47CD-A533-553EEF3CE0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B044AE4E-C258-416B-8E64-C9D6E893C82F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

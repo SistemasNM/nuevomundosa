@@ -1,0 +1,12 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_Calidad.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_Calidad.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_Calidad.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\bin\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\obj\Debug\NM_Calidad.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\obj\Debug\NM_Calidad.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Calidad\obj\Debug\NM_Calidad.pdb

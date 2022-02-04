@@ -1,0 +1,10 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\NM_Gandi.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\NM_Gandi.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\NM_Gandi.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\obj\Debug\NM_Gandi.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\obj\Debug\NM_Gandi.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\obj\Debug\NM_Gandi.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Gandi\obj\Debug\NM_Gandi.pdb

@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1D47B730-2C11-4478-9237-C4194DAF8524}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>intranet_rrhh_v2</RootNamespace>
+    <AssemblyName>intranet_rrhh_v2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>intranet_rrhh_v2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>intranet_rrhh_v2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatos, Version=1.0.8061.27426, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="Ajax">
+      <HintPath>..\intranet_cont\bin\Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="BLITZ_LOCK">
+      <HintPath>..\..\CLASES_NM2010\BLITZ_LOCK\bin\BLITZ_LOCK.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics35.Web.v10.1, Version=10.1.20101.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="NMControlesWeb">
+      <HintPath>..\..\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="NMGenerales">
+      <HintPath>..\..\CLASES_NM2010\NMGenerales\bin\NMGenerales.dll</HintPath>
+    </Reference>
+    <Reference Include="NM_General">
+      <HintPath>..\..\CLASES_NM2010\NM_General\bin\NM_General.dll</HintPath>
+    </Reference>
+    <Reference Include="NuevoMundo">
+      <HintPath>..\..\CLASES_NM2010\NuevoMundo\bin\NuevoMundo.dll</HintPath>
+    </Reference>
+    <Reference Include="OFISIS">
+      <HintPath>..\..\CLASES_NM2010\OFISIS\bin\OFISIS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Buscadores\frm_ConsultaEstructuraNM.aspx" />
+    <Content Include="CrystalReports\ActiveXPluginViewer.asp" />
+    <Content Include="CrystalReports\AlwaysRequiredSteps.asp" />
+    <Content Include="CrystalReports\Cleanup.asp" />
+    <Content Include="CrystalReports\Conexion.asp" />
+    <Content Include="CrystalReports\Conexion_.asp" />
+    <Content Include="CrystalReports\framepage.asp" />
+    <Content Include="CrystalReports\htmstart.asp" />
+    <Content Include="CrystalReports\JavaPluginViewer.asp" />
+    <Content Include="CrystalReports\LibFecha.asp" />
+    <Content Include="CrystalReports\MoreRequiredSteps.asp" />
+    <Content Include="CrystalReports\repVistaPopUp.asp" />
+    <Content Include="CrystalReports\repVistaPopupFrame.asp" />
+    <Content Include="CrystalReports\rptserver.asp" />
+    <Content Include="CrystalReports\Rpt_BoletadePago.asp" />
+    <Content Include="CrystalReports\SmartViewerActiveX.asp" />
+    <Content Include="CrystalReports\SmartViewerJava.asp" />
+    <Content Include="CrystalReports\toolbar.asp" />
+    <Content Include="CrystalReports\_AdelantoVacBoleta.asp" />
+    <Content Include="CrystalReports\_AdelantoVacResumen.asp" />
+    <Content Include="CrystalReports\_BoletaPago.asp" />
+    <Content Include="CrystalReports\_BoletaPagoEmpresa.asp" />
+    <Content Include="CrystalReports\_CtaCteTrabajadores.asp" />
+    <Content Include="CrystalReports\_CtsPendienteResSol.asp" />
+    <Content Include="CrystalReports\_DetalleAportesSCTR.asp" />
+    <Content Include="CrystalReports\_MovimientosPersonal.asp" />
+    <Content Include="CrystalReports\_ResumenXArea.asp" />
+    <Content Include="images\borrador.gif" />
+    <Content Include="images\buscar.gif" />
+    <Content Include="images\Calendario.gif" />
+    <Content Include="images\Cancelar.gif" />
+    <Content Include="images\cerrar.gif" />
+    <Content Include="images\drop1.gif" />
+    <Content Include="images\drop2.gif" />
+    <Content Include="images\Editar.gif" />
+    <Content Include="images\Grabar.gif" />
+    <Content Include="images\left1.gif" />
+    <Content Include="images\left2.gif" />
+    <Content Include="images\Loading.gif" />
+    <Content Include="images\right1.gif" />
+    <Content Include="images\right2.gif" />
+    <Content Include="Procesos\frm_Gerencias.aspx" />
+    <Content Include="Procesos\frm_InterfaceBancos.aspx" />
+    <Content Include="Procesos\frm_Jefaturas.aspx" />
+    <Content Include="Procesos\frm_Supervisores.aspx" />
+    <Content Include="Procesos\frm_Trabajadores.aspx" />
+    <Content Include="Procesos\PLA20001.aspx" />
+    <Content Include="Procesos\PLA20006.aspx" />
+    <Content Include="Procesos\PLA20007.aspx" />
+    <Content Include="Procesos\PLA20009.aspx" />
+    <Content Include="Procesos\PLA20009_1.aspx" />
+    <Content Include="Procesos\PLA20010.aspx" />
+    <Content Include="Procesos\PLA20011.aspx" />
+    <Content Include="Procesos\PLA20012.aspx" />
+    <Content Include="Procesos\PLA20013.aspx" />
+    <Content Include="Procesos\PLA20014.aspx" />
+    <Content Include="Procesos\PLA20016.aspx" />
+    <Content Include="Reportes\frm_Distribucion_Planilla.aspx" />
+    <Content Include="Reportes\frm_LicenciasPendientes.aspx" />
+    <Content Include="Reportes\frm_VacacionesFecha.aspx" />
+    <Content Include="Reportes\frm_VacacionesPendientes.aspx" />
+    <Content Include="Reportes\frm_Vacaciones_Pendientes.aspx" />
+    <Content Include="Reportes\PLA30001.aspx" />
+    <Content Include="Reportes\PLA30002.aspx" />
+    <Content Include="Reportes\PLA30002_EXP.aspx" />
+    <Content Include="Reportes\PLA30003.aspx" />
+    <Content Include="Reportes\PLA30003_EXP.aspx" />
+    <Content Include="Reportes\PLA30006.aspx" />
+    <Content Include="Reportes\PLA30008.aspx" />
+    <Content Include="Reportes\PLA30008_EXP.aspx" />
+    <Content Include="Reportes\PLA30010.aspx" />
+    <Content Include="Reportes\PLA30010_Det.aspx" />
+    <Content Include="Reportes\PLA30011.aspx" />
+    <Content Include="Reportes\PLA30012.aspx" />
+    <Content Include="Reportes\PLA30013.aspx" />
+    <Content Include="Reportes\PLA30014.aspx" />
+    <Content Include="Reportes\PLA30015.aspx" />
+    <Content Include="Reportes\PLA30016.aspx" />
+    <Content Include="Reportes\PLA30017.aspx" />
+    <Content Include="Reportes\PLA30018.aspx" />
+    <Content Include="Reportes\PLA30019.aspx" />
+    <Content Include="Scripts\functions.js" />
+    <Content Include="Scripts\jsCalendario_N3.js" />
+    <Content Include="Scripts\jsDesTabla.js" />
+    <Content Include="Scripts\tabpane.js" />
+    <Content Include="Styles\jquery-ui-1.10.3.custom.css" />
+    <Content Include="Styles\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="Styles\NM0001.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\sytle.css" />
+    <Content Include="Styles\tab.webfx.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frm_ConsultaEstructuraNM.aspx.designer.vb">
+      <DependentUpon>frm_ConsultaEstructuraNM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frm_ConsultaEstructuraNM.aspx.vb">
+      <DependentUpon>frm_ConsultaEstructuraNM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Procesos\frm_Gerencias.aspx.designer.vb">
+      <DependentUpon>frm_Gerencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Gerencias.aspx.vb">
+      <DependentUpon>frm_Gerencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_InterfaceBancos.aspx.designer.vb">
+      <DependentUpon>frm_InterfaceBancos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_InterfaceBancos.aspx.vb">
+      <DependentUpon>frm_InterfaceBancos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Jefaturas.aspx.designer.vb">
+      <DependentUpon>frm_Jefaturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Jefaturas.aspx.vb">
+      <DependentUpon>frm_Jefaturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Supervisores.aspx.designer.vb">
+      <DependentUpon>frm_Supervisores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Supervisores.aspx.vb">
+      <DependentUpon>frm_Supervisores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Trabajadores.aspx.designer.vb">
+      <DependentUpon>frm_Trabajadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Trabajadores.aspx.vb">
+      <DependentUpon>frm_Trabajadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20001.aspx.vb">
+      <DependentUpon>PLA20001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20006.aspx.vb">
+      <DependentUpon>PLA20006.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20007.aspx.vb">
+      <DependentUpon>PLA20007.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20009.aspx.designer.vb">
+      <DependentUpon>PLA20009.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PLA20009.aspx.vb">
+      <DependentUpon>PLA20009.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20009_1.aspx.vb">
+      <DependentUpon>PLA20009_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20010.aspx.vb">
+      <DependentUpon>PLA20010.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20011.aspx.vb">
+      <DependentUpon>PLA20011.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20012.aspx.designer.vb">
+      <DependentUpon>PLA20012.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PLA20012.aspx.vb">
+      <DependentUpon>PLA20012.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20013.aspx.vb">
+      <DependentUpon>PLA20013.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20014.aspx.designer.vb">
+      <DependentUpon>PLA20014.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PLA20014.aspx.vb">
+      <DependentUpon>PLA20014.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PLA20016.aspx.designer.vb">
+      <DependentUpon>PLA20016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PLA20016.aspx.vb">
+      <DependentUpon>PLA20016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_Distribucion_Planilla.aspx.designer.vb">
+      <DependentUpon>frm_Distribucion_Planilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_Distribucion_Planilla.aspx.vb">
+      <DependentUpon>frm_Distribucion_Planilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_LicenciasPendientes.aspx.designer.vb">
+      <DependentUpon>frm_LicenciasPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_LicenciasPendientes.aspx.vb">
+      <DependentUpon>frm_LicenciasPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_VacacionesFecha.aspx.designer.vb">
+      <DependentUpon>frm_VacacionesFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_VacacionesFecha.aspx.vb">
+      <DependentUpon>frm_VacacionesFecha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_VacacionesPendientes.aspx.designer.vb">
+      <DependentUpon>frm_VacacionesPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_VacacionesPendientes.aspx.vb">
+      <DependentUpon>frm_VacacionesPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_Vacaciones_Pendientes.aspx.designer.vb">
+      <DependentUpon>frm_Vacaciones_Pendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_Vacaciones_Pendientes.aspx.vb">
+      <DependentUpon>frm_Vacaciones_Pendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30001.aspx.vb">
+      <DependentUpon>PLA30001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30002.aspx.vb">
+      <DependentUpon>PLA30002.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30002_EXP.aspx.vb">
+      <DependentUpon>PLA30002_EXP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30003.aspx.vb">
+      <DependentUpon>PLA30003.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30003_EXP.aspx.vb">
+      <DependentUpon>PLA30003_EXP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30006.aspx.vb">
+      <DependentUpon>PLA30006.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30008.aspx.vb">
+      <DependentUpon>PLA30008.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30008_EXP.aspx.vb">
+      <DependentUpon>PLA30008_EXP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30010.aspx.vb">
+      <DependentUpon>PLA30010.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30010_Det.aspx.vb">
+      <DependentUpon>PLA30010_Det.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30011.aspx.vb">
+      <DependentUpon>PLA30011.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30012.aspx.vb">
+      <DependentUpon>PLA30012.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30013.aspx.vb">
+      <DependentUpon>PLA30013.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30014.aspx.vb">
+      <DependentUpon>PLA30014.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30015.aspx.designer.vb">
+      <DependentUpon>PLA30015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\PLA30015.aspx.vb">
+      <DependentUpon>PLA30015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30016.aspx.designer.vb">
+      <DependentUpon>PLA30016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\PLA30016.aspx.vb">
+      <DependentUpon>PLA30016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30017.aspx.designer.vb">
+      <DependentUpon>PLA30017.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\PLA30017.aspx.vb">
+      <DependentUpon>PLA30017.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30018.aspx.designer.vb">
+      <DependentUpon>PLA30018.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\PLA30018.aspx.vb">
+      <DependentUpon>PLA30018.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\PLA30019.aspx.designer.vb">
+      <DependentUpon>PLA30019.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\PLA30019.aspx.vb">
+      <DependentUpon>PLA30019.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20001.aspx.resx">
+      <DependentUpon>PLA20001.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20006.aspx.resx">
+      <DependentUpon>PLA20006.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20007.aspx.resx">
+      <DependentUpon>PLA20007.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20009_1.aspx.resx">
+      <DependentUpon>PLA20009_1.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20010.aspx.resx">
+      <DependentUpon>PLA20010.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20011.aspx.resx">
+      <DependentUpon>PLA20011.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\PLA20013.aspx.resx">
+      <DependentUpon>PLA20013.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30001.aspx.resx">
+      <DependentUpon>PLA30001.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30002.aspx.resx">
+      <DependentUpon>PLA30002.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30002_EXP.aspx.resx">
+      <DependentUpon>PLA30002_EXP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30003.aspx.resx">
+      <DependentUpon>PLA30003.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30003_EXP.aspx.resx">
+      <DependentUpon>PLA30003_EXP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30006.aspx.resx">
+      <DependentUpon>PLA30006.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30008.aspx.resx">
+      <DependentUpon>PLA30008.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30008_EXP.aspx.resx">
+      <DependentUpon>PLA30008_EXP.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30010.aspx.resx">
+      <DependentUpon>PLA30010.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30010_Det.aspx.resx">
+      <DependentUpon>PLA30010_Det.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30011.aspx.resx">
+      <DependentUpon>PLA30011.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30012.aspx.resx">
+      <DependentUpon>PLA30012.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30013.aspx.resx">
+      <DependentUpon>PLA30013.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\PLA30014.aspx.resx">
+      <DependentUpon>PLA30014.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <None Include="Rpts\AdelantoVacBoleta.rpt" />
+    <None Include="Rpts\AdelantoVacResumen.rpt" />
+    <None Include="Rpts\CtsPendienteResSoles.rpt" />
+    <None Include="Rpts\DetalleAportesSCTR.rpt" />
+    <None Include="Rpts\MovimientosPersonal.rpt" />
+    <None Include="Rpts\Rep_Boleta_Pago_SVO.rpt" />
+    <None Include="Rpts\ResumenXArea.rpt" />
+    <None Include="Rpts\Rpt_Boleta_Pago_Emp.rpt" />
+    <None Include="Rpts\Rpt_Boleta_Pago_Empresa.rpt" />
+    <None Include="Rpts\Rpt_Boleta_Pago_Obm.rpt" />
+    <None Include="Rpts\Rpt_CtaCte_Saldos.rpt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11939</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

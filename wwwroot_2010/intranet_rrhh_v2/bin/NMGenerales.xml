@@ -1,0 +1,216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NMGenerales
+</name>
+</assembly>
+<members>
+<member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs.m_popup">
+	<summary>
+ The popup form.
+ </summary>
+</member><member name="P:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs.Popup">
+	<summary>
+ Gets the popup form which is being closed.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs.#ctor(System.Windows.Forms.Form)">
+	<summary>
+ Constructs a new instance of this class for the specified
+ popup form.
+ </summary>
+	<param name="popup">Popup Form which is being closed.</param>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs">
+	<summary>
+ Contains event information for a <see cref="!:PopupClosed"/> event.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.m_cancel">
+	<summary>
+ Whether to cancel the operation
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.location">
+	<summary>
+ Mouse down location
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.m_popup">
+	<summary>
+ Popup form.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.#ctor(System.Windows.Forms.Form,System.Drawing.Point)">
+	<summary>
+ Constructs a new instance of this class.
+ </summary>
+	<param name="popup">The popup form</param>
+	<param name="location">The mouse location, if any, where the
+ mouse event that would cancel the popup occured.</param>
+</member><member name="P:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.Popup">
+	<summary>
+ Gets the popup form
+ </summary>
+</member><member name="P:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.CursorLocation">
+	<summary>
+ Gets the location that the mouse down which would cancel this 
+ popup occurred
+ </summary>
+</member><member name="P:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.Cancel">
+	<summary>
+ Gets/sets whether to cancel closing the form. Set to
+ <c>true</c> to prevent the popup from being closed.
+ </summary>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs">
+	<summary>
+ Arguments to a <see cref="!:PopupCancelEvent"/>.  Provides a
+ reference to the popup form that is to be closed and 
+ allows the operation to be cancelled.
+ </summary>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventHandler">
+	<summary>
+ Represents the method which responds to a <see cref="!:PopupClosed"/> event.
+ </summary>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventHandler">
+	<summary>
+ Represents the method which responds to a <see cref="!:PopupCancel"/> event.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.filter">
+	<summary>
+ Message filter to detect mouse clicks anywhere in the application
+ whilst the popup window is being displayed.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.m_popup">
+	<summary>
+ The popup form that is being shown.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.m_owner">
+	<summary>
+ The owner of the popup form that is being shown:
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.popupShowing">
+	<summary>
+ Whether the popup is showing or not.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.skipClose">
+	<summary>
+ Whether the popup has been cancelled, notified by PopupCancel,
+ rather than closed.
+ </summary>
+</member><member name="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.PopupClosed">
+	<summary>
+ Raised when the popup form is closed.
+ </summary>
+</member><member name="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.PopupCancel">
+	<summary>
+ Raised when the Popup Window is about to be cancelled.  The
+ <see cref="P:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.Cancel"/> property can be
+ set to <c>true</c> to prevent the form from being cancelled.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.ShowPopup(System.Windows.Forms.Form,System.Windows.Forms.Form,System.Drawing.Point)">
+	<summary>
+ Shows the specified Form as a popup window, keeping the
+ Owner's title bar active and preparing to cancel the popup
+ should the user click anywhere outside the popup window.
+ <para>Typical code to use this message is as follows:</para>
+		<code>
+    frmPopup popup = new frmPopup();
+    Point location = Me.PointToScreen(new Point(button1.Left, button1.Bottom));
+    popupHelper.ShowPopup(this, popup, location);
+ </code>
+		<para>Put as much initialisation code as possible
+ into the popup form's constructor, rather than the <see cref="!:System.Windows.Forms.Load"/>
+ event as this will improve visual appearance.</para>
+	</summary>
+	<param name="owner">Main form which owns the popup</param>
+	<param name="popup">Window to show as a popup</param>
+	<param name="location">Location relative to the screen to show the popup at.</param>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.WndProc(System.Windows.Forms.Message@)">
+	<summary>
+ Subclasses the owning form's existing Window Procedure to enables the 
+ title bar to remain active when a popup is show, and to detect if
+ the user clicks onto another application whilst the popup is visible.
+ </summary>
+	<param name="m">Window Procedure Message</param>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.ClosePopup">
+	<summary>
+ Called when the popup is being hidden.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.OnPopupClosed(NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs)">
+	<summary>
+ Raises the <see cref="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.PopupClosed"/> event.
+ </summary>
+	<param name="e"><see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupClosedEventArgs"/> describing the
+ popup form that is being closed.</param>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.OnPopupCancel(NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs)">
+	<summary>
+ Raises the <see cref="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.PopupCancel"/> event.
+ </summary>
+	<param name="e"><see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs"/> describing the
+ popup form that about to be cancelled.</param>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper.#ctor">
+	<summary>
+ Default constructor.
+ </summary>
+	<remarks>Use the <see cref="M:System.Windows.Forms.NativeWindow.AssignHandle(System.IntPtr)"/>
+ method to attach this class to the form you want to show popups from.</remarks>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper">
+	<summary>
+ A class to assist in creating popup windows like Combo Box drop-downs and Menus.
+ This class includes functionality to keep the title bar of the popup owner form
+ active whilst the popup is displayed, and to automatically cancel the popup
+ whenever the user clicks outside the popup window or shifts focus to another 
+ application.
+ </summary>
+</member><member name="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.PopupCancel">
+	<summary>
+ Raised when the Popup Window is about to be cancelled.  The
+ <see cref="P:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs.Cancel"/> property can be
+ set to <c>true</c> to prevent the form from being cancelled.
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.m_popup">
+	<summary>
+ The popup form
+ </summary>
+</member><member name="F:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.owner">
+	<summary>
+ The owning <see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper"/> object.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.#ctor(NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper)">
+	<summary>
+ Constructs a new instance of this class and sets the owning
+ object.
+ </summary>
+	<param name="owner">The <see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper"/> object
+ which owns this class.</param>
+</member><member name="P:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.Popup">
+	<summary>
+ Gets/sets the popup form which is being displayed.
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.PreFilterMessage(System.Windows.Forms.Message@)">
+	<summary>
+ Checks the message loop for mouse messages whilst the popup
+ window is displayed.  If one is detected the position is
+ checked to see if it is outside the form, and the owner
+ is notified if so.
+ </summary>
+	<param name="m">Windows Message about to be processed by the
+ message loop</param>
+	<returns><c>true</c> to filter the message, <c>false</c> otherwise.
+ This implementation always returns <c>false</c>.</returns>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.OnMouseDown">
+	<summary>
+ Checks the mouse location and calls the OnCancelPopup method
+ if the mouse is outside the popup form.		
+ </summary>
+</member><member name="M:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.OnCancelPopup(NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs)">
+	<summary>
+ Raises the <see cref="E:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter.PopupCancel"/> event.
+ </summary>
+	<param name="e">The <see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupCancelEventArgs"/> associated 
+ with the cancel event.</param>
+</member><member name="T:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelperMessageFilter">
+	<summary>
+ A Message Loop filter which detect mouse events whilst the popup form is shown
+ and notifies the owning <see cref="T:NuevoMundo.Generales.Clases.PopUpClass.PopupWindowHelper"/> class when a mouse
+ click outside the popup occurs.
+ </summary>
+</member>
+</members>
+</doc>

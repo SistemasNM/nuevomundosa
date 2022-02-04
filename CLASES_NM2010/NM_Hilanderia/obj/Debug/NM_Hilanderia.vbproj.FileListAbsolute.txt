@@ -1,0 +1,15 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_Hilanderia.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_Hilanderia.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_Hilanderia.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\bin\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.Resources.resources
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.vbproj.GenerateResource.Cache
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Hilanderia\obj\Debug\NM_Hilanderia.pdb

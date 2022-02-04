@@ -1,0 +1,750 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+	font-weight: bold;
+	font-size: 10px;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Verdana, Helvetica, sans-serif;
+	letter-spacing: normal;
+	background-color: #dbeaf5;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+span
+{
+	background-color: transparent;
+}
+	
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+.Texto
+{
+    font-weight: normal;
+	font-size: 12px;
+	word-spacing: normal;
+	text-transform: none;
+	font-family:Verdana, Helvetica, sans-serif;
+	letter-spacing: normal;
+}
+.Titulo
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #D3DCE7;
+	text-decoration: none;
+}
+.Item {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #dbeaf5;
+	color: #000000;
+}
+.Cabecera {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-color: #336699;
+	border-top: 1px solid #ffdf4a;
+	border-right: 0px solid;
+	border-bottom: 1px solid #ffdf4a;
+	border-left: 0px solid;
+	width: 100%;
+}
+.GridHeader {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #336699;
+}
+.GridHeader2
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	font-style: italic;
+	font-family: verdana;
+	background-color: #336699;
+	text-decoration: none;
+}
+.GridFooter {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.GridGroup
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #000000;
+	font-family: verdana;
+	background-color: white;
+	text-decoration: underline;
+}
+
+.GridItem {
+	background-color: #D3DCE7;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+
+.derecha {
+	text-align:right;
+}
+
+.centro {
+	text-align:center;
+}
+.GridAltItem 
+{
+	background-color: #ffffff;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.GridAlert
+{
+	font-weight: BOLD;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-family: Verdana;
+	background-color: red;
+	text-decoration: none;
+}
+.GridItemAlert1
+{
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: #e5686e;
+	text-decoration: none;
+}
+.GridAltItemAlert1
+{
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: #f2b1b2;
+	text-decoration: none;
+}
+.GridItemAlert2
+{
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: #ffd772;
+	text-decoration: none;
+}
+.GridAltItemAlert2
+{
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: #ffe9a8;
+	text-decoration: none;
+}
+.GridItemAlert3
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #d3dce7;
+	text-decoration: line-through;
+}
+.GridAltItemAlert3 
+{
+	background-color: #ffffff;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: line-through;
+}
+.Boton
+{
+	font-weight: bold;
+	font-size: 10px;
+	width: 80px;
+	color: #000000;
+	font-family: Verdana;
+	height: 20px;
+	background-color: #fff7e5;
+	text-decoration: none;
+}
+.btnDetalle
+{
+	font-weight: bold;
+	font-size: 8px;
+	color: #ffffff;
+	font-family: Verdana;
+	background-color: #336699;
+	text-decoration: none;
+}
+.BotonBig
+{
+	font-weight: bold;
+	font-size: 10px;
+	width: 120px;
+	color: #000000;
+	font-family: Verdana;
+	height: 20px;
+	background-color: #fff7e5;
+	text-decoration: none;
+}
+.Right
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	text-align: right;
+	text-decoration: none;
+}
+.Left
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	text-align:left;
+	text-decoration: none;
+}
+.Center
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	text-align:center;
+	text-decoration: none;
+}
+.Input
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.InputRight
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-align: right;
+	text-decoration: none;
+}
+
+.InputNumber
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #ffffff;
+	text-align: right;
+	text-decoration: none;
+}
+
+.InputPaginacion
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000;
+    font-family: Verdana;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.InputDis
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #dfdfdf;
+	text-decoration: none;
+}
+
+.InputNumberDis
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #dfdfdf;
+	text-decoration: none;
+	text-align: right;
+}
+
+.InputBig
+{
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.InputRightDis
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #dfdfdf;
+	text-align: right;
+}
+
+.Menu {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.MenuAct {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration: blink;
+	font-weight: bold;
+}
+
+.Menu:Active {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.Menu:Hover {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.SubHead {
+
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	border-top: none;
+	border-right: 0px none;
+	border-bottom: none;
+	border-left: 0px none;
+}
+
+.Error
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+	font-family: Verdana;
+}
+.LoginHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #336699;
+}
+.LoginItem {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	background-color: #FFFFFF;
+}
+.Footer
+{
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 100%;
+}
+TD
+{
+	font-size: 10px;
+	font-family: Verdana;
+    text-align: left;
+}
+.TipoLabel
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: silver;
+	text-decoration: none;
+	border-style:none
+}
+.SubTitulo
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	text-decoration: none;
+}
+.Sumando
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana;
+	background-color: #D3DCE1;
+	text-decoration: none;
+}
+.Mensaje 
+{
+	font-family: Verdana, Arial, helvetica, Sans-Serif;
+	font-size: 12px;
+	color: darkred;
+	text-align: center;
+}
+Tabla.TablaContieneGrillas
+{
+	border-color: #FFFFFF;
+	border-collapse: collapse;
+}
+TD.TDContieneGrillas
+{
+	border-color: #FFFFFF;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+}
+.MsjRollo {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.SubTitulo2 {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.CuadroBotones
+{
+    border: thin solid #336699;
+}
+/* Locks the left column */
+td.lockedEdit, th.lockedEdit
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	cursor: default;
+	color: #000000;
+	font-family: Verdana;
+	position: relative;
+	text-decoration: none;
+	/*IE5+ only*/
+	left: expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft-2); 
+}
+td.locked, th.locked
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	cursor: default;
+	color: #000000;
+	font-family: Verdana;
+	position: relative;
+	background-color: #d3dce7;
+	text-decoration: none;
+	/*IE5+ only*/
+	left: expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft-2); 
+}
+td.lockedAlt, th.lockedAlt
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	cursor: default;
+	color: #000000;
+	font-family: Verdana;
+	position: relative;
+	background-color: #ffffff;
+	text-decoration: none;
+	/*IE5+ only*/
+	left: expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft-2); 
+}
+
+td.Rlocked, th.Rlocked
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	cursor: default;
+	color: #000000;
+	font-family: Verdana;
+	position: relative;
+	background-color: #d3dce7;
+	text-decoration: none;
+	/*IE5+ only*/
+	left: 650;
+}
+td.RlockedAlt, th.RlockedAlt
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-weight: normal;
+	font-size: 10px;
+	cursor: default;
+	color: #000000;
+	font-family: Verdana;
+	position: relative;
+	background-color: #ffffff;
+	text-decoration: none;
+	/*IE5+ only*/
+	left: 650;
+}
+td.lockedHeader, th.lockedHeader
+{
+	border-right: white 1px solid;
+	border-top: white 1px solid;
+	border-bottom: white 1px solid;
+	border-left: white 1px solid;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #336699;
+	position: relative;
+	/*IE5+ only*/
+	left: expression(this.parentElement.parentElement.parentElement.parentElement.scrollLeft-2); 
+}
+/* Locks table header */
+th
+{
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #336699;
+	z-index: 10;
+	cursor: default;
+	/*border-bottom: white 1px solid;*/
+	position: relative;
+	top: expression(this.parentElement.parentElement.parentElement.parentElement.scrollTop-1);
+}
+
+/* Keeps the header as the top most item. Important for top left item*/
+th.lockedHeader {z-index: 99;}
+
+.Informacion
+{
+	border-right: #336699 1px solid;
+	border-top: #336699 1px solid;
+	font-weight: bold;
+	font-size: 10px;
+	border-left: #336699 1px solid;
+	color: #336699;
+	border-bottom: #336699 1px solid;
+	font-family: Verdana;
+	background-color: lightyellow;
+}
+.InformacionNumerica
+{
+	border-right: #336699 1px solid;
+	border-top: #336699 1px solid;
+	font-weight: bold;
+	font-size: 10px;
+	border-left: #336699 1px solid;
+	color: #336699;
+	border-bottom: #336699 1px solid;
+	font-family: Verdana;
+	background-color: lightyellow;
+	text-align: right;
+}
+.txtHid
+{
+  border-width: 0px;
+  background-color: #dbeaf5;
+  color: #dbeaf5;
+  font-size: 8px;
+}
+.InputButtonSearch
+{
+    width: 25px;
+    height: 20px;
+    color: #000000;
+    font-family: Verdana;
+    font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;	
+	text-align:center;
+	background-color: rgb(255, 255, 255);	
+}

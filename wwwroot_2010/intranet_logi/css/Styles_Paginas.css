@@ -1,0 +1,163 @@
+BODY
+{
+	font-weight:bold;
+	font-size: 11px;
+	font-family: Arial,Verdana;
+	background-color: #dbeaf5;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+.CabMain
+{
+	font-family:Verdana; 
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #336699;
+	border-top: 2px solid #ffdf4a;
+	border-right: 0px solid;
+	border-bottom: 2px solid #ffdf4a;
+	border-left: 0px solid;
+}
+
+.CabTitle
+{
+	font-family:Verdana; 
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #336699;
+
+}
+
+.Frame
+{
+	background-color:#dbeaf5;
+	border-width:2px;  
+	border-style:solid; 
+	border-color:#336699;
+}
+
+.FrameSimple
+{
+	background-color:#dbeaf5;
+	border-width:1px;  
+	border-style:solid; 
+	border-color:#336699;
+}
+
+.TextoTitulo
+{
+	background-color:#dbeaf5;
+	border-width:1px;  
+	border-style:solid; 
+	border-color:#336699;
+	font-size:x-large;
+	font-family:Verdana;
+}
+
+
+
+.ColHead
+{
+	border-right-style:solid; 
+	border-right-color:#FFFFFF;
+	border-right-width:1px;
+	border-bottom-style:solid; 
+	border-bottom-color:#FFFFFF;
+	border-bottom-width:1px;
+
+}
+
+
+.RowHead
+{
+	font-weight:normal; 
+    font-family:Arial,Verdana;
+	font-size:10px;
+	color:#FFFFFF;
+	background-color:#336699;
+}
+
+
+
+
+.Panel
+{
+	border: 3px solid #336699;
+	background-color:#FCFCFE;
+		font-family:Arial,Verdana;
+		font-size:12px;
+		font-weight:bold;
+	width: 179%;
+}
+
+
+.GridHeader {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #336699;
+	margin-left: 0px;
+}
+
+.GridColEdit
+{
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F8F8C3;
+	margin-left: 0px;
+}
+
+.GridColEdit_2
+{
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	background-color: #DCE3EB;
+	margin-left: 0px;
+}
+
+
+.CabTitle2
+{
+	font-family:Verdana; 
+	font-size: 12px;
+	font-weight: bold;
+	color: #336699;
+	background-color:#8ECEFB;
+}
+
+.CssLoad { 
+position:absolute; 
+overflow:visible;  
+z-index:1;
+top:50%;
+left:45%;
+color:#99A9B4; 
+border-width: 1px; 
+border-color: #979EAD; 
+border-style: solid; 
+background-color: #FFFFFF; 
+font-family:Arial,Verdana; 
+width: 120px; 
+height: 70px;
+}
+
+.CssLoadNormal { 
+color:#99A9B4; 
+border-width: 1px; 
+border-color: #979EAD; 
+border-style: solid; 
+background-color: #FFFFFF; 
+font-family:Arial,Verdana; 
+width: 120px; 
+height: 70px;
+}

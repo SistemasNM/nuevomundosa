@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NM_General">
+</Property><Property Name="Solution File" Value="C:\CLASES_FW35\NM_General\NM_General.sln">
+</Property><Property Name="Date" Value="domingo, 24 de marzo de 2019">
+</Property><Property Name="Time" Value="12:55">
+</Property></Properties><Event ErrorLevel="0" Project="NM_General" Source="NM_General.vbproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="NM_General" Source="NM_General.vbproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="2" Project="AccesoDatos" Source="..\AccesoDatos\AccesoDatos.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="NM_General.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NM_General.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NM_General.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="NM_General.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

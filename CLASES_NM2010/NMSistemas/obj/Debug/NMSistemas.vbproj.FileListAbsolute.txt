@@ -1,0 +1,10 @@
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\NMSistemas.dll
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\NMSistemas.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\NMSistemas.xml
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\obj\Debug\NMSistemas.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\obj\Debug\NMSistemas.dll
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\obj\Debug\NMSistemas.xml
+C:\Github_Proyectos\CLASES_NM2010\NMSistemas\obj\Debug\NMSistemas.pdb

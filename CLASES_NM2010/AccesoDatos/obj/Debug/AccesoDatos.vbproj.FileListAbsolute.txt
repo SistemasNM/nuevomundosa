@@ -1,0 +1,12 @@
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.dll
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.pdb
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.xml
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.xml
+C:\DevOps_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\AccesoDatos\obj\Debug\AccesoDatos.pdb

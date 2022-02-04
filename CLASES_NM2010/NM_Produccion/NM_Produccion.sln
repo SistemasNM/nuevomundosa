@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NM_Produccion", "NM_Produccion.vbproj", "{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nuevomundosa@dev.azure.com/nuevomundosa
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NM_Produccion.vbproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893E3CDF-66AF-4D81-A9CD-6DF63618C2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

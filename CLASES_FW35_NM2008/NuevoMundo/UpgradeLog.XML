@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NuevoMundo">
+</Property><Property Name="Solution File" Value="C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\NuevoMundo.sln">
+</Property><Property Name="Date" Value="jueves, 3 de febrero de 2022">
+</Property><Property Name="Time" Value="22:56:26">
+</Property></Properties><Event ErrorLevel="1" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="MSB2013: The project-to-project reference with GUID {D17CF28B-AEB6-4382-BAEA-E9751E103B1D} could not be converted because a valid .SLN file containing all projects could not be found.">
+</Event><Event ErrorLevel="1" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="MSB2013: The project-to-project reference with GUID {6FF85E58-B7A3-46A5-9850-A6A3CFC12CF2} could not be converted because a valid .SLN file containing all projects could not be found.">
+</Event><Event ErrorLevel="1" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="MSB2013: The project-to-project reference with GUID {544B2913-A76D-4A19-A13C-E74759CF1B3B} could not be converted because a valid .SLN file containing all projects could not be found.">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="Project file successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\NuevoMundo.vbproj">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="NuevoMundo.vbproj.user" Description="Project user file successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\NuevoMundo.vbproj.user">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Contabilidad\Contabilidad.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Contabilidad\Contabilidad.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Contabilidad\Ctc.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Contabilidad\Ctc.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="General.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\General.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Logistica\clsAlmacen.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Logistica\clsAlmacen.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Logistica\clsArticulo.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Logistica\clsArticulo.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Logistica\clsPedidos.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Logistica\clsPedidos.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Logistica\OrdenCompra.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Logistica\OrdenCompra.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Logistica\Proveedor.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Logistica\Proveedor.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="NMAuditoria.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\NMAuditoria.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Planillas\HorasExtras.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Planillas\HorasExtras.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Tesoreria\CreditosyCobranzas\LocalizacionFacturas.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Tesoreria\CreditosyCobranzas\LocalizacionFacturas.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Tesoreria\FactoringProveedores.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Tesoreria\FactoringProveedores.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Tesoreria\Finanzas.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Tesoreria\Finanzas.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Tesoreria\LoteArchivo.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Tesoreria\LoteArchivo.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="Ventas.vb" Description="File successfully backed up as C:\Github_Proyectos\CLASES_FW35_NM2008\NuevoMundo\Backup\Ventas.vb">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NuevoMundo" Source="NuevoMundo.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

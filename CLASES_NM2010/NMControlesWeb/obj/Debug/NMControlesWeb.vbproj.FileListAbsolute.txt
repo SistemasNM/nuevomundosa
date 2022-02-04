@@ -1,0 +1,12 @@
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.dll
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.pdb
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.xml
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.dll
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.xml
+C:\DevOps_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.dll
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.pdb
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\bin\NMControlesWeb.xml
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.dll
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.xml
+C:\Github_Proyectos\CLASES_NM2010\NMControlesWeb\obj\Debug\NMControlesWeb.pdb

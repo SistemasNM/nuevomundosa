@@ -1,0 +1,186 @@
+.tdMenu
+{
+	background-color:#F89A20;	
+}
+
+.tdMenuBase
+{
+	color:Black;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+}
+
+.lnkMenuBase
+{
+	color:Black;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+}
+
+.lblNombreUsuario
+{
+	color:Black;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.mnuMenuStyle
+{
+	color:White;
+	background-color:#F89A20;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+	padding:4px 4px 4px 4px;
+}
+
+.mnuMenuHoverStyle
+{
+	color:Black;
+	background-color:#F89A20;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+	padding:4px 4px 4px 4px;
+}
+
+.mnuMenuItemStyle
+{
+	color:Black;
+	background-color:#DCDDDE;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+	padding:4px 4px 4px 4px;
+}
+.mnuMenuItemHoverStyle
+{
+	color:White;
+	background-color:#023F87;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+	padding:4px 4px 4px 4px;
+}
+
+.tdTituloForm
+{
+	color:Black;
+	background-color:#DCDDDE;
+	border:solid 1px black;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:10pt;	
+}
+
+.tdCampoBusqueda
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+}
+
+.grdHeaderStyle
+{
+	background-color:#F89A20;
+	color:#FFFFFF;
+	font-size:10pt;
+	font-family:Arial;
+	font-weight:bold;	
+}
+
+.grdRowStyle
+{
+	background-color:#FFFFFF;
+	color:#000000;
+	font-size:10pt;
+	font-family:Arial;
+}
+
+.grdAlternatingRowStyle
+{
+	background-color:#DCDDDE;
+	color:#000000;
+	font-size:10pt;
+	font-family:Arial;
+}
+
+.pnlModal
+{
+    background-color:#FFFFFF;
+    border:solid 1px #000000;
+    color:Black;
+    font-family:Arial;
+    font-size:10pt;	
+    padding:3px 3px 3px 3px;
+}
+    
+.pnlTitulo
+{
+    background-color:#F89A20;
+    color:#FFFFFF;
+    font-size:10pt;
+    font-family:Arial;
+    font-weight:bold;
+    cursor:move;	
+    padding:3px 3px 3px 3px;
+}
+
+
+.mpeBackground
+{
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.btnFormulario
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+	border:solid 1px black;
+}
+
+.tdMensajeConfirmacion
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+}
+
+.lnkMenuForm
+{
+	color:#023F87;
+	font-family:Arial;
+	font-weight:normal;
+	font-size:10pt;
+}
+
+.txtFormulario
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+	border:solid 1px black;
+}
+
+.txtNumerico
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+	border:solid 1px black;
+	text-align:right;
+}
+
+.cboFormulario
+{
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;	
+}

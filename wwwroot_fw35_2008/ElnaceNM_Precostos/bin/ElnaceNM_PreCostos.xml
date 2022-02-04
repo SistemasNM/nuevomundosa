@@ -1,0 +1,739 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ElnaceNM_PreCostos
+</name>
+</assembly>
+<members>
+<member name="F:ElnaceNM_PreCostos.popUpBucarRequeTela.frmReqAnalisisTela">
+	<summary>
+frmReqAnalisisTela control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.popUpBucarRequeTela.dgDatos">
+	<summary>
+dgDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.frmData">
+	<summary>
+frmData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.tabpage10">
+	<summary>
+tabpage10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.panListado">
+	<summary>
+panListado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtNum_Requisicion">
+	<summary>
+TxtNum_Requisicion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnBuscar">
+	<summary>
+btnBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnNuevo">
+	<summary>
+btnNuevo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnEditar">
+	<summary>
+btnEditar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnAnular">
+	<summary>
+btnAnular control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtFechaIni">
+	<summary>
+TxtFechaIni control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtFechaFin">
+	<summary>
+TxtFechaFin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.txtOpc">
+	<summary>
+txtOpc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.txtRegSel">
+	<summary>
+txtRegSel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.lblReg">
+	<summary>
+lblReg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.panActualiza">
+	<summary>
+panActualiza control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtNumerorequisicion">
+	<summary>
+TxtNumerorequisicion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.txtCodReq">
+	<summary>
+txtCodReq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.imgBuscar">
+	<summary>
+imgBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtFecha">
+	<summary>
+TxtFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtObservaciones">
+	<summary>
+TxtObservaciones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnGraba">
+	<summary>
+btnGraba control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnActiva">
+	<summary>
+btnActiva control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnCancelar">
+	<summary>
+btnCancelar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.tabpage21">
+	<summary>
+tabpage21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.UpdatePanelO">
+	<summary>
+UpdatePanelO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.panListadoO">
+	<summary>
+panListadoO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtRequisicion_Detalle">
+	<summary>
+TxtRequisicion_Detalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtFecha_Detalle">
+	<summary>
+TxtFecha_Detalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnNuevoO">
+	<summary>
+btnNuevoO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnEditarO">
+	<summary>
+btnEditarO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnAnularO">
+	<summary>
+btnAnularO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtObservaciones_Detalle">
+	<summary>
+TxtObservaciones_Detalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.txtOpcO">
+	<summary>
+txtOpcO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.txtRegSelO">
+	<summary>
+txtRegSelO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.lblRegO">
+	<summary>
+lblRegO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.grdDataO">
+	<summary>
+grdDataO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.panActualizaO">
+	<summary>
+panActualizaO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.lblNroRequisicion">
+	<summary>
+lblNroRequisicion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.LblFecha">
+	<summary>
+LblFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtArticuloCrudoCod">
+	<summary>
+TxtArticuloCrudoCod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtArticuloCrudoNom">
+	<summary>
+TxtArticuloCrudoNom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtArticuloBase">
+	<summary>
+TxtArticuloBase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtCod_Acabado">
+	<summary>
+TxtCod_Acabado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtDesc_Acabado">
+	<summary>
+TxtDesc_Acabado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtColorCod">
+	<summary>
+TxtColorCod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtColorDesc">
+	<summary>
+TxtColorDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtColoranteCod">
+	<summary>
+TxtColoranteCod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtColoranteDes">
+	<summary>
+TxtColoranteDes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.TxtObservacionDetalle_Articulo">
+	<summary>
+TxtObservacionDetalle_Articulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnGrabarO">
+	<summary>
+btnGrabarO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.btnCancelarO">
+	<summary>
+btnCancelarO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Solicitud_PreCostos.lblMsgO">
+	<summary>
+lblMsgO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.frmData">
+	<summary>
+frmData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.panContenido">
+	<summary>
+panContenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.lblTitCodigo1">
+	<summary>
+lblTitCodigo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.btnBuscar">
+	<summary>
+btnBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.lblTit2Descri">
+	<summary>
+lblTit2Descri control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtDescri">
+	<summary>
+txtDescri control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtOpc">
+	<summary>
+txtOpc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtRegSel">
+	<summary>
+txtRegSel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtReg">
+	<summary>
+txtReg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.lblTitCodigo2">
+	<summary>
+lblTitCodigo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.lblTitDescri2">
+	<summary>
+lblTitDescri2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.grdData">
+	<summary>
+grdData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtSQL">
+	<summary>
+txtSQL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmDesTabla.txtFiltro">
+	<summary>
+txtFiltro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.optPendiente">
+	<summary>
+optPendiente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.optGenerado">
+	<summary>
+optGenerado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.TxtFechaIni">
+	<summary>
+TxtFechaIni control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.TxtFechaFin">
+	<summary>
+TxtFechaFin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_ListadoPrecostos.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Test.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Test.frmData">
+	<summary>
+frmData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Test.txtNumeroReq">
+	<summary>
+txtNumeroReq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Test.txtNumeroDet">
+	<summary>
+txtNumeroDet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frm_Test.grdRequisiciones">
+	<summary>
+grdRequisiciones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmtest.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElnaceNM_PreCostos.frmtest.WebDatePicker1">
+	<summary>
+WebDatePicker1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3395E84-43CA-4600-8F87-CEC196061C47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CostosTej</RootNamespace>
+    <AssemblyName>CostosTej</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CostosTej.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CostosTej.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatosDB, Version=1.0.8069.39183, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AccesoDB\bin\AccesoDatosDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ComunLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NM_ComunLib\bin\Debug\ComunLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsTejConsumoAlmacen.vb" />
+    <Compile Include="clsTejDiasTrabajados.vb" />
+    <Compile Include="clsTejDistHorasTrab.vb" />
+    <Compile Include="clsTejCostoProduccionTejeduria.vb" />
+    <Compile Include="clsTejCostosPretejido.vb" />
+    <Compile Include="clsTejFactoresMOGIF.vb" />
+    <Compile Include="clsTejInvConos.vb" />
+    <Compile Include="clsTejInvKgProceso.vb" />
+    <Compile Include="clsTejInvValorizado.vb" />
+    <Compile Include="clsTejPartidasUrdidoArmadas.vb" />
+    <Compile Include="clsTejPonderadoCostos.vb" />
+    <Compile Include="clsTejProdEngomado.vb" />
+    <Compile Include="clsReportes.vb" />
+    <Compile Include="clsTejArticulo.vb" />
+    <Compile Include="clsTejArticuloPlegador.vb" />
+    <Compile Include="clsTejArticuloTelar.vb" />
+    <Compile Include="clsTejCalcPiezasP.vb" />
+    <Compile Include="clsTejCalcTehitra.vb" />
+    <Compile Include="clsTejCalcUrd.vb" />
+    <Compile Include="clsTejeduriaAvance.vb" />
+    <Compile Include="clsTejEstadoProceso.vb" />
+    <Compile Include="clsTejEstiraje.vb" />
+    <Compile Include="clsTejGIFEngomado.vb" />
+    <Compile Include="clsTejGIFUrdido.vb" />
+    <Compile Include="clsTejHilo.vb" />
+    <Compile Include="clsTejInvUrdimbreTelares.vb" />
+    <Compile Include="clsTejIQEngCrudo.vb" />
+    <Compile Include="clsTejIQEngTED.vb" />
+    <Compile Include="clsTejKardexTelaCruda.vb" />
+    <Compile Include="clsTejMermaHilo.vb" />
+    <Compile Include="clsTejParametros.vb" />
+    <Compile Include="clsTejParticionPartida.vb" />
+    <Compile Include="clsTejPartidaUrdido.vb" />
+    <Compile Include="clsTejPieza.vb" />
+    <Compile Include="clsTejProduccionEntregada.vb" />
+    <Compile Include="clsTejSalidaHiloTejeduria.vb" />
+    <Compile Include="clsTejSolesTelarPlanta.vb" />
+    <Compile Include="clsTejTest.vb" />
+    <Compile Include="clsTejUrdimbre.vb" />
+    <Compile Include="clsTejTelares.vb" />
+    <Compile Include="clsTejValTelaCruda.vb" />
+    <Compile Include="clsTejVelProdEngomado.vb" />
+    <Compile Include="clsTejVelProdUrdido.vb" />
+    <Compile Include="clsTejHojaTrabajo.vb" />
+    <Compile Include="clsTejMetrosEquivalentes.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_Costos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_Costos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_Costos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_General.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_General.pdb
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\bin\NM_General.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\obj\Debug\NM_Costos.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\obj\Debug\NM_Costos.dll
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\obj\Debug\NM_Costos.xml
+C:\Github_Proyectos\CLASES_NM2010\NM_Costos\obj\Debug\NM_Costos.pdb

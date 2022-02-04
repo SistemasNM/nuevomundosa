@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NM_General
+</name>
+</assembly>
+<members>
+<member name="M:NM_General.NM_Logistica.ufn_BuscarJefaturaSolicitante(System.String,System.String)">
+	<summary>
+ Busca lista de Jefaturas solicitantes (Requisiciones)
+ </summary>
+	<param name="strCodigo"></param>
+	<param name="strDescripcion"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NM_General.NM_Parametros.Where">
+	<summary>
+ Adicionar una condicion Where a la consulta
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>vch_CodEmpresa = "01"</remarks>
+</member>
+</members>
+</doc>

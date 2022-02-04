@@ -1,0 +1,83 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+	font-weight:normal;
+	font-size: 09px;
+	font-family: Arial,Verdana;
+	letter-spacing: normal;
+	background-color: #dbeaf5;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+.Panel
+{
+	border: 3px solid #336699;
+	background-color:#FCFCFE;
+		font-family:Arial,Verdana;
+		font-size:12px;
+		font-weight:bold;
+	width: 179%;
+}
+
+
+.GridHeader {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #336699;
+	margin-left: 0px;
+}
+
+
+.divGrd
+{
+    font-family:Arial,Verdana;
+	font-size:09px;
+	font-weight:normal;  
+	border-color:#E0E0E0; 
+	border-style:solid; 
+	background-color:#F5F5F5;
+	border-width:2px; 
+	
+}
+
+.FilaSel
+{
+	background-color:#dbeaf5;
+	font-family:Arial,Verdana;
+	color:#000000;
+	font-size:10px;
+	font-weight:bold;
+	
+
+}
+
+
+.txtReg
+{
+	border-width:0px;
+	background-color:#FCFCFE;
+	font-family:Arial,Verdana;
+	font-size:11px;
+	font-weight:bold;  
+	text-align:right;  
+}
+
+.txt
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+	font-family: Verdana;
+	height: 20px;
+	background-color: #ffffff;
+	text-decoration: none;
+}

@@ -1,0 +1,12 @@
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\ComunLib.dll
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\ComunLib.pdb
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\ComunLib.xml
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\AccesoDatos.dll
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\AccesoDatos.pdb
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\bin\Debug\AccesoDatos.xml
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.vbprojResolveAssemblyReference.cache
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.Resources.resources
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.vbproj.GenerateResource.Cache
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.dll
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.xml
+C:\Github_Proyectos\CLASES_NM2010\ComunLib\obj\Debug\ComunLib.pdb

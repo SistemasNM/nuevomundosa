@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="LoginUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasena" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuarioEnc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasenaEnc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LoginUsuarioResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="sUsuarioEnc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasenaEnc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginProveedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sNumeroRuc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasena" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuarioEnc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasenaEnc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginProveedorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LoginProveedorResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="sUsuarioEnc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContrasenaEnc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReenvioEmailExist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sCodigoProveedor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmailExist" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReenvioEmailExistResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ReenvioEmailExistResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="sEmailExist" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerStockActualOfisisParaOcto">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerStockActualOfisisParaOctoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerStockActualOfisisParaOctoResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarClientePrestashop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sTipoPersona" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNombreCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sTipoDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNudocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDirec" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDirecRefe" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUbigeo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNumTelefono" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCorreo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sIdaddress" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarClientePrestashopResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IngresarClientePrestashopResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarPedidoCabeceraPrestashop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sIdPedido" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dFechaPedido" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sTipoPersona" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNuDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCondPago" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDirec" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDirec_Refe" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sIdAdrress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUbigeo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nMontoPagar" type="xs:decimal" />
+        <xs:element minOccurs="0" name="nTotalPagar" type="xs:decimal" />
+        <xs:element minOccurs="0" name="sReference" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sTipoPago" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarPedidoCabeceraPrestashopResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IngresarPedidoCabeceraPrestashopResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarPedidoDetallePrestashop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sIdPedido" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sProducto" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nCantidad" type="xs:decimal" />
+        <xs:element minOccurs="0" name="dPrecio" type="xs:decimal" />
+        <xs:element minOccurs="0" name="snombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sTipo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IngresarPedidoDetallePrestashopResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IngresarPedidoDetallePrestashopResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDespachoPedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sIdPedido" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCodLugar" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDespachoPedidoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerarDespachoPedidoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImprimirDocumento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sIdPedido" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImprimirDocumentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ImprimirDocumentoResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidarPedidoGenerado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sIdPedido" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidarPedidoGeneradoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValidarPedidoGeneradoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReporteDocumentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sCodLugar" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sFechaini" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sFechafin" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReporteDocumentosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReporteDocumentosResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDocumentoNCRNDE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sNuDocu" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDocumentoNCRNDEResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDocumentoNCRNDEResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerItemPorDocumento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sNuDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerItemPorDocumentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerItemPorDocumentoResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRCabecera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpr" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sTipo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCodLugar" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRCabeceraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerarDocumentoNCRCabeceraResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sDocuNCR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNusecu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCoItem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDesc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sObservaciones" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerarDocumentoNCRDetalleResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalle_Prueba">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sDocuNCR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNusecu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCant" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCoItem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDesc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sObservaciones" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalle_PruebaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerarDocumentoNCRDetalle_PruebaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerItemPorDocumento_Prueba">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sNuDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerItemPorDocumento_PruebaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerItemPorDocumento_PruebaResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalleMonto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sDocuNCR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDocu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sNusecu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sCant" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nMonto" type="xs:decimal" />
+        <xs:element minOccurs="0" name="sCoItem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sDesc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sObservaciones" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sEmpr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GenerarDocumentoNCRDetalleMontoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GenerarDocumentoNCRDetalleMontoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListadoCostosProductos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListadoCostosProductosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ListadoCostosProductosResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

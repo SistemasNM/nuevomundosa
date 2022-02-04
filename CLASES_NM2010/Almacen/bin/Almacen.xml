@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Almacen
+</name>
+</assembly>
+<members>
+<member name="M:Almacen.Ventas.ObtenerListaUbicaciones">
+	<summary>
+ -- Agregado 20150922 (LUIS_AJ) --
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Almacen.Ventas.ObtenerListaInventariadores">
+	<summary>
+ -- Agregado 20150922 (LUIS_AJ) --
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Almacen.StockArticulo.Lectura_Rollo(System.String,System.String,System.String)">
+	<summary>
+ OBSOLETO : REmplazado por Lectura_Rollo_Valida
+ (20151023 - LUIS_AJ)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Almacen.StockArticulo.Registra_Transferencia(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Data.DataSet@)">
+	<summary>
+ OBSOLETO : Remplazado por Registra_Transferencia_Tela
+ (20151022 - LUIS_AJ)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Almacen.StockArticulo.Registra_Transferencia_Detalle(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String,System.String,System.Double,System.String,System.Double,System.String,System.String,System.String,System.Double,System.Double,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.Double,System.String,System.Double,System.String,System.String,System.Double)">
+	<summary>
+ OBSOLETO : Remplazado por Registra_Transferencia_Detalle_Ubicacion
+ (20151022 - LUIS_AJ)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

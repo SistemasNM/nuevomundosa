@@ -1,0 +1,2765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{CA7F1333-B5E5-41DD-BE42-18CDF891CB5B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>intranet_logi</RootNamespace>
+    <AssemblyName>intranet_logi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>intranet_logi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <DeployIisAppPath>Default Web Site/intranet_logi</DeployIisAppPath>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>intranet_logi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatos, Version=1.0.8061.30212, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\AccesoDatos\bin\AccesoDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="Ajax, Version=5.7.22.2, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\inetpub\wwwroot_fw4\intranet_logi\bin\Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=10103bf0df26eb01, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\inetpub\wwwroot_fw4\intranet_logi\bin\AjaxControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\inetpub\wwwroot_fw4\intranet_logi\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Almacen, Version=1.0.8019.18090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\Almacen\bin\Almacen.dll</HintPath>
+    </Reference>
+    <Reference Include="BLITZ_LOCK, Version=1.0.8061.30212, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\BLITZ_LOCK\bin\BLITZ_LOCK.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics35.Web.v10.1, Version=10.1.20101.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics35.WebUI.WebCombo.v10.1, Version=10.1.20101.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Infragistics\NetAdvantage 2010.1\ASP.NET\CLR3.5\Bin\Infragistics35.WebUI.WebCombo.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="intranet_logi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\intranet_logi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NMGenerales, Version=1.0.8018.26879, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\NMGenerales\bin\NMGenerales.dll</HintPath>
+    </Reference>
+    <Reference Include="NM_General, Version=1.0.8061.30212, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\NM_General\bin\NM_General.dll</HintPath>
+    </Reference>
+    <Reference Include="NuevoMundo, Version=1.0.8061.30212, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\NuevoMundo\bin\NuevoMundo.dll</HintPath>
+    </Reference>
+    <Reference Include="OFISIS, Version=1.0.8018.26879, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CLASES_NM2010\OFISIS\bin\OFISIS.dll</HintPath>
+    </Reference>
+    <Reference Include="posicionador, Version=1.0.1604.26966, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\inetpub\wwwroot_fw4\intranet_logi\bin\posicionador.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Infragistics.WebUI" />
+    <Import Include="Infragistics.WebUI.WebCombo" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Archivos\actualizarDatos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Archivos\Captura.PNG" />
+    <Content Include="Buscadores\frmActualizarSalida.aspx" />
+    <Content Include="Buscadores\frmAlmacenes_2.aspx" />
+    <Content Include="Buscadores\frmBuscadorOperario.aspx" />
+    <Content Include="Buscadores\frmBusqueda.aspx" />
+    <Content Include="Buscadores\frmBusquedaArea.aspx" />
+    <Content Include="Buscadores\frmBusquedaArticulosStock.aspx" />
+    <Content Include="Buscadores\frmBusquedaMaquina.aspx" />
+    <Content Include="Buscadores\frmBusquedaOrdenTrabajo.aspx" />
+    <Content Include="Buscadores\frmBusquedaOT.aspx" />
+    <Content Include="Buscadores\frmBusquedaProveedor.aspx" />
+    <Content Include="Buscadores\frmBusquedaPuesto.aspx" />
+    <Content Include="Buscadores\frmBusquedaResponsable.aspx" />
+    <Content Include="Buscadores\frmBusquedaTrabajador.aspx" />
+    <Content Include="Buscadores\frmBusquedaUsuario.aspx" />
+    <Content Include="Buscadores\frmTiposAprobacion_2.aspx" />
+    <Content Include="Buscadores\frm_Clientes.aspx" />
+    <Content Include="Buscadores\frm_ClientesVendedor.aspx" />
+    <Content Include="Buscadores\frm_QryClientes.aspx" />
+    <Content Include="Buscadores\LOG_0001_2.aspx" />
+    <Content Include="CrystalReports\rpt_Conformidad.asp" />
+    <Content Include="css\EstilosWeb.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\Styles.css" />
+    <Content Include="css\tab.webfx.css" />
+    <Content Include="ig_res\Default\ig_calendar.css" />
+    <Content Include="ig_res\Default\ig_calendar2.css" />
+    <Content Include="ig_res\Default\ig_calendarview.css" />
+    <Content Include="ig_res\Default\ig_combo.css" />
+    <Content Include="ig_res\Default\ig_dataGrid.css" />
+    <Content Include="ig_res\Default\ig_datamenu.css" />
+    <Content Include="ig_res\Default\ig_datatree.css" />
+    <Content Include="ig_res\Default\ig_datechooser.css" />
+    <Content Include="ig_res\Default\ig_dayview.css" />
+    <Content Include="ig_res\Default\ig_dialogwindow.css" />
+    <Content Include="ig_res\Default\ig_dropDown.css" />
+    <Content Include="ig_res\Default\ig_explorerbar.css" />
+    <Content Include="ig_res\Default\ig_fishEyeBar.css" />
+    <Content Include="ig_res\Default\ig_grid.css" />
+    <Content Include="ig_res\Default\ig_grid_opt.css" />
+    <Content Include="ig_res\Default\ig_hierarchicalDataGrid.css" />
+    <Content Include="ig_res\Default\ig_imageViewer.css" />
+    <Content Include="ig_res\Default\ig_listbar.css" />
+    <Content Include="ig_res\Default\ig_menu.css" />
+    <Content Include="ig_res\Default\ig_monthcalendar.css" />
+    <Content Include="ig_res\Default\ig_monthview.css" />
+    <Content Include="ig_res\Default\ig_navbar.css" />
+    <Content Include="ig_res\Default\ig_panel.css" />
+    <Content Include="ig_res\Default\ig_progressbar.css" />
+    <Content Include="ig_res\Default\ig_shared.css" />
+    <Content Include="ig_res\Default\ig_slider.css" />
+    <Content Include="ig_res\Default\ig_spellCheckerDialog.css" />
+    <Content Include="ig_res\Default\ig_splitter.css" />
+    <Content Include="ig_res\Default\ig_tab.css" />
+    <Content Include="ig_res\Default\ig_textedit.css" />
+    <Content Include="ig_res\Default\ig_texteditor.css" />
+    <Content Include="ig_res\Default\ig_toolbar.css" />
+    <Content Include="ig_res\Default\ig_tree.css" />
+    <Content Include="ig_res\Default\ig_webschedule.css" />
+    <Content Include="ig_res\Default\ig_webtab.css" />
+    <Content Include="ig_res\Default\ig_weekview.css" />
+    <Content Include="ig_res\Default\images\ActiveRowSelector.gif" />
+    <Content Include="ig_res\Default\images\addnewrow.gif" />
+    <Content Include="ig_res\Default\images\addnewrow_image.gif" />
+    <Content Include="ig_res\Default\images\add_disabled.gif" />
+    <Content Include="ig_res\Default\images\add_down.gif" />
+    <Content Include="ig_res\Default\images\add_hover.gif" />
+    <Content Include="ig_res\Default\images\add_up.gif" />
+    <Content Include="ig_res\Default\images\back_horiz.gif" />
+    <Content Include="ig_res\Default\images\back_vert.gif" />
+    <Content Include="ig_res\Default\images\buttonBG.png" />
+    <Content Include="ig_res\Default\images\button_bg.jpg" />
+    <Content Include="ig_res\Default\images\button_officeBlue.gif" />
+    <Content Include="ig_res\Default\images\button_officeBlue.png" />
+    <Content Include="ig_res\Default\images\button_silver.gif" />
+    <Content Include="ig_res\Default\images\Caption_bg.jpg" />
+    <Content Include="ig_res\Default\images\dayheader.jpg" />
+    <Content Include="ig_res\Default\images\day_header.jpg" />
+    <Content Include="ig_res\Default\images\day_header1.gif" />
+    <Content Include="ig_res\Default\images\day_header_active.jpg" />
+    <Content Include="ig_res\Default\images\del_disabled.gif" />
+    <Content Include="ig_res\Default\images\del_down.gif" />
+    <Content Include="ig_res\Default\images\del_hover.gif" />
+    <Content Include="ig_res\Default\images\del_up.gif" />
+    <Content Include="ig_res\Default\images\downarrows_white.gif" />
+    <Content Include="ig_res\Default\images\end_disabled.gif" />
+    <Content Include="ig_res\Default\images\end_down.gif" />
+    <Content Include="ig_res\Default\images\end_hover.gif" />
+    <Content Include="ig_res\Default\images\end_up.gif" />
+    <Content Include="ig_res\Default\images\ff_disabled.gif" />
+    <Content Include="ig_res\Default\images\ff_down.gif" />
+    <Content Include="ig_res\Default\images\ff_hover.gif" />
+    <Content Include="ig_res\Default\images\ff_up.gif" />
+    <Content Include="ig_res\Default\images\fill_horiz.gif" />
+    <Content Include="ig_res\Default\images\fill_vert.gif" />
+    <Content Include="ig_res\Default\images\grd_head.png" />
+    <Content Include="ig_res\Default\images\groupbyHeader.gif" />
+    <Content Include="ig_res\Default\images\header.gif" />
+    <Content Include="ig_res\Default\images\header_hover.gif" />
+    <Content Include="ig_res\Default\images\igdd_DropDownButton.png" />
+    <Content Include="ig_res\Default\images\igdd_DropDownListContainerBG.png" />
+    <Content Include="ig_res\Default\images\igdd_ListItemHover.png" />
+    <Content Include="ig_res\Default\images\igdm_bg_normal.jpg" />
+    <Content Include="ig_res\Default\images\igdm_ControlBackground.png" />
+    <Content Include="ig_res\Default\images\igdm_ItemHover.png" />
+    <Content Include="ig_res\Default\images\igdm_ItemHoverParent.png" />
+    <Content Include="ig_res\Default\images\igdm_RootHover.png" />
+    <Content Include="ig_res\Default\images\igdt_Blank.gif" />
+    <Content Include="ig_res\Default\images\igdt_First.gif" />
+    <Content Include="ig_res\Default\images\igdt_FirstMinus.gif" />
+    <Content Include="ig_res\Default\images\igdt_FirstPlus.gif" />
+    <Content Include="ig_res\Default\images\igdt_folder.gif" />
+    <Content Include="ig_res\Default\images\igdt_folder_open.gif" />
+    <Content Include="ig_res\Default\images\igdt_Last.gif" />
+    <Content Include="ig_res\Default\images\igdt_LastMinus.gif" />
+    <Content Include="ig_res\Default\images\igdt_LastPlus.gif" />
+    <Content Include="ig_res\Default\images\igdt_Leaf.gif" />
+    <Content Include="ig_res\Default\images\igdt_Line.gif" />
+    <Content Include="ig_res\Default\images\igdt_Middle.gif" />
+    <Content Include="ig_res\Default\images\igdt_MiddleMinus.gif" />
+    <Content Include="ig_res\Default\images\igdt_MiddlePlus.gif" />
+    <Content Include="ig_res\Default\images\igdt_Minus.gif" />
+    <Content Include="ig_res\Default\images\igdt_Plus.gif" />
+    <Content Include="ig_res\Default\images\igdt_Single.gif" />
+    <Content Include="ig_res\Default\images\igdt_SingleMinus.gif" />
+    <Content Include="ig_res\Default\images\igdt_SinglePlus.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyCornerBottomLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyCornerBottomRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyCornerTopLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyCornerTopRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyEdgeBottom.gif" />
+    <Content Include="ig_res\Default\images\igdw_BodyEdgeTop.gif" />
+    <Content Include="ig_res\Default\images\igdw_Bottom.gif" />
+    <Content Include="ig_res\Default\images\igdw_BottomLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_BottomRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_Close.gif" />
+    <Content Include="ig_res\Default\images\igdw_CloseHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_CloseMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igdw_EdgeLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_EdgeRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_HeaderContent.gif" />
+    <Content Include="ig_res\Default\images\igdw_HeaderCornerLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_HeaderCornerRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_Maximize.gif" />
+    <Content Include="ig_res\Default\images\igdw_MaximizeHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_MaximizeMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igdw_Minimize.gif" />
+    <Content Include="ig_res\Default\images\igdw_MinimizeHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_MinimizeMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igdw_Pin.gif" />
+    <Content Include="ig_res\Default\images\igdw_PinHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_PinMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igdw_ResizingHandle.gif" />
+    <Content Include="ig_res\Default\images\igdw_Restore.gif" />
+    <Content Include="ig_res\Default\images\igdw_RestoreHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_RestoreMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igdw_top.gif" />
+    <Content Include="ig_res\Default\images\igdw_topHidden.gif" />
+    <Content Include="ig_res\Default\images\igdw_TopLeft.gif" />
+    <Content Include="ig_res\Default\images\igdw_TopLeftHidden.gif" />
+    <Content Include="ig_res\Default\images\igdw_TopRight.gif" />
+    <Content Include="ig_res\Default\images\igdw_TopRightHidden.gif" />
+    <Content Include="ig_res\Default\images\igdw_Unpin.gif" />
+    <Content Include="ig_res\Default\images\igdw_UnpinHover.gif" />
+    <Content Include="ig_res\Default\images\igdw_UnpinMouseDown.gif" />
+    <Content Include="ig_res\Default\images\igeb_Bullet.png" />
+    <Content Include="ig_res\Default\images\igeb_ExpanderExpanded.png" />
+    <Content Include="ig_res\Default\images\igeb_ExpanderExpandedHover.png" />
+    <Content Include="ig_res\Default\images\igeb_ExpanderNormal.png" />
+    <Content Include="ig_res\Default\images\igeb_ExpanderNormalHover.png" />
+    <Content Include="ig_res\Default\images\igeb_GroupBg.png" />
+    <Content Include="ig_res\Default\images\igeb_grouphoverbg.png" />
+    <Content Include="ig_res\Default\images\igeb_itemselected.png" />
+    <Content Include="ig_res\Default\images\igeb_ItemSelectedBg.png" />
+    <Content Include="ig_res\Default\images\igg_BottomDragIndicator.png" />
+    <Content Include="ig_res\Default\images\igg_Filter.gif" />
+    <Content Include="ig_res\Default\images\igg_FilterApplied.gif" />
+    <Content Include="ig_res\Default\images\igg_filterrow.gif" />
+    <Content Include="ig_res\Default\images\igg_Fix.gif" />
+    <Content Include="ig_res\Default\images\igg_FixHover.gif" />
+    <Content Include="ig_res\Default\images\igg_FixPressed.gif" />
+    <Content Include="ig_res\Default\images\igg_header.gif" />
+    <Content Include="ig_res\Default\images\igg_MiddleDragIndicator.png" />
+    <Content Include="ig_res\Default\images\igg_rowselector.gif" />
+    <Content Include="ig_res\Default\images\igg_Selected.gif" />
+    <Content Include="ig_res\Default\images\igg_sortAsc.gif" />
+    <Content Include="ig_res\Default\images\igg_sortDesc.gif" />
+    <Content Include="ig_res\Default\images\igg_TopDragIndicator.png" />
+    <Content Include="ig_res\Default\images\igg_Unfix.gif" />
+    <Content Include="ig_res\Default\images\igg_UnfixHover.gif" />
+    <Content Include="ig_res\Default\images\igg_UnfixPressed.gif" />
+    <Content Include="ig_res\Default\images\ighg_BottomDragIndicator.gif" />
+    <Content Include="ig_res\Default\images\ighg_Collapse.gif" />
+    <Content Include="ig_res\Default\images\ighg_CollapseHover.gif" />
+    <Content Include="ig_res\Default\images\ighg_CollapsePressed.gif" />
+    <Content Include="ig_res\Default\images\ighg_Expand.gif" />
+    <Content Include="ig_res\Default\images\ighg_ExpandHover.gif" />
+    <Content Include="ig_res\Default\images\ighg_ExpandPressed.gif" />
+    <Content Include="ig_res\Default\images\ighg_GroupAreaBg.png" />
+    <Content Include="ig_res\Default\images\ighg_GroupedBandBg.png" />
+    <Content Include="ig_res\Default\images\ighg_GroupedColumnBg.png" />
+    <Content Include="ig_res\Default\images\ighg_GroupedColumnLeftEdgeBg.gif" />
+    <Content Include="ig_res\Default\images\ighg_GroupedColumnRightEdgeBg.png" />
+    <Content Include="ig_res\Default\images\ighg_GroupedColumnRightEdgeEndBg.gif" />
+    <Content Include="ig_res\Default\images\ighg_GroupedRowBg.png" />
+    <Content Include="ig_res\Default\images\ighg_MiddleDragIndicator.gif" />
+    <Content Include="ig_res\Default\images\ighg_Remove.gif" />
+    <Content Include="ig_res\Default\images\ighg_RemoveHover.gif" />
+    <Content Include="ig_res\Default\images\ighg_RemovePressed.gif" />
+    <Content Include="ig_res\Default\images\ighg_TopDragIndicator.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerBottomLeft.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerBottomLeft_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerBottomRight.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerBottomRight_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerTopLeft.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerTopLeft_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerTopRight.gif" />
+    <Content Include="ig_res\Default\images\igiv_CornerTopRight_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeBottom.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeBottom_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeLeft.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeLeft_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeRight.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeRight_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeTop.gif" />
+    <Content Include="ig_res\Default\images\igiv_EdgeTop_Vert.gif" />
+    <Content Include="ig_res\Default\images\igiv_H_NextButton.png" />
+    <Content Include="ig_res\Default\images\igiv_H_NextButtonDisabled.png" />
+    <Content Include="ig_res\Default\images\igiv_H_NextButtonHover.png" />
+    <Content Include="ig_res\Default\images\igiv_H_NextButtonPressed.png" />
+    <Content Include="ig_res\Default\images\igiv_H_PrevButton.png" />
+    <Content Include="ig_res\Default\images\igiv_H_PrevButtonDisabled.png" />
+    <Content Include="ig_res\Default\images\igiv_H_PrevButtonHover.png" />
+    <Content Include="ig_res\Default\images\igiv_H_PrevButtonPressed.png" />
+    <Content Include="ig_res\Default\images\igiv_V_NextButton.png" />
+    <Content Include="ig_res\Default\images\igiv_V_NextButtonDisabled.png" />
+    <Content Include="ig_res\Default\images\igiv_V_NextButtonHover.png" />
+    <Content Include="ig_res\Default\images\igiv_V_NextButtonPressed.png" />
+    <Content Include="ig_res\Default\images\igiv_V_PNextButtonPressed.png" />
+    <Content Include="ig_res\Default\images\igiv_V_PrevButton.png" />
+    <Content Include="ig_res\Default\images\igiv_V_PrevButtonDisabled.png" />
+    <Content Include="ig_res\Default\images\igiv_V_PrevButtonHover.png" />
+    <Content Include="ig_res\Default\images\igiv_V_PrevButtonPressed.png" />
+    <Content Include="ig_res\Default\images\igmc_dayselected.gif" />
+    <Content Include="ig_res\Default\images\igmc_dowbg.gif" />
+    <Content Include="ig_res\Default\images\igmc_footerbg.gif" />
+    <Content Include="ig_res\Default\images\igmc_footerbghover.gif" />
+    <Content Include="ig_res\Default\images\igmc_footerbgpressed.gif" />
+    <Content Include="ig_res\Default\images\igmc_headerbg.png" />
+    <Content Include="ig_res\Default\images\igmc_next.gif" />
+    <Content Include="ig_res\Default\images\igmc_nextHover.gif" />
+    <Content Include="ig_res\Default\images\igmc_nextPress.gif" />
+    <Content Include="ig_res\Default\images\igmc_prev.gif" />
+    <Content Include="ig_res\Default\images\igmc_prevHover.gif" />
+    <Content Include="ig_res\Default\images\igmc_prevPress.gif" />
+    <Content Include="ig_res\Default\images\igmc_weekbg.gif" />
+    <Content Include="ig_res\Default\images\igpb_horizontalFill.gif" />
+    <Content Include="ig_res\Default\images\igpb_VerticalFill.gif" />
+    <Content Include="ig_res\Default\images\igpnl_dwn.gif" />
+    <Content Include="ig_res\Default\images\igpnl_up.gif" />
+    <Content Include="ig_res\Default\images\igsch_xpbluedn.gif" />
+    <Content Include="ig_res\Default\images\igsch_xpblueup.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusDisableH.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusDisableV.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusFocusH.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusFocusV.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusH.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusHoverH.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusHoverV.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusPressH.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusPressV.gif" />
+    <Content Include="ig_res\Default\images\igsli_MinusV.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusDisableH.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusDisableV.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusFocusH.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusFocusV.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusH.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusHoverH.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusHoverV.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusPressH.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusPressV.gif" />
+    <Content Include="ig_res\Default\images\igsli_PlusV.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbDisableH.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbDisableV.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbFocusH.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbFocusV.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbH.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbHoverH.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbHoverV.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbPressH.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbPressV.gif" />
+    <Content Include="ig_res\Default\images\igsli_ThumbV.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackEdges.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackEdgesV.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackFill.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackFillV.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueEdges2H.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueEdges2V.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueEdgesH.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueEdgesV.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueFill2H.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueFill2V.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueFillH.gif" />
+    <Content Include="ig_res\Default\images\igsli_TrackValueFillV.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseDown.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseDownHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseLeft.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseLeftHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseRight.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseRightHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseUp.gif" />
+    <Content Include="ig_res\Default\images\igspl_CollapseUpHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandDown.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandDownHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandLeft.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandLeftHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandRight.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandRightHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandUp.gif" />
+    <Content Include="ig_res\Default\images\igspl_ExpandUpHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitHoriz.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitHorizHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitHorizPressed.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitVerPressed.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitVert.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitVertHover.gif" />
+    <Content Include="ig_res\Default\images\igspl_splitVertPressed.gif" />
+    <Content Include="ig_res\Default\images\igtab_add.gif" />
+    <Content Include="ig_res\Default\images\igtab_addHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHBorder.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHCenter.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHCenterDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHCenterHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHCenterSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHLeft.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHLeftDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHLeftHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHLeftSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHRightDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHRightHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BHRightSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BRoundCorners.gif" />
+    <Content Include="ig_res\Default\images\igtab_BRoundFill.gif" />
+    <Content Include="ig_res\Default\images\igtab_BRoundLeftRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_BRoundTopBot.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVBorder.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeft.jpg" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftBot.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftBotDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftBotHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftBotSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVLeftSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightBot.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightBotDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightBotHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightBotSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_BVRightSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_close.gif" />
+    <Content Include="ig_res\Default\images\igtab_closeHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_HolderBorder.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollDown.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollLeft.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollLeftDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollLeftHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollLeftPres.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollRightDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollRightHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollRightPres.gif" />
+    <Content Include="ig_res\Default\images\igtab_scrollUp.gif" />
+    <Content Include="ig_res\Default\images\igtab_THBorder.gif" />
+    <Content Include="ig_res\Default\images\igtab_THCenter.jpg" />
+    <Content Include="ig_res\Default\images\igtab_THCenterDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_THCenterHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_THCenterSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_THContentBackground.jpg" />
+    <Content Include="ig_res\Default\images\igtab_THLeft.gif" />
+    <Content Include="ig_res\Default\images\igtab_THLeft.png" />
+    <Content Include="ig_res\Default\images\igtab_THLeftDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_THLeftHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_THLeftSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_THRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_THRightDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_THRightHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_THRightSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_TRoundCorners.gif" />
+    <Content Include="ig_res\Default\images\igtab_TRoundFill.gif" />
+    <Content Include="ig_res\Default\images\igtab_TRoundLeftRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_TRoundTopBot.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVBorder.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeft.jpg" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftTop.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftTopDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftTopHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVLeftTopSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRight.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightSel.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightTop.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightTopDis.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightTopHov.gif" />
+    <Content Include="ig_res\Default\images\igtab_TVRightTopSel.gif" />
+    <Content Include="ig_res\Default\images\igte_custom.gif" />
+    <Content Include="ig_res\Default\images\igte_customDisable.gif" />
+    <Content Include="ig_res\Default\images\igte_customHover.gif" />
+    <Content Include="ig_res\Default\images\igte_customPress.gif" />
+    <Content Include="ig_res\Default\images\igte_inputbg.gif" />
+    <Content Include="ig_res\Default\images\igte_lower.gif" />
+    <Content Include="ig_res\Default\images\igte_lowerDisable.gif" />
+    <Content Include="ig_res\Default\images\igte_lowerHover.gif" />
+    <Content Include="ig_res\Default\images\igte_lowerPress.gif" />
+    <Content Include="ig_res\Default\images\igte_spinbuttonbg.gif" />
+    <Content Include="ig_res\Default\images\igte_spinbuttonbghover.gif" />
+    <Content Include="ig_res\Default\images\igte_spinbuttonbgpressed.gif" />
+    <Content Include="ig_res\Default\images\igte_upper.gif" />
+    <Content Include="ig_res\Default\images\igte_upperDisable.gif" />
+    <Content Include="ig_res\Default\images\igte_upperHover.gif" />
+    <Content Include="ig_res\Default\images\igte_upperPress.gif" />
+    <Content Include="ig_res\Default\images\igwdm_SubMenuIndicator.gif" />
+    <Content Include="ig_res\Default\images\igws_arrowLeft.gif" />
+    <Content Include="ig_res\Default\images\igws_arrowRight.gif" />
+    <Content Include="ig_res\Default\images\igws_r10bg.png" />
+    <Content Include="ig_res\Default\images\igws_r1bg.png" />
+    <Content Include="ig_res\Default\images\igws_r2bg.png" />
+    <Content Include="ig_res\Default\images\igws_r3bg.png" />
+    <Content Include="ig_res\Default\images\igws_r4bg.png" />
+    <Content Include="ig_res\Default\images\igws_r5bg.png" />
+    <Content Include="ig_res\Default\images\igws_r6bg.png" />
+    <Content Include="ig_res\Default\images\igws_r7bg.png" />
+    <Content Include="ig_res\Default\images\igws_r8bg.png" />
+    <Content Include="ig_res\Default\images\igws_r9bg.png" />
+    <Content Include="ig_res\Default\images\igwt_tab_hover.jpg" />
+    <Content Include="ig_res\Default\images\igwt_tab_normal.jpg" />
+    <Content Include="ig_res\Default\images\igwt_tab_selected.jpg" />
+    <Content Include="ig_res\Default\images\ig_ajaxIndicator.gif" />
+    <Content Include="ig_res\Default\images\ig_cal_next.gif" />
+    <Content Include="ig_res\Default\images\ig_cal_prev.gif" />
+    <Content Include="ig_res\Default\images\ig_checkbox_off.gif" />
+    <Content Include="ig_res\Default\images\ig_checkbox_on.gif" />
+    <Content Include="ig_res\Default\images\ig_checkbox_partial.gif" />
+    <Content Include="ig_res\Default\images\ig_cmboDown1.png" />
+    <Content Include="ig_res\Default\images\ig_cmboDown2.png" />
+    <Content Include="ig_res\Default\images\ig_cmboDownXP1.png" />
+    <Content Include="ig_res\Default\images\ig_cmboDownXP2.png" />
+    <Content Include="ig_res\Default\images\ig_edit_0.gif" />
+    <Content Include="ig_res\Default\images\ig_edit_01.gif" />
+    <Content Include="ig_res\Default\images\ig_edit_1.gif" />
+    <Content Include="ig_res\Default\images\ig_edit_11.gif" />
+    <Content Include="ig_res\Default\images\ig_edit_2.gif" />
+    <Content Include="ig_res\Default\images\ig_edit_21.gif" />
+    <Content Include="ig_res\Default\images\ig_menutri.gif" />
+    <Content Include="ig_res\Default\images\ig_menu_scrolldown.gif" />
+    <Content Include="ig_res\Default\images\ig_menu_scrolldown_disabled.gif" />
+    <Content Include="ig_res\Default\images\ig_menu_scrollup.gif" />
+    <Content Include="ig_res\Default\images\ig_menu_scrollup_disabled.gif" />
+    <Content Include="ig_res\Default\images\ig_progressIndicator.gif" />
+    <Content Include="ig_res\Default\images\ig_sched_next.gif" />
+    <Content Include="ig_res\Default\images\ig_sched_prev.gif" />
+    <Content Include="ig_res\Default\images\ig_sched_recurrence.gif" />
+    <Content Include="ig_res\Default\images\ig_sched_reminder.gif" />
+    <Content Include="ig_res\Default\images\ig_sched_variance.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_BottomHover.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_BottomNormal.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_BottomSelected.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scroll0.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scroll1.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scroll2.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scroll3.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scrollXP0.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scrollXP1.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scrollXP2.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_scrollXP3.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_TopHover.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_TopNormal.gif" />
+    <Content Include="ig_res\Default\images\ig_tab_TopSelected.gif" />
+    <Content Include="ig_res\Default\images\ig_tblBlank.gif" />
+    <Content Include="ig_res\Default\images\ig_tblFilter.gif" />
+    <Content Include="ig_res\Default\images\ig_tblFilterApplied.gif" />
+    <Content Include="ig_res\Default\images\ig_tblFilterContains.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterDoesNotContain.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterDoesNotEndWith.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterDoesNotMatch.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterDoesNotMatch2.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterDoesNotStartWith.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterEndsWith.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterEqual.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterGreaterThan.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterGreaterThanOrEqualTo.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterLessThan.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterLessThanOrEqualTo.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterLike.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterMatch.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterMatch2.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterNotEqual.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterNotLike.png" />
+    <Content Include="ig_res\Default\images\ig_tblFilterStartsWith.png" />
+    <Content Include="ig_res\Default\images\ig_tblFixedOff.gif" />
+    <Content Include="ig_res\Default\images\ig_tblFixedOn.gif" />
+    <Content Include="ig_res\Default\images\ig_tblGroupBy.gif" />
+    <Content Include="ig_res\Default\images\ig_tblMinus.gif" />
+    <Content Include="ig_res\Default\images\ig_tblNewrow.gif" />
+    <Content Include="ig_res\Default\images\ig_tblPimgDn.gif" />
+    <Content Include="ig_res\Default\images\ig_tblPimgUp.gif" />
+    <Content Include="ig_res\Default\images\ig_tblPlus.gif" />
+    <Content Include="ig_res\Default\images\ig_tblSortAsc.gif" />
+    <Content Include="ig_res\Default\images\ig_tblSortDesc.gif" />
+    <Content Include="ig_res\Default\images\ig_tblTri.gif" />
+    <Content Include="ig_res\Default\images\ig_tblTriEdit.gif" />
+    <Content Include="ig_res\Default\images\ig_treeBlack_box.gif" />
+    <Content Include="ig_res\Default\images\ig_treeDownArrow.gif" />
+    <Content Include="ig_res\Default\images\ig_treeF.gif" />
+    <Content Include="ig_res\Default\images\ig_treeFminus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeFplus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeI.gif" />
+    <Content Include="ig_res\Default\images\ig_treeL.gif" />
+    <Content Include="ig_res\Default\images\ig_treeLminus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeLplus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMinus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMinus2.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMminus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMplus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMsdn_minus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeMsdn_plus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeOminus.gif" />
+    <Content Include="ig_res\Default\images\ig_treeOplus.gif" />
+    <Content Include="ig_res\Default\images\ig_treePlus.gif" />
+    <Content Include="ig_res\Default\images\ig_treePlus2.gif" />
+    <Content Include="ig_res\Default\images\ig_treeRightArrow.gif" />
+    <Content Include="ig_res\Default\images\ig_treeS.gif" />
+    <Content Include="ig_res\Default\images\ig_treeT.gif" />
+    <Content Include="ig_res\Default\images\ig_treeTri.gif" />
+    <Content Include="ig_res\Default\images\ig_treeUpArrow.gif" />
+    <Content Include="ig_res\Default\images\ig_treeWhite.gif" />
+    <Content Include="ig_res\Default\images\ig_treeXPMinus.GIF" />
+    <Content Include="ig_res\Default\images\ig_treeXPPlus.GIF" />
+    <Content Include="ig_res\Default\images\ItemBackground.gif" />
+    <Content Include="ig_res\Default\images\next_disabled.gif" />
+    <Content Include="ig_res\Default\images\next_down.gif" />
+    <Content Include="ig_res\Default\images\next_hover.gif" />
+    <Content Include="ig_res\Default\images\next_up.gif" />
+    <Content Include="ig_res\Default\images\officeBlue.jpg" />
+    <Content Include="ig_res\Default\images\office_grid_header.jpg" />
+    <Content Include="ig_res\Default\images\page_bg.jpg" />
+    <Content Include="ig_res\Default\images\prev_disabled.gif" />
+    <Content Include="ig_res\Default\images\prev_down.gif" />
+    <Content Include="ig_res\Default\images\prev_hover.gif" />
+    <Content Include="ig_res\Default\images\prev_up.gif" />
+    <Content Include="ig_res\Default\images\rew_disabled.gif" />
+    <Content Include="ig_res\Default\images\rew_down.gif" />
+    <Content Include="ig_res\Default\images\rew_hover.gif" />
+    <Content Include="ig_res\Default\images\rew_up.gif" />
+    <Content Include="ig_res\Default\images\SelectedRowSelector.gif" />
+    <Content Include="ig_res\Default\images\start_disabled.gif" />
+    <Content Include="ig_res\Default\images\start_down.gif" />
+    <Content Include="ig_res\Default\images\start_hover.gif" />
+    <Content Include="ig_res\Default\images\start_up.gif" />
+    <Content Include="ig_res\Default\images\submit_disable.gif" />
+    <Content Include="ig_res\Default\images\submit_disabled.gif" />
+    <Content Include="ig_res\Default\images\submit_down.gif" />
+    <Content Include="ig_res\Default\images\submit_hover.gif" />
+    <Content Include="ig_res\Default\images\submit_up.gif" />
+    <Content Include="ig_res\Default\images\tabBG.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_hover.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_hover_F.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_normal.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_normal_F.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_selected.jpg" />
+    <Content Include="ig_res\Default\images\tabbottom_selected_f.jpg" />
+    <Content Include="ig_res\Default\images\tabtob_selected_f.jpg" />
+    <Content Include="ig_res\Default\images\tabtop_hover_F.jpg" />
+    <Content Include="ig_res\Default\images\tabtop_normal_F.jpg" />
+    <Content Include="ig_res\Default\images\tab_bottom.gif" />
+    <Content Include="ig_res\Default\images\tab_bottom_f.gif" />
+    <Content Include="ig_res\Default\images\tab_bottom_hover.gif" />
+    <Content Include="ig_res\Default\images\tab_left.gif" />
+    <Content Include="ig_res\Default\images\tab_left_f.gif" />
+    <Content Include="ig_res\Default\images\tab_left_hover.gif" />
+    <Content Include="ig_res\Default\images\tab_left_hover_f.gif" />
+    <Content Include="ig_res\Default\images\tab_left_normal.gif" />
+    <Content Include="ig_res\Default\images\tab_left_normal_f.gif" />
+    <Content Include="ig_res\Default\images\tab_right.gif" />
+    <Content Include="ig_res\Default\images\tab_right_f.gif" />
+    <Content Include="ig_res\Default\images\tab_right_hover.gif" />
+    <Content Include="ig_res\Default\images\tab_right_hover_f.gif" />
+    <Content Include="ig_res\Default\images\tab_right_normal.gif" />
+    <Content Include="ig_res\Default\images\tab_right_normal_f.gif" />
+    <Content Include="ig_res\Default\images\tab_top.gif" />
+    <Content Include="ig_res\Default\images\tab_top_f.gif" />
+    <Content Include="ig_res\Default\images\tab_top_hover.gif" />
+    <Content Include="ig_res\Default\images\uparrows_white.gif" />
+    <Content Include="Imagenes\Abajo.png" />
+    <Content Include="Imagenes\aceptar.PNG" />
+    <Content Include="Imagenes\Activar.png" />
+    <Content Include="Imagenes\Adicionar.png" />
+    <Content Include="Imagenes\adjuntar_16x16.bmp" />
+    <Content Include="Imagenes\Arriba.png" />
+    <Content Include="Imagenes\borrador.gif" />
+    <Content Include="Imagenes\Botones\Base.bmp" />
+    <Content Include="Imagenes\Botones\Base.GIF" />
+    <Content Include="Imagenes\Botones\Exportar.bmp" />
+    <Content Include="Imagenes\Botones\Procesar.bmp" />
+    <Content Include="Imagenes\Botones\VerReporte.gif" />
+    <Content Include="Imagenes\Botones\VerReporte_Over.gif" />
+    <Content Include="Imagenes\buscar.gif" />
+    <Content Include="Imagenes\Buscar.png" />
+    <Content Include="Imagenes\buscar16x16.gif" />
+    <Content Include="Imagenes\Buscar2.png" />
+    <Content Include="Imagenes\Cabecera.bmp" />
+    <Content Include="Imagenes\Calendario.gif" />
+    <Content Include="Imagenes\Cancelar.gif" />
+    <Content Include="Imagenes\Cancelar.png" />
+    <Content Include="Imagenes\cerrar.gif" />
+    <Content Include="Imagenes\Columnas.JPG" />
+    <Content Include="Imagenes\ColumnasA.JPG" />
+    <Content Include="Imagenes\delete.gif" />
+    <Content Include="Imagenes\Delete.png" />
+    <Content Include="Imagenes\DescargaWeb.png" />
+    <Content Include="Imagenes\DescargaWeb_Off.png" />
+    <Content Include="Imagenes\download.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\down_16.png" />
+    <Content Include="Imagenes\drop1.gif" />
+    <Content Include="Imagenes\drop2.gif" />
+    <Content Include="Imagenes\edit.gif" />
+    <Content Include="Imagenes\Editar.gif" />
+    <Content Include="Imagenes\Editar.png" />
+    <Content Include="Imagenes\Eliminar.gif" />
+    <Content Include="Imagenes\Empresa.PNG" />
+    <Content Include="Imagenes\FINDico.ico" />
+    <Content Include="Imagenes\Grabar.gif" />
+    <Content Include="Imagenes\Grabar.png" />
+    <Content Include="Imagenes\Guardar.png" />
+    <Content Include="Imagenes\Historial.JPG" />
+    <Content Include="Imagenes\htmicono.bmp" />
+    <Content Include="Imagenes\ico_cerrar.gif" />
+    <Content Include="Imagenes\ico_pdf.gif" />
+    <Content Include="Imagenes\img_email.jpg" />
+    <Content Include="Imagenes\img_excel.jpg" />
+    <Content Include="Imagenes\img_pdf.jpg" />
+    <Content Include="Imagenes\img_sintipo.png" />
+    <Content Include="Imagenes\img_word.jpg" />
+    <Content Include="Imagenes\im_printer.gif" />
+    <Content Include="Imagenes\InicioSesion\Aceptar.bmp" />
+    <Content Include="Imagenes\InicioSesion\Contraseña.bmp" />
+    <Content Include="Imagenes\InicioSesion\CS.bmp" />
+    <Content Include="Imagenes\InicioSesion\CS2.bmp" />
+    <Content Include="Imagenes\InicioSesion\Fondo.bmp" />
+    <Content Include="Imagenes\InicioSesion\Header.bmp" />
+    <Content Include="Imagenes\InicioSesion\Logo_NM.bmp" />
+    <Content Include="Imagenes\InicioSesion\Logo_NM3.bmp" />
+    <Content Include="Imagenes\InicioSesion\Pantalla.bmp" />
+    <Content Include="Imagenes\InicioSesion\Separador.bmp" />
+    <Content Include="Imagenes\InicioSesion\Usuario.bmp" />
+    <Content Include="Imagenes\Intranet.PNG" />
+    <Content Include="Imagenes\jpgicono.bmp" />
+    <Content Include="Imagenes\lblMarcaciones.JPG" />
+    <Content Include="Imagenes\left1.gif" />
+    <Content Include="Imagenes\left2.gif" />
+    <Content Include="Imagenes\Less_2_16.png" />
+    <Content Include="Imagenes\Loading.gif" />
+    <Content Include="Imagenes\Lock.bmp" />
+    <Content Include="Imagenes\LockI.bmp" />
+    <Content Include="Imagenes\LockIA.bmp" />
+    <Content Include="Imagenes\Login.bmp" />
+    <Content Include="Imagenes\Login.JPG" />
+    <Content Include="Imagenes\Login2.PNG" />
+    <Content Include="Imagenes\Login2.TIF" />
+    <Content Include="Imagenes\logo-NuevoMundo2.jpg" />
+    <Content Include="Imagenes\Logo.jpg" />
+    <Content Include="Imagenes\Logo_NM.gif" />
+    <Content Include="Imagenes\Logo_NM.JPG" />
+    <Content Include="Imagenes\LOGO_NuevoMundo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagenes\menos.png" />
+    <Content Include="Imagenes\More_2_16.png" />
+    <Content Include="Imagenes\noicono.bmp" />
+    <Content Include="Imagenes\Nuevo.png" />
+    <Content Include="Imagenes\Ok.png" />
+    <Content Include="Imagenes\PaginasAI.bmp" />
+    <Content Include="Imagenes\PaginasI.bmp" />
+    <Content Include="Imagenes\Pantalla.bmp" />
+    <Content Include="Imagenes\pdficono.bmp" />
+    <Content Include="Imagenes\ppticono.bmp" />
+    <Content Include="Imagenes\prntpv_16.png" />
+    <Content Include="Imagenes\Reactivar.gif" />
+    <Content Include="Imagenes\right1.gif" />
+    <Content Include="Imagenes\right2.gif" />
+    <Content Include="Imagenes\Salir.png" />
+    <Content Include="Imagenes\Save.ico" />
+    <Content Include="Imagenes\save_16.png" />
+    <Content Include="Imagenes\save_as2.png" />
+    <Content Include="Imagenes\Seguridad.JPG" />
+    <Content Include="Imagenes\showtoc.gif" />
+    <Content Include="Imagenes\spacer.gif" />
+    <Content Include="Imagenes\trash_16.png" />
+    <Content Include="Imagenes\txt_gerencias.png" />
+    <Content Include="Imagenes\txt_prorrogas.png" />
+    <Content Include="Imagenes\undo.png" />
+    <Content Include="Imagenes\Unlock.bmp" />
+    <Content Include="Imagenes\UnlockI.bmp" />
+    <Content Include="Imagenes\UnlockIA.bmp" />
+    <Content Include="Imagenes\user-offline.png" />
+    <Content Include="Imagenes\user-online.png" />
+    <Content Include="Imagenes\user2.png" />
+    <Content Include="Imagenes\user3.png" />
+    <Content Include="Imagenes\warning.gif" />
+    <Content Include="Imagenes\wordicono.bmp" />
+    <Content Include="Imagenes\xlsicono.bmp" />
+    <Content Include="images\boton-actualizar.png" />
+    <Content Include="images\btn_Buscar.gif" />
+    <Content Include="images\Buscar.png" />
+    <Content Include="images\Buscar2.png" />
+    <Content Include="images\Calendario.gif" />
+    <Content Include="images\calendario.png" />
+    <Content Include="images\Cancelar.gif" />
+    <Content Include="images\cerrar.gif" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\drop1.gif" />
+    <Content Include="images\drop2.gif" />
+    <Content Include="images\entrar.png" />
+    <Content Include="images\evaluar.png" />
+    <Content Include="images\Grabar.png" />
+    <Content Include="images\Historial.JPG" />
+    <Content Include="images\img_email.jpg" />
+    <Content Include="images\im_calendar.gif" />
+    <Content Include="images\im_edit.gif" />
+    <Content Include="images\left1.gif" />
+    <Content Include="images\left2.gif" />
+    <Content Include="images\Less-16.png" />
+    <Content Include="images\Less_2_16.png" />
+    <Content Include="images\Lock.bmp" />
+    <Content Include="images\LockI.bmp" />
+    <Content Include="images\LockIA.bmp" />
+    <Content Include="images\montacargas.png" />
+    <Content Include="images\More-16.png" />
+    <Content Include="images\More_2_16.png" />
+    <Content Include="images\right1.gif" />
+    <Content Include="images\right2.gif" />
+    <Content Include="images\Salir.png" />
+    <Content Include="images\save.gif" />
+    <Content Include="images\Search_24.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\trash_16.gif" />
+    <Content Include="images\ui-icons_444444_256x240.png" />
+    <Content Include="images\ui-icons_555555_256x240.png" />
+    <Content Include="images\ui-icons_777620_256x240.png" />
+    <Content Include="images\ui-icons_777777_256x240.png" />
+    <Content Include="images\ui-icons_cc0000_256x240.png" />
+    <Content Include="images\ui-icons_ffffff_256x240.png" />
+    <Content Include="images\Unlock.bmp" />
+    <Content Include="images\UnlockI.bmp" />
+    <Content Include="images\UnlockIA.bmp" />
+    <Content Include="js\functions.js" />
+    <Content Include="js\jquery-1.11.2.js" />
+    <Content Include="js\jquery-1.12.1.js.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\jsCalendario_N4.js" />
+    <Content Include="js\popCalendar.js" />
+    <Content Include="js\tabpane.js" />
+    <Content Include="Procesos\ConformidadServicio.aspx" />
+    <Content Include="Buscadores\frmBuscarERI.aspx" />
+    <Content Include="Buscadores\frmBuscarJefatura.aspx" />
+    <Content Include="Buscadores\frmDesTabla.aspx" />
+    <Content Include="CrystalReports\ActiveXPluginViewer.asp" />
+    <Content Include="CrystalReports\AlwaysRequiredSteps.asp" />
+    <Content Include="CrystalReports\Cleanup.asp" />
+    <Content Include="CrystalReports\Conexion.asp" />
+    <Content Include="CrystalReports\rpt_InventarioRptos.asp" />
+    <Content Include="CrystalReports\framepage.asp" />
+    <Content Include="CrystalReports\htmstart.asp" />
+    <Content Include="CrystalReports\JavaPluginViewer.asp" />
+    <Content Include="CrystalReports\LibFecha.asp" />
+    <Content Include="CrystalReports\MoreRequiredSteps.asp" />
+    <Content Include="CrystalReports\repVistaPopUp.asp" />
+    <Content Include="CrystalReports\repVistaPopupFrame.asp" />
+    <Content Include="CrystalReports\rpt_AnalisisOC.asp" />
+    <Content Include="CrystalReports\rpt_AnalisisSemanal.asp" />
+    <Content Include="CrystalReports\rpt_ItemsPendientes.asp" />
+    <Content Include="CrystalReports\rpt_OrdenServicio.asp" />
+    <Content Include="CrystalReports\rpt_ValeAlmacen.asp" />
+    <Content Include="CrystalReports\SmartViewerActiveX.asp" />
+    <Content Include="CrystalReports\SmartViewerJava.asp" />
+    <Content Include="CrystalReports\_ListadoInsumos.asp" />
+    <Content Include="CrystalReports\_Logistica.asp" />
+    <Content Include="CrystalReports\_Muestras.asp" />
+    <Content Include="CrystalReports\_SalidasAlmacen.asp" />
+    <Content Include="CrystalReports\_Seguridad.asp" />
+    <Content Include="css\jquery-ui-1.10.2.custom.css" />
+    <Content Include="css\jquery-ui-1.10.2.custom.min.css" />
+    <Content Include="css\NM0001.css" />
+    <Content Include="css\Styles_Controles.css" />
+    <Content Include="css\Styles_Paginas.css" />
+    <Content Include="css\sytle.css" />
+    <Content Include="images\adjuntar.bmp" />
+    <Content Include="images\adjuntos.ico" />
+    <Content Include="images\borrador.gif" />
+    <Content Include="images\buscar.gif" />
+    <Content Include="images\check.jpg" />
+    <Content Include="images\cotizar.bmp" />
+    <Content Include="images\email.jpg" />
+    <Content Include="images\Lupa.png" />
+    <Content Include="images\No.gif" />
+    <Content Include="images\ocos.ico" />
+    <Content Include="images\req.ico" />
+    <Content Include="images\search.gif" />
+    <Content Include="images\Yes.gif" />
+    <Content Include="images\Loading.gif" />
+    <Content Include="js\jsCalendario_N3.js" />
+    <Content Include="js\jsDesTabla.js" />
+    <Content Include="js\jsFunciones.js" />
+    <Content Include="js\jsGeneral.js" />
+    <Content Include="js\jsUpdateProgress.js" />
+    <Content Include="NMGetXml.aspx" />
+    <Content Include="Procesos\frmArticulosDistribucion.aspx" />
+    <Content Include="Procesos\frmFormatoCambioPuesto.aspx" />
+    <Content Include="Procesos\frmHojaRuta.aspx" />
+    <Content Include="Procesos\frmListadoCambioProceso.aspx" />
+    <Content Include="Procesos\frmListadoCheckListApiladores.aspx" />
+    <Content Include="Procesos\frmListadoCheckListMontaCargas.aspx" />
+    <Content Include="Procesos\frmListadoNuevoInsumo.aspx" />
+    <Content Include="Procesos\frmListadoPedidosDistribucion.aspx" />
+    <Content Include="Procesos\frmListadoPedidosDistribucionGen.aspx" />
+    <Content Include="Procesos\frmListadoPedidosDistribucion_v2.aspx" />
+    <Content Include="Procesos\frmListFormatoCambioProceso.aspx" />
+    <Content Include="Procesos\frmListFormatoCambioPuesto.aspx" />
+    <Content Include="Procesos\frmListFormatoNuevoInsumo.aspx" />
+    <Content Include="Procesos\frm_ActualizarEstadiosSalidas.aspx" />
+    <Content Include="Procesos\frm_CheckListApiladores.aspx" />
+    <Content Include="Procesos\frm_CheckListMontacargas.aspx" />
+    <Content Include="Procesos\frm_ConsultaPedidoEPPsOtros.aspx" />
+    <Content Include="Procesos\frmAprobacionConformidad.aspx" />
+    <Content Include="Procesos\frm_AdjuntarArchivo_OC.aspx" />
+    <Content Include="Procesos\frm_AnulaciondeDocumentos.aspx" />
+    <Content Include="Procesos\frm_AnulaciondeDocumentos_2.aspx" />
+    <Content Include="Procesos\frm_AproFacturasPendPago_OCOS.aspx" />
+    <Content Include="Procesos\frm_AsociacionProcesosDesperdicios.aspx" />
+    <Content Include="Procesos\frm_ConsultarCitasPendientes.aspx" />
+    <Content Include="Procesos\frm_ConsultarCitasPendientes_2.aspx" />
+    <Content Include="Procesos\frm_Consulta_Escolaridad_Prestamo.aspx" />
+    <Content Include="Procesos\frm_envioocmprov.aspx" />
+    <Content Include="Procesos\frm_GeneraInventarioTelas.aspx" />
+    <Content Include="Procesos\frmAprobacionOS.aspx" />
+    <Content Include="Procesos\frmFichaProveedor.aspx" />
+    <Content Include="Procesos\frmListaOS.aspx" />
+    <Content Include="Procesos\frmPrueba.aspx" />
+    <Content Include="Procesos\frm_AdjuntarArchivo.aspx" />
+    <Content Include="Procesos\frm_AdjuntosIQC.aspx" />
+    <Content Include="Procesos\frm_AjaxValidRegistrarDespachoMuestras.aspx" />
+    <Content Include="Procesos\frm_AprobacionMuestras.aspx" />
+    <Content Include="Procesos\frm_AprobacionPedidos.aspx" />
+    <Content Include="Procesos\frm_Articulos_Sunat.aspx" />
+    <Content Include="Procesos\frm_ConsultaPedido.aspx" />
+    <Content Include="Procesos\frm_consultarsolicitudes.aspx" />
+    <Content Include="Procesos\frm_ConversiondeValesAPedidos.aspx" />
+    <Content Include="Procesos\frm_ConversiondeValesAPedidos_Detalle.aspx" />
+    <Content Include="Procesos\frm_CotizacionOrdenServicio.aspx" />
+    <Content Include="Procesos\frm_DetalleAprobacionMuestras.aspx" />
+    <Content Include="Procesos\frm_EnvioCorreoOrdenes.aspx" />
+    <Content Include="Procesos\frm_Generar_OS_Conformidad.aspx" />
+    <Content Include="Procesos\frm_InventarioDiarioRegistrar.aspx" />
+    <Content Include="Procesos\frm_InventarioDiarioRegistrar_v2.aspx" />
+    <Content Include="Procesos\frm_InventarioOtros.aspx" />
+    <Content Include="Procesos\frm_InventarioTelasERI_Detalle.aspx" />
+    <Content Include="Procesos\frm_ListadosIQSUNAT.aspx" />
+    <Content Include="Procesos\frm_Listado_Pagos_OrdenServicio.aspx" />
+    <Content Include="Procesos\frm_Listado_Pagos_OrdenServicio_V2.aspx" />
+    <Content Include="Procesos\frm_Listar_OS_Conformidades.aspx" />
+    <Content Include="Procesos\frm_MaestroOrdenTrabajo.aspx" />
+    <Content Include="Procesos\frm_ModificarFechaInstalacion.aspx" />
+    <Content Include="Procesos\frm_MontoOSPorItem.aspx" />
+    <Content Include="Procesos\frm_PlantillaDespacho.aspx" />
+    <Content Include="Procesos\frm_RegistrarAprobacionOrdenes.aspx" />
+    <Content Include="Procesos\frm_RegistrarAprobacionOrdenesDet.aspx" />
+    <Content Include="Procesos\frm_RegistrarArchivoAdjunto.aspx" />
+    <Content Include="Procesos\frm_ListadoDespachoMuestras.aspx" />
+    <Content Include="Procesos\frm_ListadoPedidosPorAtender.aspx" />
+    <Content Include="Procesos\frm_ListadoValesPedido.aspx" />
+    <Content Include="Procesos\frm_ListarSeguimientoPedidos.aspx" />
+    <Content Include="Procesos\frm_OrdenTrabajo.aspx" />
+    <Content Include="Procesos\frm_RegistrarDespachoMuestras.aspx" />
+    <Content Include="Procesos\frm_RegistrarOrdenServicio.aspx" />
+    <Content Include="Procesos\frm_RegistrarOrdenServicio_2.aspx" />
+    <Content Include="Procesos\frm_RegistrarOrdenServicio_3.aspx" />
+    <Content Include="Procesos\frm_RegistrarPedidoHilos.aspx" />
+    <Content Include="Procesos\frm_RegistrarUsuarioPortalProveedor.aspx" />
+    <Content Include="Procesos\frm_RegistrarValeAlmacen.aspx" />
+    <Content Include="Procesos\frm_RegistrarValeAlmacen_2.aspx" />
+    <Content Include="Procesos\frm_RegistrarValeAlmacen_3.aspx" />
+    <Content Include="Procesos\frm_RegistrarValeEPPsOtros.aspx" />
+    <Content Include="Procesos\frm_RegistroAdjuntoIQ.aspx" />
+    <Content Include="Procesos\frm_RegistroDespachoPedidos.aspx" />
+    <Content Include="Procesos\frm_RegistroDespachoPedidosDesperdicios.aspx" />
+    <Content Include="Procesos\frm_RegistroDespachoPedidosEPPsOtros.aspx" />
+    <Content Include="Procesos\frm_RegistroDespachoPedidosHilos.aspx" />
+    <Content Include="Procesos\frm_Registromuestras.aspx" />
+    <Content Include="Procesos\frm_RegistroPedido.aspx" />
+    <Content Include="Procesos\frm_Reporte_Pedidos_Ventas.aspx" />
+    <Content Include="Procesos\frm_SecuenciaAprobacionOrdenes.aspx" />
+    <Content Include="Procesos\frm_Status_Pedido_Por_Salida.aspx" />
+    <Content Include="Procesos\LOG20001.aspx" />
+    <Content Include="Procesos\LOG20002.aspx" />
+    <Content Include="Procesos\LOG20003.aspx" />
+    <Content Include="Procesos\LOG20003_2.aspx" />
+    <Content Include="Procesos\LOG20004.aspx" />
+    <Content Include="Procesos\LOG20005.aspx" />
+    <Content Include="Procesos\LOG20006.aspx" />
+    <Content Include="Procesos\LOG20007.aspx" />
+    <Content Include="Procesos\LOG20009.aspx" />
+    <Content Include="Procesos\LOG20010.aspx" />
+    <Content Include="Procesos\LOG20012.aspx" />
+    <Content Include="Procesos\LOG20012_P.aspx" />
+    <Content Include="Procesos\LOG20013.aspx" />
+    <Content Include="Procesos\LOG20014.aspx" />
+    <Content Include="Procesos\LOG20014_E.aspx" />
+    <Content Include="Procesos\LOG20015.aspx" />
+    <Content Include="Procesos\frm_ListadoArchivoAdjunto.aspx" />
+    <Content Include="Procesos\PruebaCorreo.aspx" />
+    <Content Include="Reportes\frmConsPresupuestos.aspx" />
+    <Content Include="Reportes\frmIngresoSalidaDesperdicios.aspx" />
+    <Content Include="Reportes\frmValeAlmacenEstadoAtender.aspx" />
+    <Content Include="Reportes\frm_ConsultaPedidosRegistrados.aspx" />
+    <Content Include="Reportes\frm_ListadoItemsPendientes.aspx" />
+    <Content Include="Reportes\frm_ListarStockMateriales6MesesAtras.aspx" />
+    <Content Include="Reportes\frm_MovimientoxUbicacion.aspx" />
+    <Content Include="Reportes\frm_PedidosEtiquetasPendientes.aspx" />
+    <Content Include="Reportes\frm_ReporteAnalisisConsumo.aspx" />
+    <Content Include="Reportes\frm_ReporteAnalisisSalidaIngresos.aspx" />
+    <Content Include="Reportes\frm_ReporteConformidadesProveedor.aspx" />
+    <Content Include="Reportes\frm_ReporteDevolucionesAlmacenNDV.aspx" />
+    <Content Include="Reportes\frm_ReporteEntregaTrabajador.aspx" />
+    <Content Include="Reportes\frm_ReporteEstadiosSalida.aspx" />
+    <Content Include="Reportes\frm_ReporteLotesxArticulo.aspx" />
+    <Content Include="Reportes\frm_ReporteMuestrasClientes.aspx" />
+    <Content Include="Reportes\frm_ReportePilotoFlow.aspx" />
+    <Content Include="Reportes\frm_ReporteReclamosPendienteRecojo.aspx" />
+    <Content Include="Reportes\frm_ReporteValesDetalladoIndicadores.aspx" />
+    <Content Include="Reportes\frm_ReporteValesPorUsuario.aspx" />
+    <Content Include="Reportes\frm_Reporte_Consumo_EE.aspx" />
+    <Content Include="Reportes\frm_RptAnticuamiento.aspx" />
+    <Content Include="Reportes\frm_RptAnticuamientoRollos.aspx" />
+    <Content Include="Reportes\frm_RptAtencionCitasLogistica.aspx" />
+    <Content Include="Reportes\frm_RptAtencionVales.aspx" />
+    <Content Include="Reportes\frm_RptDeclaracion_IQPF.aspx" />
+    <Content Include="Reportes\frm_RptDiasdeStkArticulos.aspx" />
+    <Content Include="Reportes\frm_RptEstadoDocsProvisionados.aspx" />
+    <Content Include="Reportes\frm_RptEtiquetasDespachadas.aspx" />
+    <Content Include="Reportes\frm_RptGestionPreciosxTiempo.aspx" />
+    <Content Include="Reportes\frm_RptGuiasSinMov.aspx" />
+    <Content Include="Reportes\frm_RptIngresoSalidaEFS.aspx" />
+    <Content Include="Reportes\frm_RptIngresoSalidaHilos.aspx" />
+    <Content Include="Reportes\frm_RptMetrosIngresadosVsVendidos.aspx" />
+    <Content Include="Reportes\frm_RptMovimientoAlmacen.aspx" />
+    <Content Include="Reportes\frm_RptMovimientoTela_Orerarios.aspx" />
+    <Content Include="Reportes\frm_RptOrdenCompraDetallado.aspx" />
+    <Content Include="Reportes\frm_RptOrdenCompraPendientes.aspx" />
+    <Content Include="Reportes\frm_RptOrdenServicionXProvisionar.aspx" />
+    <Content Include="Reportes\frm_RptOrdenServicioPendientes.aspx" />
+    <Content Include="Reportes\frm_RptPackingList.aspx" />
+    <Content Include="Reportes\frm_RptPedidoDistribucion.aspx" />
+    <Content Include="Reportes\frm_RptPedidosVSStock.aspx" />
+    <Content Include="Reportes\frm_RptPlazodePagoProm.aspx" />
+    <Content Include="Reportes\frm_RptProduccionDiaria.aspx" />
+    <Content Include="Reportes\frm_RptResuldatoInventario.aspx" />
+    <Content Include="Reportes\frm_RptResultadoInventarioOtros.aspx" />
+    <Content Include="Reportes\frm_RptResumenIngresoDesperdicios.aspx" />
+    <Content Include="Reportes\frm_RptRollosReetiquetados.aspx" />
+    <Content Include="Reportes\frm_RptStockDetallado.aspx" />
+    <Content Include="Reportes\frm_RptStockDetalladoDesperdicios.aspx" />
+    <Content Include="Reportes\frm_RptStockLotesFichasaspx.aspx" />
+    <Content Include="Reportes\frm_RptTpoGesPedidos.aspx" />
+    <Content Include="Reportes\frm_RptUbicacionesHilos.aspx" />
+    <Content Include="Reportes\frm_RptValidacionSalidas.aspx" />
+    <Content Include="Reportes\frm_SeguimientoDetalladoOS.aspx" />
+    <Content Include="Reportes\frm_SeguimientoDocLog.aspx" />
+    <Content Include="Reportes\LOG30001.aspx" />
+    <Content Include="Reportes\LOG30002.aspx" />
+    <Content Include="Reportes\LOG30007.aspx" />
+    <Content Include="Reportes\LOG30007_E.aspx" />
+    <Content Include="Reportes\LOG30008.aspx" />
+    <Content Include="CrystalReports\rptserver.asp" />
+    <Content Include="Reportes\frm_RptInventarioUbicacion.aspx" />
+    <Content Include="css\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Reportes\Rpt_InventarioCiclicoxUbicacion.aspx" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-ui-1.10.2.custom.js" />
+    <Content Include="Scripts\jquery-ui-1.10.2.custom.min.js" />
+    <None Include="Service References\AccesoEnlace\AccesoEnlace.disco" />
+    <None Include="Service References\AccesoEnlace\configuration91.svcinfo" />
+    <None Include="Service References\AccesoEnlace\configuration.svcinfo" />
+    <None Include="Service References\AccesoEnlace\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="_clientesproveedores.aspx" />
+    <None Include="My Project\DataSources\System.Data.DataTable.datasource" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\AccesoEnlace\AccesoEnlace.wsdl" />
+    <None Include="Service References\AccesoEnlace\AccesoEnlace.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AccesoEnlace\AccesoEnlace1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AccesoEnlace\AccesoEnlace2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buscadores\frmActualizarSalida.aspx.designer.vb">
+      <DependentUpon>frmActualizarSalida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmActualizarSalida.aspx.vb">
+      <DependentUpon>frmActualizarSalida.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmAlmacenes_2.aspx.designer.vb">
+      <DependentUpon>frmAlmacenes_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmAlmacenes_2.aspx.vb">
+      <DependentUpon>frmAlmacenes_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscadorOperario.aspx.designer.vb">
+      <DependentUpon>frmBuscadorOperario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscadorOperario.aspx.vb">
+      <DependentUpon>frmBuscadorOperario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusqueda.aspx.designer.vb">
+      <DependentUpon>frmBusqueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusqueda.aspx.vb">
+      <DependentUpon>frmBusqueda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaArea.aspx.designer.vb">
+      <DependentUpon>frmBusquedaArea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaArea.aspx.vb">
+      <DependentUpon>frmBusquedaArea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaArticulosStock.aspx.designer.vb">
+      <DependentUpon>frmBusquedaArticulosStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaArticulosStock.aspx.vb">
+      <DependentUpon>frmBusquedaArticulosStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaMaquina.aspx.designer.vb">
+      <DependentUpon>frmBusquedaMaquina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaMaquina.aspx.vb">
+      <DependentUpon>frmBusquedaMaquina.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaOrdenTrabajo.aspx.designer.vb">
+      <DependentUpon>frmBusquedaOrdenTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaOrdenTrabajo.aspx.vb">
+      <DependentUpon>frmBusquedaOrdenTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaOT.aspx.designer.vb">
+      <DependentUpon>frmBusquedaOT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaOT.aspx.vb">
+      <DependentUpon>frmBusquedaOT.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaProveedor.aspx.designer.vb">
+      <DependentUpon>frmBusquedaProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaProveedor.aspx.vb">
+      <DependentUpon>frmBusquedaProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaPuesto.aspx.designer.vb">
+      <DependentUpon>frmBusquedaPuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaPuesto.aspx.vb">
+      <DependentUpon>frmBusquedaPuesto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaResponsable.aspx.designer.vb">
+      <DependentUpon>frmBusquedaResponsable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaResponsable.aspx.vb">
+      <DependentUpon>frmBusquedaResponsable.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaTrabajador.aspx.designer.vb">
+      <DependentUpon>frmBusquedaTrabajador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaTrabajador.aspx.vb">
+      <DependentUpon>frmBusquedaTrabajador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaUsuario.aspx.designer.vb">
+      <DependentUpon>frmBusquedaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBusquedaUsuario.aspx.vb">
+      <DependentUpon>frmBusquedaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmTiposAprobacion_2.aspx.designer.vb">
+      <DependentUpon>frmTiposAprobacion_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmTiposAprobacion_2.aspx.vb">
+      <DependentUpon>frmTiposAprobacion_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frm_Clientes.aspx.designer.vb">
+      <DependentUpon>frm_Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frm_Clientes.aspx.vb">
+      <DependentUpon>frm_Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frm_ClientesVendedor.aspx.designer.vb">
+      <DependentUpon>frm_ClientesVendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frm_ClientesVendedor.aspx.vb">
+      <DependentUpon>frm_ClientesVendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frm_QryClientes.aspx.designer.vb">
+      <DependentUpon>frm_QryClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frm_QryClientes.aspx.vb">
+      <DependentUpon>frm_QryClientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\LOG_0001_2.aspx.designer.vb">
+      <DependentUpon>LOG_0001_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\LOG_0001_2.aspx.vb">
+      <DependentUpon>LOG_0001_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="clsVarios.vb" />
+    <Compile Include="Procesos\ConformidadServicio.aspx.designer.vb">
+      <DependentUpon>ConformidadServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\ConformidadServicio.aspx.vb">
+      <DependentUpon>ConformidadServicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarERI.aspx.designer.vb">
+      <DependentUpon>frmBuscarERI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarERI.aspx.vb">
+      <DependentUpon>frmBuscarERI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarJefatura.aspx.designer.vb">
+      <DependentUpon>frmBuscarJefatura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarJefatura.aspx.vb">
+      <DependentUpon>frmBuscarJefatura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmDesTabla.aspx.designer.vb">
+      <DependentUpon>frmDesTabla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmDesTabla.aspx.vb">
+      <DependentUpon>frmDesTabla.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NMGetXml.aspx.vb">
+      <DependentUpon>NMGetXml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmArticulosDistribucion.aspx.designer.vb">
+      <DependentUpon>frmArticulosDistribucion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmArticulosDistribucion.aspx.vb">
+      <DependentUpon>frmArticulosDistribucion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmFormatoCambioPuesto.aspx.designer.vb">
+      <DependentUpon>frmFormatoCambioPuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmFormatoCambioPuesto.aspx.vb">
+      <DependentUpon>frmFormatoCambioPuesto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmHojaRuta.aspx.designer.vb">
+      <DependentUpon>frmHojaRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmHojaRuta.aspx.vb">
+      <DependentUpon>frmHojaRuta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCambioProceso.aspx.designer.vb">
+      <DependentUpon>frmListadoCambioProceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCambioProceso.aspx.vb">
+      <DependentUpon>frmListadoCambioProceso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCheckListApiladores.aspx.designer.vb">
+      <DependentUpon>frmListadoCheckListApiladores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCheckListApiladores.aspx.vb">
+      <DependentUpon>frmListadoCheckListApiladores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCheckListMontaCargas.aspx.designer.vb">
+      <DependentUpon>frmListadoCheckListMontaCargas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoCheckListMontaCargas.aspx.vb">
+      <DependentUpon>frmListadoCheckListMontaCargas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoNuevoInsumo.aspx.designer.vb">
+      <DependentUpon>frmListadoNuevoInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoNuevoInsumo.aspx.vb">
+      <DependentUpon>frmListadoNuevoInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucion.aspx.designer.vb">
+      <DependentUpon>frmListadoPedidosDistribucion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucion.aspx.vb">
+      <DependentUpon>frmListadoPedidosDistribucion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucionGen.aspx.designer.vb">
+      <DependentUpon>frmListadoPedidosDistribucionGen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucionGen.aspx.vb">
+      <DependentUpon>frmListadoPedidosDistribucionGen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucion_v2.aspx.designer.vb">
+      <DependentUpon>frmListadoPedidosDistribucion_v2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListadoPedidosDistribucion_v2.aspx.vb">
+      <DependentUpon>frmListadoPedidosDistribucion_v2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoCambioProceso.aspx.designer.vb">
+      <DependentUpon>frmListFormatoCambioProceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoCambioProceso.aspx.vb">
+      <DependentUpon>frmListFormatoCambioProceso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoCambioPuesto.aspx.designer.vb">
+      <DependentUpon>frmListFormatoCambioPuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoCambioPuesto.aspx.vb">
+      <DependentUpon>frmListFormatoCambioPuesto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoNuevoInsumo.aspx.designer.vb">
+      <DependentUpon>frmListFormatoNuevoInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListFormatoNuevoInsumo.aspx.vb">
+      <DependentUpon>frmListFormatoNuevoInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ActualizarEstadiosSalidas.aspx.designer.vb">
+      <DependentUpon>frm_ActualizarEstadiosSalidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ActualizarEstadiosSalidas.aspx.vb">
+      <DependentUpon>frm_ActualizarEstadiosSalidas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_CheckListApiladores.aspx.designer.vb">
+      <DependentUpon>frm_CheckListApiladores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_CheckListApiladores.aspx.vb">
+      <DependentUpon>frm_CheckListApiladores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_CheckListMontacargas.aspx.designer.vb">
+      <DependentUpon>frm_CheckListMontacargas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_CheckListMontacargas.aspx.vb">
+      <DependentUpon>frm_CheckListMontacargas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultaPedidoEPPsOtros.aspx.vb">
+      <DependentUpon>frm_ConsultaPedidoEPPsOtros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmAprobacionConformidad.aspx.designer.vb">
+      <DependentUpon>frmAprobacionConformidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmAprobacionConformidad.aspx.vb">
+      <DependentUpon>frmAprobacionConformidad.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntarArchivo_OC.aspx.designer.vb">
+      <DependentUpon>frm_AdjuntarArchivo_OC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntarArchivo_OC.aspx.vb">
+      <DependentUpon>frm_AdjuntarArchivo_OC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AnulaciondeDocumentos.aspx.designer.vb">
+      <DependentUpon>frm_AnulaciondeDocumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AnulaciondeDocumentos.aspx.vb">
+      <DependentUpon>frm_AnulaciondeDocumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AnulaciondeDocumentos_2.aspx.designer.vb">
+      <DependentUpon>frm_AnulaciondeDocumentos_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AnulaciondeDocumentos_2.aspx.vb">
+      <DependentUpon>frm_AnulaciondeDocumentos_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AproFacturasPendPago_OCOS.aspx.designer.vb">
+      <DependentUpon>frm_AproFacturasPendPago_OCOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AproFacturasPendPago_OCOS.aspx.vb">
+      <DependentUpon>frm_AproFacturasPendPago_OCOS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AsociacionProcesosDesperdicios.aspx.designer.vb">
+      <DependentUpon>frm_AsociacionProcesosDesperdicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AsociacionProcesosDesperdicios.aspx.vb">
+      <DependentUpon>frm_AsociacionProcesosDesperdicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultarCitasPendientes.aspx.designer.vb">
+      <DependentUpon>frm_ConsultarCitasPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultarCitasPendientes.aspx.vb">
+      <DependentUpon>frm_ConsultarCitasPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultarCitasPendientes_2.aspx.designer.vb">
+      <DependentUpon>frm_ConsultarCitasPendientes_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultarCitasPendientes_2.aspx.vb">
+      <DependentUpon>frm_ConsultarCitasPendientes_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Consulta_Escolaridad_Prestamo.aspx.designer.vb">
+      <DependentUpon>frm_Consulta_Escolaridad_Prestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Consulta_Escolaridad_Prestamo.aspx.vb">
+      <DependentUpon>frm_Consulta_Escolaridad_Prestamo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_envioocmprov.aspx.designer.vb">
+      <DependentUpon>frm_envioocmprov.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_envioocmprov.aspx.vb">
+      <DependentUpon>frm_envioocmprov.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_GeneraInventarioTelas.aspx.designer.vb">
+      <DependentUpon>frm_GeneraInventarioTelas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_GeneraInventarioTelas.aspx.vb">
+      <DependentUpon>frm_GeneraInventarioTelas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmAprobacionOS.aspx.designer.vb">
+      <DependentUpon>frmAprobacionOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmAprobacionOS.aspx.vb">
+      <DependentUpon>frmAprobacionOS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmFichaProveedor.aspx.designer.vb">
+      <DependentUpon>frmFichaProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmFichaProveedor.aspx.vb">
+      <DependentUpon>frmFichaProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmListaOS.aspx.designer.vb">
+      <DependentUpon>frmListaOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmListaOS.aspx.vb">
+      <DependentUpon>frmListaOS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frmPrueba.aspx.designer.vb">
+      <DependentUpon>frmPrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frmPrueba.aspx.vb">
+      <DependentUpon>frmPrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntarArchivo.aspx.designer.vb">
+      <DependentUpon>frm_AdjuntarArchivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntarArchivo.aspx.vb">
+      <DependentUpon>frm_AdjuntarArchivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntosIQC.aspx.designer.vb">
+      <DependentUpon>frm_AdjuntosIQC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_AdjuntosIQC.aspx.vb">
+      <DependentUpon>frm_AdjuntosIQC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AjaxValidRegistrarDespachoMuestras.aspx.vb">
+      <DependentUpon>frm_AjaxValidRegistrarDespachoMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AprobacionMuestras.aspx.vb">
+      <DependentUpon>frm_AprobacionMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_AprobacionPedidos.aspx.vb">
+      <DependentUpon>frm_AprobacionPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Articulos_Sunat.aspx.designer.vb">
+      <DependentUpon>frm_Articulos_Sunat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Articulos_Sunat.aspx.vb">
+      <DependentUpon>frm_Articulos_Sunat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConsultaPedido.aspx.vb">
+      <DependentUpon>frm_ConsultaPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_consultarsolicitudes.aspx.vb">
+      <DependentUpon>frm_consultarsolicitudes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConversiondeValesAPedidos.aspx.vb">
+      <DependentUpon>frm_ConversiondeValesAPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ConversiondeValesAPedidos_Detalle.aspx.vb">
+      <DependentUpon>frm_ConversiondeValesAPedidos_Detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_CotizacionOrdenServicio.aspx.designer.vb">
+      <DependentUpon>frm_CotizacionOrdenServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_CotizacionOrdenServicio.aspx.vb">
+      <DependentUpon>frm_CotizacionOrdenServicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_DetalleAprobacionMuestras.aspx.vb">
+      <DependentUpon>frm_DetalleAprobacionMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_EnvioCorreoOrdenes.aspx.designer.vb">
+      <DependentUpon>frm_EnvioCorreoOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_EnvioCorreoOrdenes.aspx.vb">
+      <DependentUpon>frm_EnvioCorreoOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Generar_OS_Conformidad.aspx.designer.vb">
+      <DependentUpon>frm_Generar_OS_Conformidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Generar_OS_Conformidad.aspx.vb">
+      <DependentUpon>frm_Generar_OS_Conformidad.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioDiarioRegistrar.aspx.designer.vb">
+      <DependentUpon>frm_InventarioDiarioRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioDiarioRegistrar.aspx.vb">
+      <DependentUpon>frm_InventarioDiarioRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioDiarioRegistrar_v2.aspx.designer.vb">
+      <DependentUpon>frm_InventarioDiarioRegistrar_v2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioDiarioRegistrar_v2.aspx.vb">
+      <DependentUpon>frm_InventarioDiarioRegistrar_v2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioOtros.aspx.designer.vb">
+      <DependentUpon>frm_InventarioOtros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioOtros.aspx.vb">
+      <DependentUpon>frm_InventarioOtros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioTelasERI_Detalle.aspx.designer.vb">
+      <DependentUpon>frm_InventarioTelasERI_Detalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_InventarioTelasERI_Detalle.aspx.vb">
+      <DependentUpon>frm_InventarioTelasERI_Detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadosIQSUNAT.aspx.designer.vb">
+      <DependentUpon>frm_ListadosIQSUNAT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadosIQSUNAT.aspx.vb">
+      <DependentUpon>frm_ListadosIQSUNAT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Listado_Pagos_OrdenServicio.aspx.designer.vb">
+      <DependentUpon>frm_Listado_Pagos_OrdenServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Listado_Pagos_OrdenServicio.aspx.vb">
+      <DependentUpon>frm_Listado_Pagos_OrdenServicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Listado_Pagos_OrdenServicio_V2.aspx.designer.vb">
+      <DependentUpon>frm_Listado_Pagos_OrdenServicio_V2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Listado_Pagos_OrdenServicio_V2.aspx.vb">
+      <DependentUpon>frm_Listado_Pagos_OrdenServicio_V2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Listar_OS_Conformidades.aspx.designer.vb">
+      <DependentUpon>frm_Listar_OS_Conformidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Listar_OS_Conformidades.aspx.vb">
+      <DependentUpon>frm_Listar_OS_Conformidades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_MaestroOrdenTrabajo.aspx.designer.vb">
+      <DependentUpon>frm_MaestroOrdenTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_MaestroOrdenTrabajo.aspx.vb">
+      <DependentUpon>frm_MaestroOrdenTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ModificarFechaInstalacion.aspx.designer.vb">
+      <DependentUpon>frm_ModificarFechaInstalacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ModificarFechaInstalacion.aspx.vb">
+      <DependentUpon>frm_ModificarFechaInstalacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_MontoOSPorItem.aspx.designer.vb">
+      <DependentUpon>frm_MontoOSPorItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_MontoOSPorItem.aspx.vb">
+      <DependentUpon>frm_MontoOSPorItem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_PlantillaDespacho.aspx.designer.vb">
+      <DependentUpon>frm_PlantillaDespacho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_PlantillaDespacho.aspx.vb">
+      <DependentUpon>frm_PlantillaDespacho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarAprobacionOrdenes.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarAprobacionOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarAprobacionOrdenes.aspx.vb">
+      <DependentUpon>frm_RegistrarAprobacionOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarAprobacionOrdenesDet.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarAprobacionOrdenesDet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarAprobacionOrdenesDet.aspx.vb">
+      <DependentUpon>frm_RegistrarAprobacionOrdenesDet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarArchivoAdjunto.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarArchivoAdjunto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarArchivoAdjunto.aspx.vb">
+      <DependentUpon>frm_RegistrarArchivoAdjunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadoDespachoMuestras.aspx.vb">
+      <DependentUpon>frm_ListadoDespachoMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadoPedidosPorAtender.aspx.vb">
+      <DependentUpon>frm_ListadoPedidosPorAtender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadoValesPedido.aspx.vb">
+      <DependentUpon>frm_ListadoValesPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListarSeguimientoPedidos.aspx.vb">
+      <DependentUpon>frm_ListarSeguimientoPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_OrdenTrabajo.aspx.vb">
+      <DependentUpon>frm_OrdenTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarDespachoMuestras.aspx.vb">
+      <DependentUpon>frm_RegistrarDespachoMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio.aspx.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio_2.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio_2.aspx.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio_3.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarOrdenServicio_3.aspx.vb">
+      <DependentUpon>frm_RegistrarOrdenServicio_3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarPedidoHilos.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarPedidoHilos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarPedidoHilos.aspx.vb">
+      <DependentUpon>frm_RegistrarPedidoHilos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarUsuarioPortalProveedor.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarUsuarioPortalProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarUsuarioPortalProveedor.aspx.vb">
+      <DependentUpon>frm_RegistrarUsuarioPortalProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen.aspx.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen_2.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen_2.aspx.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen_3.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeAlmacen_3.aspx.vb">
+      <DependentUpon>frm_RegistrarValeAlmacen_3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeEPPsOtros.aspx.designer.vb">
+      <DependentUpon>frm_RegistrarValeEPPsOtros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistrarValeEPPsOtros.aspx.vb">
+      <DependentUpon>frm_RegistrarValeEPPsOtros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroAdjuntoIQ.aspx.designer.vb">
+      <DependentUpon>frm_RegistroAdjuntoIQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroAdjuntoIQ.aspx.vb">
+      <DependentUpon>frm_RegistroAdjuntoIQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidos.aspx.vb">
+      <DependentUpon>frm_RegistroDespachoPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosDesperdicios.aspx.designer.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosDesperdicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosDesperdicios.aspx.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosDesperdicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosEPPsOtros.aspx.designer.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosEPPsOtros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosEPPsOtros.aspx.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosEPPsOtros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosHilos.aspx.designer.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosHilos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroDespachoPedidosHilos.aspx.vb">
+      <DependentUpon>frm_RegistroDespachoPedidosHilos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Registromuestras.aspx.vb">
+      <DependentUpon>frm_Registromuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_RegistroPedido.aspx.vb">
+      <DependentUpon>frm_RegistroPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Reporte_Pedidos_Ventas.aspx.designer.vb">
+      <DependentUpon>frm_Reporte_Pedidos_Ventas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Reporte_Pedidos_Ventas.aspx.vb">
+      <DependentUpon>frm_Reporte_Pedidos_Ventas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_SecuenciaAprobacionOrdenes.aspx.designer.vb">
+      <DependentUpon>frm_SecuenciaAprobacionOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_SecuenciaAprobacionOrdenes.aspx.vb">
+      <DependentUpon>frm_SecuenciaAprobacionOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_Status_Pedido_Por_Salida.aspx.designer.vb">
+      <DependentUpon>frm_Status_Pedido_Por_Salida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_Status_Pedido_Por_Salida.aspx.vb">
+      <DependentUpon>frm_Status_Pedido_Por_Salida.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20001.aspx.vb">
+      <DependentUpon>LOG20001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20002.aspx.vb">
+      <DependentUpon>LOG20002.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20003.aspx.vb">
+      <DependentUpon>LOG20003.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20003_2.aspx.designer.vb">
+      <DependentUpon>LOG20003_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20003_2.aspx.vb">
+      <DependentUpon>LOG20003_2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20004.aspx.vb">
+      <DependentUpon>LOG20004.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20005.aspx.vb">
+      <DependentUpon>LOG20005.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20006.aspx.vb">
+      <DependentUpon>LOG20006.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20007.aspx.vb">
+      <DependentUpon>LOG20007.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20009.aspx.vb">
+      <DependentUpon>LOG20009.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20010.aspx.vb">
+      <DependentUpon>LOG20010.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20012.aspx.designer.vb">
+      <DependentUpon>LOG20012.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20012.aspx.vb">
+      <DependentUpon>LOG20012.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20012_P.aspx.designer.vb">
+      <DependentUpon>LOG20012_P.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20012_P.aspx.vb">
+      <DependentUpon>LOG20012_P.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20013.aspx.designer.vb">
+      <DependentUpon>LOG20013.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20013.aspx.vb">
+      <DependentUpon>LOG20013.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20014.aspx.designer.vb">
+      <DependentUpon>LOG20014.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20014.aspx.vb">
+      <DependentUpon>LOG20014.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20014_E.aspx.designer.vb">
+      <DependentUpon>LOG20014_E.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20014_E.aspx.vb">
+      <DependentUpon>LOG20014_E.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\LOG20015.aspx.designer.vb">
+      <DependentUpon>LOG20015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\LOG20015.aspx.vb">
+      <DependentUpon>LOG20015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadoArchivoAdjunto.aspx.designer.vb">
+      <DependentUpon>frm_ListadoArchivoAdjunto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\frm_ListadoArchivoAdjunto.aspx.vb">
+      <DependentUpon>frm_ListadoArchivoAdjunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PruebaCorreo.aspx.designer.vb">
+      <DependentUpon>PruebaCorreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PruebaCorreo.aspx.vb">
+      <DependentUpon>PruebaCorreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmConsPresupuestos.aspx.vb">
+      <DependentUpon>frmConsPresupuestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmIngresoSalidaDesperdicios.aspx.designer.vb">
+      <DependentUpon>frmIngresoSalidaDesperdicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmIngresoSalidaDesperdicios.aspx.vb">
+      <DependentUpon>frmIngresoSalidaDesperdicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmValeAlmacenEstadoAtender.aspx.designer.vb">
+      <DependentUpon>frmValeAlmacenEstadoAtender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmValeAlmacenEstadoAtender.aspx.vb">
+      <DependentUpon>frmValeAlmacenEstadoAtender.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ConsultaPedidosRegistrados.aspx.vb">
+      <DependentUpon>frm_ConsultaPedidosRegistrados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ListadoItemsPendientes.aspx.vb">
+      <DependentUpon>frm_ListadoItemsPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ListarStockMateriales6MesesAtras.aspx.designer.vb">
+      <DependentUpon>frm_ListarStockMateriales6MesesAtras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ListarStockMateriales6MesesAtras.aspx.vb">
+      <DependentUpon>frm_ListarStockMateriales6MesesAtras.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_MovimientoxUbicacion.aspx.designer.vb">
+      <DependentUpon>frm_MovimientoxUbicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_MovimientoxUbicacion.aspx.vb">
+      <DependentUpon>frm_MovimientoxUbicacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_PedidosEtiquetasPendientes.aspx.designer.vb">
+      <DependentUpon>frm_PedidosEtiquetasPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_PedidosEtiquetasPendientes.aspx.vb">
+      <DependentUpon>frm_PedidosEtiquetasPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteAnalisisConsumo.aspx.vb">
+      <DependentUpon>frm_ReporteAnalisisConsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteAnalisisSalidaIngresos.aspx.designer.vb">
+      <DependentUpon>frm_ReporteAnalisisSalidaIngresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteAnalisisSalidaIngresos.aspx.vb">
+      <DependentUpon>frm_ReporteAnalisisSalidaIngresos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteConformidadesProveedor.aspx.designer.vb">
+      <DependentUpon>frm_ReporteConformidadesProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteConformidadesProveedor.aspx.vb">
+      <DependentUpon>frm_ReporteConformidadesProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteDevolucionesAlmacenNDV.aspx.designer.vb">
+      <DependentUpon>frm_ReporteDevolucionesAlmacenNDV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteDevolucionesAlmacenNDV.aspx.vb">
+      <DependentUpon>frm_ReporteDevolucionesAlmacenNDV.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteEntregaTrabajador.aspx.designer.vb">
+      <DependentUpon>frm_ReporteEntregaTrabajador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteEntregaTrabajador.aspx.vb">
+      <DependentUpon>frm_ReporteEntregaTrabajador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteEstadiosSalida.aspx.designer.vb">
+      <DependentUpon>frm_ReporteEstadiosSalida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteEstadiosSalida.aspx.vb">
+      <DependentUpon>frm_ReporteEstadiosSalida.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteLotesxArticulo.aspx.designer.vb">
+      <DependentUpon>frm_ReporteLotesxArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteLotesxArticulo.aspx.vb">
+      <DependentUpon>frm_ReporteLotesxArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteMuestrasClientes.aspx.vb">
+      <DependentUpon>frm_ReporteMuestrasClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReportePilotoFlow.aspx.designer.vb">
+      <DependentUpon>frm_ReportePilotoFlow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReportePilotoFlow.aspx.vb">
+      <DependentUpon>frm_ReportePilotoFlow.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteReclamosPendienteRecojo.aspx.designer.vb">
+      <DependentUpon>frm_ReporteReclamosPendienteRecojo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteReclamosPendienteRecojo.aspx.vb">
+      <DependentUpon>frm_ReporteReclamosPendienteRecojo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteValesDetalladoIndicadores.aspx.designer.vb">
+      <DependentUpon>frm_ReporteValesDetalladoIndicadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteValesDetalladoIndicadores.aspx.vb">
+      <DependentUpon>frm_ReporteValesDetalladoIndicadores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteValesPorUsuario.aspx.designer.vb">
+      <DependentUpon>frm_ReporteValesPorUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_ReporteValesPorUsuario.aspx.vb">
+      <DependentUpon>frm_ReporteValesPorUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_Reporte_Consumo_EE.aspx.designer.vb">
+      <DependentUpon>frm_Reporte_Consumo_EE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_Reporte_Consumo_EE.aspx.vb">
+      <DependentUpon>frm_Reporte_Consumo_EE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAnticuamiento.aspx.designer.vb">
+      <DependentUpon>frm_RptAnticuamiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAnticuamiento.aspx.vb">
+      <DependentUpon>frm_RptAnticuamiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAnticuamientoRollos.aspx.designer.vb">
+      <DependentUpon>frm_RptAnticuamientoRollos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAnticuamientoRollos.aspx.vb">
+      <DependentUpon>frm_RptAnticuamientoRollos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAtencionCitasLogistica.aspx.designer.vb">
+      <DependentUpon>frm_RptAtencionCitasLogistica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAtencionCitasLogistica.aspx.vb">
+      <DependentUpon>frm_RptAtencionCitasLogistica.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAtencionVales.aspx.designer.vb">
+      <DependentUpon>frm_RptAtencionVales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptAtencionVales.aspx.vb">
+      <DependentUpon>frm_RptAtencionVales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptDeclaracion_IQPF.aspx.designer.vb">
+      <DependentUpon>frm_RptDeclaracion_IQPF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptDeclaracion_IQPF.aspx.vb">
+      <DependentUpon>frm_RptDeclaracion_IQPF.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptDiasdeStkArticulos.aspx.designer.vb">
+      <DependentUpon>frm_RptDiasdeStkArticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptDiasdeStkArticulos.aspx.vb">
+      <DependentUpon>frm_RptDiasdeStkArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptEstadoDocsProvisionados.aspx.designer.vb">
+      <DependentUpon>frm_RptEstadoDocsProvisionados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptEstadoDocsProvisionados.aspx.vb">
+      <DependentUpon>frm_RptEstadoDocsProvisionados.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptEtiquetasDespachadas.aspx.designer.vb">
+      <DependentUpon>frm_RptEtiquetasDespachadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptEtiquetasDespachadas.aspx.vb">
+      <DependentUpon>frm_RptEtiquetasDespachadas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptGestionPreciosxTiempo.aspx.designer.vb">
+      <DependentUpon>frm_RptGestionPreciosxTiempo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptGestionPreciosxTiempo.aspx.vb">
+      <DependentUpon>frm_RptGestionPreciosxTiempo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptGuiasSinMov.aspx.designer.vb">
+      <DependentUpon>frm_RptGuiasSinMov.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptGuiasSinMov.aspx.vb">
+      <DependentUpon>frm_RptGuiasSinMov.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptIngresoSalidaEFS.aspx.designer.vb">
+      <DependentUpon>frm_RptIngresoSalidaEFS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptIngresoSalidaEFS.aspx.vb">
+      <DependentUpon>frm_RptIngresoSalidaEFS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptIngresoSalidaHilos.aspx.designer.vb">
+      <DependentUpon>frm_RptIngresoSalidaHilos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptIngresoSalidaHilos.aspx.vb">
+      <DependentUpon>frm_RptIngresoSalidaHilos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMetrosIngresadosVsVendidos.aspx.designer.vb">
+      <DependentUpon>frm_RptMetrosIngresadosVsVendidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMetrosIngresadosVsVendidos.aspx.vb">
+      <DependentUpon>frm_RptMetrosIngresadosVsVendidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMovimientoAlmacen.aspx.designer.vb">
+      <DependentUpon>frm_RptMovimientoAlmacen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMovimientoAlmacen.aspx.vb">
+      <DependentUpon>frm_RptMovimientoAlmacen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMovimientoTela_Orerarios.aspx.designer.vb">
+      <DependentUpon>frm_RptMovimientoTela_Orerarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptMovimientoTela_Orerarios.aspx.vb">
+      <DependentUpon>frm_RptMovimientoTela_Orerarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenCompraDetallado.aspx.designer.vb">
+      <DependentUpon>frm_RptOrdenCompraDetallado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenCompraDetallado.aspx.vb">
+      <DependentUpon>frm_RptOrdenCompraDetallado.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenCompraPendientes.aspx.designer.vb">
+      <DependentUpon>frm_RptOrdenCompraPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenCompraPendientes.aspx.vb">
+      <DependentUpon>frm_RptOrdenCompraPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenServicionXProvisionar.aspx.designer.vb">
+      <DependentUpon>frm_RptOrdenServicionXProvisionar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenServicionXProvisionar.aspx.vb">
+      <DependentUpon>frm_RptOrdenServicionXProvisionar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenServicioPendientes.aspx.designer.vb">
+      <DependentUpon>frm_RptOrdenServicioPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptOrdenServicioPendientes.aspx.vb">
+      <DependentUpon>frm_RptOrdenServicioPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPackingList.aspx.designer.vb">
+      <DependentUpon>frm_RptPackingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPackingList.aspx.vb">
+      <DependentUpon>frm_RptPackingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPedidoDistribucion.aspx.designer.vb">
+      <DependentUpon>frm_RptPedidoDistribucion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPedidoDistribucion.aspx.vb">
+      <DependentUpon>frm_RptPedidoDistribucion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPedidosVSStock.aspx.designer.vb">
+      <DependentUpon>frm_RptPedidosVSStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPedidosVSStock.aspx.vb">
+      <DependentUpon>frm_RptPedidosVSStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPlazodePagoProm.aspx.designer.vb">
+      <DependentUpon>frm_RptPlazodePagoProm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptPlazodePagoProm.aspx.vb">
+      <DependentUpon>frm_RptPlazodePagoProm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptProduccionDiaria.aspx.designer.vb">
+      <DependentUpon>frm_RptProduccionDiaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptProduccionDiaria.aspx.vb">
+      <DependentUpon>frm_RptProduccionDiaria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResuldatoInventario.aspx.designer.vb">
+      <DependentUpon>frm_RptResuldatoInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResuldatoInventario.aspx.vb">
+      <DependentUpon>frm_RptResuldatoInventario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResultadoInventarioOtros.aspx.designer.vb">
+      <DependentUpon>frm_RptResultadoInventarioOtros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResultadoInventarioOtros.aspx.vb">
+      <DependentUpon>frm_RptResultadoInventarioOtros.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResumenIngresoDesperdicios.aspx.designer.vb">
+      <DependentUpon>frm_RptResumenIngresoDesperdicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptResumenIngresoDesperdicios.aspx.vb">
+      <DependentUpon>frm_RptResumenIngresoDesperdicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptRollosReetiquetados.aspx.designer.vb">
+      <DependentUpon>frm_RptRollosReetiquetados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptRollosReetiquetados.aspx.vb">
+      <DependentUpon>frm_RptRollosReetiquetados.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockDetallado.aspx.designer.vb">
+      <DependentUpon>frm_RptStockDetallado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockDetallado.aspx.vb">
+      <DependentUpon>frm_RptStockDetallado.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockDetalladoDesperdicios.aspx.designer.vb">
+      <DependentUpon>frm_RptStockDetalladoDesperdicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockDetalladoDesperdicios.aspx.vb">
+      <DependentUpon>frm_RptStockDetalladoDesperdicios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockLotesFichasaspx.aspx.designer.vb">
+      <DependentUpon>frm_RptStockLotesFichasaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptStockLotesFichasaspx.aspx.vb">
+      <DependentUpon>frm_RptStockLotesFichasaspx.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptTpoGesPedidos.aspx.designer.vb">
+      <DependentUpon>frm_RptTpoGesPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptTpoGesPedidos.aspx.vb">
+      <DependentUpon>frm_RptTpoGesPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptUbicacionesHilos.aspx.designer.vb">
+      <DependentUpon>frm_RptUbicacionesHilos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptUbicacionesHilos.aspx.vb">
+      <DependentUpon>frm_RptUbicacionesHilos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptValidacionSalidas.aspx.designer.vb">
+      <DependentUpon>frm_RptValidacionSalidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptValidacionSalidas.aspx.vb">
+      <DependentUpon>frm_RptValidacionSalidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_SeguimientoDetalladoOS.aspx.designer.vb">
+      <DependentUpon>frm_SeguimientoDetalladoOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_SeguimientoDetalladoOS.aspx.vb">
+      <DependentUpon>frm_SeguimientoDetalladoOS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_SeguimientoDocLog.aspx.designer.vb">
+      <DependentUpon>frm_SeguimientoDocLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_SeguimientoDocLog.aspx.vb">
+      <DependentUpon>frm_SeguimientoDocLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\LOG30001.aspx.vb">
+      <DependentUpon>LOG30001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\LOG30007.aspx.vb">
+      <DependentUpon>LOG30007.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\LOG30007_E.aspx.vb">
+      <DependentUpon>LOG30007_E.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\LOG30008.aspx.vb">
+      <DependentUpon>LOG30008.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\frm_RptInventarioUbicacion.aspx.designer.vb">
+      <DependentUpon>frm_RptInventarioUbicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frm_RptInventarioUbicacion.aspx.vb">
+      <DependentUpon>frm_RptInventarioUbicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Rpt_InventarioCiclicoxUbicacion.aspx.designer.vb">
+      <DependentUpon>Rpt_InventarioCiclicoxUbicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Rpt_InventarioCiclicoxUbicacion.aspx.vb">
+      <DependentUpon>Rpt_InventarioCiclicoxUbicacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Rpts\ListadoInsumos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListadoInsumos.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\LOG30002.aspx.vb">
+      <DependentUpon>LOG30002.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpts\MuestrasClienteGral.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuestrasClienteGral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\OrdenCompra.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenCompra.rpt</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\Proveedores.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Proveedores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\Requisicion.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Requisicion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rptFormatoConformidad.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFormatoConformidad.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rptFormtoTerminoOS.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFormtoTerminoOS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rpt_AnalisisOC.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_AnalisisOC.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rpt_AnalisisSemanal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_AnalisisSemanal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rpt_ArticulosPendiente.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_ArticulosPendiente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\Rpt_Inventario_Rptos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Inventario_Rptos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rpts\rpt_ValeAlmacen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_ValeAlmacen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service References\AccesoEnlace\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="_clientesproveedores.aspx.designer.vb">
+      <DependentUpon>_clientesproveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_clientesproveedores.aspx.vb">
+      <DependentUpon>_clientesproveedores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NMGetXml.aspx.resx">
+      <DependentUpon>NMGetXml.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ConsultaPedidoEPPsOtros.aspx.resx">
+      <DependentUpon>frm_ConsultaPedidoEPPsOtros.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_AjaxValidRegistrarDespachoMuestras.aspx.resx">
+      <DependentUpon>frm_AjaxValidRegistrarDespachoMuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_AprobacionMuestras.aspx.resx">
+      <DependentUpon>frm_AprobacionMuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_AprobacionPedidos.aspx.resx">
+      <DependentUpon>frm_AprobacionPedidos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ConsultaPedido.aspx.resx">
+      <DependentUpon>frm_ConsultaPedido.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_consultarsolicitudes.aspx.resx">
+      <DependentUpon>frm_consultarsolicitudes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ConversiondeValesAPedidos.aspx.resx">
+      <DependentUpon>frm_ConversiondeValesAPedidos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ConversiondeValesAPedidos_Detalle.aspx.resx">
+      <DependentUpon>frm_ConversiondeValesAPedidos_Detalle.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_DetalleAprobacionMuestras.aspx.resx">
+      <DependentUpon>frm_DetalleAprobacionMuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ListadoDespachoMuestras.aspx.resx">
+      <DependentUpon>frm_ListadoDespachoMuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ListadoPedidosPorAtender.aspx.resx">
+      <DependentUpon>frm_ListadoPedidosPorAtender.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ListadoValesPedido.aspx.resx">
+      <DependentUpon>frm_ListadoValesPedido.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_ListarSeguimientoPedidos.aspx.resx">
+      <DependentUpon>frm_ListarSeguimientoPedidos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_OrdenTrabajo.aspx.resx">
+      <DependentUpon>frm_OrdenTrabajo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_RegistrarDespachoMuestras.aspx.resx">
+      <DependentUpon>frm_RegistrarDespachoMuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_RegistroDespachoPedidos.aspx.resx">
+      <DependentUpon>frm_RegistroDespachoPedidos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_Registromuestras.aspx.resx">
+      <DependentUpon>frm_Registromuestras.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\frm_RegistroPedido.aspx.resx">
+      <DependentUpon>frm_RegistroPedido.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20001.aspx.resx">
+      <DependentUpon>LOG20001.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20002.aspx.resx">
+      <DependentUpon>LOG20002.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20003.aspx.resx">
+      <DependentUpon>LOG20003.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20004.aspx.resx">
+      <DependentUpon>LOG20004.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20005.aspx.resx">
+      <DependentUpon>LOG20005.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20006.aspx.resx">
+      <DependentUpon>LOG20006.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20007.aspx.resx">
+      <DependentUpon>LOG20007.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20009.aspx.resx">
+      <DependentUpon>LOG20009.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\LOG20010.aspx.resx">
+      <DependentUpon>LOG20010.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmConsPresupuestos.aspx.resx">
+      <DependentUpon>frmConsPresupuestos.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frm_ConsultaPedidosRegistrados.aspx.resx">
+      <DependentUpon>frm_ConsultaPedidosRegistrados.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frm_ListadoItemsPendientes.aspx.resx">
+      <DependentUpon>frm_ListadoItemsPendientes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frm_ReporteAnalisisConsumo.aspx.resx">
+      <DependentUpon>frm_ReporteAnalisisConsumo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frm_ReporteMuestrasClientes.aspx.resx">
+      <DependentUpon>frm_ReporteMuestrasClientes.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\LOG30007.aspx.resx">
+      <DependentUpon>LOG30007.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\LOG30007_E.aspx.resx">
+      <DependentUpon>LOG30007_E.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\LOG30008.aspx.resx">
+      <DependentUpon>LOG30008.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\ListadoInsumos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListadoInsumos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\LOG30001.aspx.resx">
+      <DependentUpon>LOG30001.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\LOG30002.aspx.resx">
+      <DependentUpon>LOG30002.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\MuestrasClienteGral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MuestrasClienteGral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\OrdenCompra.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OrdenCompra.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\Proveedores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Proveedores.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\Requisicion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Requisicion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rptFormtoTerminoOS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFormtoTerminoOS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rpt_AnalisisOC.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_AnalisisOC.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rpt_AnalisisSemanal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_AnalisisSemanal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="Rpts\rpt_ArticulosPendiente.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_ArticulosPendiente.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Rpts\Rpt_Inventario_Rptos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Inventario_Rptos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpts\rpt_ValeAlmacen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_ValeAlmacen.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Botones\Thumbs.db" />
+    <None Include="Imagenes\InicioSesion\Thumbs.db" />
+    <None Include="Imagenes\Thumbs.db" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Rpts\rptFormatoConformidad.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFormatoConformidad.vb</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Procesos\PDF\Curso-Aspnet.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Procesos\Formatos\PDF\" />
+    <Folder Include="Procesos\Formatos\SPL\" />
+    <Folder Include="Procesos\TXT\" />
+    <Folder Include="Service References\App_LocalResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AccesoEnlace\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>15718</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

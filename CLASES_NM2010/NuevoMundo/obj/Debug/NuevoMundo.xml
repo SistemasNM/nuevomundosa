@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NuevoMundo
+</name>
+</assembly>
+<members>
+<member name="M:NuevoMundo.clsArticulo.ufn_BuscarListaERI(System.String,System.String,System.String,System.String)">
+	<summary>
+ Busca Lista de Inventarios ERI segun Filtro
+ </summary>
+	<param name="strCodigo"></param>
+	<param name="strEstado"></param>
+	<param name="strUnidad"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NuevoMundo.clsArticulo.InventarioDiario_Listado_Almacenes(System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="pstrEmpresa"></param>
+	<param name="pstrUnidad"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NuevoMundo.Logistica.clsPedidos.fncCheckListMontacargaCRUD(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ Funciones Montacarga 
+
+</member><member name="M:NuevoMundo.Logistica.clsPedidos.ufn_BuscaDatosDocumentos(System.String,System.String,System.String,System.String)">
+	<summary>
+ Busca la informacion del Documento para la impresion del Voucher
+ </summary>
+	<param name="strNumDocumento"></param>
+	<param name="strTipoDocumento"></param>
+	<param name="strCodAlmacen"></param>
+	<param name="strCodEmpresa"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NuevoMundo.Logistica.clsPedidos.ufn_ActualizaDocumentoImpreso(System.String,System.String,System.String,System.String)">
+	<summary>
+ Actualiza el estado al documento que se imprimio
+ </summary>
+	<param name="strNumDocumento"></param>
+	<param name="strTipoDocumento"></param>
+	<param name="strCodAlmacen"></param>
+	<param name="strCodEmpresa"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NuevoMundo.Logistica.clsPedidos.fncCheckListApiladoresCRUD(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ Funciones APILADORES 
+
+</member>
+</members>
+</doc>

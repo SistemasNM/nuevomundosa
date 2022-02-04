@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NM_RevisionFinal
+</name>
+</assembly>
+<members>
+<member name="M:NM.RevisionFinal.Rollo.fnc_VerificaDatosRollo(System.String,System.String)">
+	<summary>
+---------------------------------------------------------------------------------------
+   Autor: Luis Alanoca
+   Modificacion: verifica datos rollos (validacion impresion etiquetas)
+   Fecha: 10/05/2017
+---------------------------------------------------------------------------------------
+ </summary>
+	<param name="strCodigoRollo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NM.RevisionFinal.Rollo.ActualizaContadorEtiquetas(System.String,System.String)">
+	<summary>
+---------------------------------------------------------------------------------------
+   Autor: Luis Alanoca
+   Modificacion: Actualiza Contador de Etiquetas y estado de 2da etiqueta
+   Fecha: 11/05/2017
+---------------------------------------------------------------------------------------
+ </summary>
+	<param name="strCodigoRollo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NM.RevisionFinal.Rollo.fnc_VerificaDatosRolloCliente(System.String,System.String,System.String)">
+	<summary>
+---------------------------------------------------------------------------------------
+   Autor: Luis Alanoca
+   Modificacion: verifica datos rollos (validacion impresion etiquetas)
+   Fecha: 10/05/2017
+---------------------------------------------------------------------------------------
+ </summary>
+	<param name="strCodigoRollo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

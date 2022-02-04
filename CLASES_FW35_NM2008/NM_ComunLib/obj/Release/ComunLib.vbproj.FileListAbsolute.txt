@@ -1,0 +1,12 @@
+C:\CLASES\NM_ComunLib\bin\Release\ComunLib.dll
+C:\CLASES\NM_ComunLib\bin\Release\ComunLib.pdb
+C:\CLASES\NM_ComunLib\bin\Release\ComunLib.xml
+C:\CLASES\NM_ComunLib\bin\Release\AccesoDatosDB.dll
+C:\CLASES\NM_ComunLib\bin\Release\AccesoDatosDB.pdb
+C:\CLASES\NM_ComunLib\bin\Release\AccesoDatosDB.xml
+C:\CLASES\NM_ComunLib\obj\Release\ResolveAssemblyReference.cache
+C:\CLASES\NM_ComunLib\obj\Release\ComunLib.Resources.resources
+C:\CLASES\NM_ComunLib\obj\Release\ComunLib.vbproj.GenerateResource.Cache
+C:\CLASES\NM_ComunLib\obj\Release\ComunLib.dll
+C:\CLASES\NM_ComunLib\obj\Release\ComunLib.xml
+C:\CLASES\NM_ComunLib\obj\Release\ComunLib.pdb
